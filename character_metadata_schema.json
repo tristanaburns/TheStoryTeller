@@ -1,0 +1,414 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://storyteller.ai/schemas/character-metadata",
+  "title": "Character Metadata Schema",
+  "description": "Defines the structure for character information in The Shadow Team Chronicles narrative system.",
+  "type": "object",
+  "properties": {
+    "character": {
+      "type": "object",
+      "description": "Complete metadata for a character entity within the narrative framework.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid",
+          "description": "A globally unique identifier (UUID v4) for this character."
+        },
+        "name": { 
+          "type": "string",
+          "description": "The primary name by which the character is known. Use full name with appropriate honorifics based on cultural context. Example: 'Minamoto no Yoshitsune'."
+        },
+        "alias": { 
+          "type": "string",
+          "description": "Alternative names, titles, or identities used by or for this character. Include pronunciations if needed. Example: 'Ushiwakamaru (childhood name), The Morning Sun General'."
+        },
+        "role": { 
+          "type": "string",
+          "description": "The character's function in the narrative. Use specific designations like 'Protagonist', 'Antagonist', 'Mentor', 'Ally', 'Guardian', etc. Example: 'Protagonist - Tragic Hero'."
+        },
+        "description": { 
+          "type": "string",
+          "description": "A comprehensive physical and psychological portrait of the character. Include distinctive features, typical attire, and notable mannerisms. Example: 'A slight but graceful samurai with piercing eyes and flowing black hair. Typically dressed in ornate armor with the Minamoto crest. Moves with supernatural quickness and precision.'"
+        },
+        "personality": { 
+          "type": "string",
+          "description": "The character's psychological traits, values, motivations, and typical behaviors. Include internal conflicts and growth trajectory. Example: 'Fiercely loyal but naive about political intrigue. Driven by family honor and martial perfection. Struggles with balancing compassion and duty. Evolves from impulsive youth to thoughtful leader.'"
+        },
+        "backstory": {
+          "type": "string",
+          "description": "The character's relevant history prior to the current narrative. Focus on formative events that explain current motivations and relationships. Example: 'Sent to a monastery at age 7 after his father's execution for treason, Yoshitsune was raised by warrior monks who secretly trained him in martial arts against the emperor's orders.'"
+        },
+        "arc": {
+          "type": "string",
+          "description": "The character's intended development trajectory through the narrative. Include initial state, catalysts for change, and intended final state. Example: 'Begins as a sheltered but talented youth seeking to restore family honor; experiences betrayal from brother Yoritomo that transforms his worldview; ultimately chooses personal honor over survival, becoming a tragic legend.'"
+        },
+        "physical_traits": {
+          "type": "object",
+          "description": "Detailed physical characteristics of the character.",
+          "properties": {
+            "age": {
+              "type": ["integer", "string"],
+              "description": "Character's age in years or descriptive age range. Example: 24 or 'Mid-twenties'."
+            },
+            "height": {
+              "type": "string",
+              "description": "Character's height, can be specific or relative. Example: '5'8\"' or 'Slightly shorter than average'."
+            },
+            "build": {
+              "type": "string",
+              "description": "Character's body structure and composition. Example: 'Lean but muscular, with a dancer's physique'."
+            },
+            "distinguishing_features": {
+              "type": "array",
+              "description": "Unique physical traits that make this character instantly recognizable.",
+              "items": {
+                "type": "string"
+              },
+              "examples": [["Crescent-shaped scar above left eye", "Unusually bright blue eyes", "Always wears a red silk cord around right wrist"]]
+            }
+          }
+        },
+        "voice": {
+          "type": "object",
+          "description": "The character's speech patterns and vocal characteristics.",
+          "properties": {
+            "tone": {
+              "type": "string",
+              "description": "Quality and emotional baseline of the character's voice. Example: 'Soft-spoken but authoritative, rarely raises voice even when angry'."
+            },
+            "speech_patterns": {
+              "type": "string",
+              "description": "Distinctive aspects of how the character communicates verbally. Example: 'Speaks in formal, poetic language when serious; uses more casual speech with close friends. Tends to quote ancient texts when making decisions'."
+            },
+            "common_phrases": {
+              "type": "array",
+              "description": "Expressions or sayings frequently used by this character.",
+              "items": {
+                "type": "string"
+              },
+              "examples": [["'By the honor of my ancestors...'", "'The path reveals itself to the patient observer'", "'So it must be.'"]]
+            }
+          }
+        },
+        "skills": {
+          "type": "array",
+          "description": "Abilities, talents, and competencies the character possesses. Listed in order of significance to their identity and narrative role.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { 
+                "type": "string",
+                "description": "The name of the skill or ability. Be specific rather than general. Example: 'Eight-Directions Leaping Technique' rather than just 'Jumping'."
+              },
+              "type": { 
+                "type": "string",
+                "description": "The category of skill: 'Combat', 'Intellectual', 'Social', 'Supernatural', 'Technical', etc. Example: 'Combat - Special Technique'."
+              },
+              "description": { 
+                "type": "string",
+                "description": "Detailed explanation of how the skill works, its limitations, and significance. Example: 'A legendary technique allowing Yoshitsune to leap in eight directions instantly, confusing opponents and appearing to be in multiple places. Requires open space to execute fully.'"
+              },
+              "proficiency": {
+                "type": "string",
+                "enum": ["Novice", "Competent", "Proficient", "Expert", "Master", "Legendary"],
+                "description": "The character's level of expertise with this skill."
+              },
+              "story_impact": {
+                "type": "string",
+                "description": "How this skill affects the narrative or is expected to develop. Example: 'This technique will be crucial in the bridge battle, allowing Yoshitsune to overcome Benkei despite the size difference.'"
+              }
+            },
+            "required": ["name", "type", "description"]
+          }
+        },
+        "weapons": {
+          "type": "array",
+          "description": "Tools, weapons, or equipment the character uses regularly. Focus on items with narrative significance.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { 
+                "type": "string",
+                "description": "The specific name of the weapon or item. Include any titles or designations. Example: 'Hizamaru (Sun-Splitter)'."
+              },
+              "type": { 
+                "type": "string",
+                "description": "The category of weapon: 'Sword', 'Bow', 'Armor', 'Magical Artifact', etc. Example: 'Tachi Sword - Heirloom'."
+              },
+              "description": { 
+                "type": "string",
+                "description": "Detailed information about the weapon's appearance, history, powers, and significance to the character. Example: 'A slender tachi with a distinctive blue-tinted blade, passed down through the Minamoto clan. Said to be forged with metal from a fallen star. Symbolizes Yoshitsune's legitimate claim to leadership.'"
+              },
+              "origin": {
+                "type": "string",
+                "description": "How the character acquired this item and its provenance. Example: 'Given to Yoshitsune by his mentor Fujiwara no Hidehira as recognition of his coming of age and true identity.'"
+              },
+              "special_properties": {
+                "type": "array",
+                "description": "Any magical, technological, or unique qualities of the item.",
+                "items": {
+                  "type": "string"
+                },
+                "examples": [["Never dulls", "Glows blue in the presence of enemies", "Can cut through supernatural barriers"]]
+              }
+            },
+            "required": ["name", "type", "description"]
+          }
+        },
+        "relationships": {
+          "type": "array",
+          "description": "Key connections to other characters that influence this character's actions and development.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "character": { 
+                "type": "string",
+                "description": "The name of the related character. Should match the primary name of another character in the system. Example: 'Musashibō Benkei'."
+              },
+              "nature": { 
+                "type": "string",
+                "description": "The type of relationship: 'Ally', 'Enemy', 'Family', 'Mentor', 'Rival', etc. Example: 'Loyal Retainer and Protector'."
+              },
+              "dynamics": { 
+                "type": "string",
+                "description": "How these characters interact, influence each other, and evolve together. Example: 'Initially enemies after Benkei challenged Yoshitsune at Gojo Bridge; became unwavering allies with Benkei serving as both bodyguard and conscience; culminates in Benkei's legendary last stand to protect Yoshitsune's escape.'"
+              },
+              "story_significance": {
+                "type": "string",
+                "description": "How this relationship affects plot developments or character decisions. Example: 'Benkei's loyalty provides Yoshitsune with his only trustworthy ally during his final days, making his sacrifice the emotional climax of the story.'"
+              },
+              "history": {
+                "type": "string",
+                "description": "Background of how the relationship formed and evolved prior to the current narrative. Example: 'Met during Yoshitsune's 16th year when Benkei was collecting swords from warriors crossing Gojo Bridge. After Yoshitsune defeated him, Benkei swore to serve him for life.'"
+              }
+            },
+            "required": ["character", "nature", "dynamics"]
+          }
+        },
+        "psychological_profile": {
+          "type": "object",
+          "description": "Deeper aspects of the character's mental and emotional makeup.",
+          "properties": {
+            "core_fears": {
+              "type": "array",
+              "description": "Fundamental anxieties that drive the character's decisions.",
+              "items": {
+                "type": "string"
+              },
+              "examples": [["Dishonoring family legacy", "Being betrayed by loved ones", "Dying without fulfilling destiny"]]
+            },
+            "desires": {
+              "type": "array",
+              "description": "What the character actively wants or seeks.",
+              "items": {
+                "type": "string"
+              },
+              "examples": [["Restore family honor", "Earn brother's respect", "Master perfect swordsmanship"]]
+            },
+            "weaknesses": {
+              "type": "array",
+              "description": "Character flaws, blind spots, or vulnerabilities.",
+              "items": {
+                "type": "string"
+              },
+              "examples": [["Naivety about political intrigue", "Prideful about martial abilities", "Unable to distrust family members"]]
+            },
+            "defense_mechanisms": {
+              "type": "array",
+              "description": "How the character protects themselves from emotional harm.",
+              "items": {
+                "type": "string"
+              },
+              "examples": [["Retreats into formal behavior when anxious", "Uses humor to deflect serious concerns", "Becomes overly focused on practical matters when emotionally threatened"]]
+            }
+          }
+        },
+        "narrative_function": {
+          "type": "object",
+          "description": "How this character serves the broader story structure.",
+          "properties": {
+            "archetype": {
+              "type": "string",
+              "description": "Classical character type this character embodies. Example: 'Tragic Hero' or 'Loyal Guardian'."
+            },
+            "story_beats": {
+              "type": "array",
+              "description": "Key moments in the narrative where this character plays a crucial role.",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "description": "Identifier for this story moment. Example: 'Gojo Bridge Duel'."
+                  },
+                  "description": {
+                    "type": "string",
+                    "description": "What happens and why it matters. Example: 'Yoshitsune defeats Benkei despite being outmatched physically, demonstrating his exceptional skill and earning a lifelong ally.'"
+                  },
+                  "character_development": {
+                    "type": "string",
+                    "description": "How this moment changes the character. Example: 'Proves Yoshitsune's training was effective and gives him confidence in his abilities against larger opponents.'"
+                  }
+                },
+                "required": ["name", "description"]
+              }
+            },
+            "thematic_representation": {
+              "type": "string",
+              "description": "What broader themes or ideas this character embodies. Example: 'Represents the conflict between talent and authority, and the tragedy of loyalty to opposing ideals.'"
+            }
+          }
+        },
+        "visual_representation": {
+          "type": "object",
+          "description": "Guidelines for consistently depicting this character visually.",
+          "properties": {
+            "reference_images": {
+              "type": "array",
+              "description": "Links or references to visual depictions of the character.",
+              "items": {
+                "type": "string"
+              }
+            },
+            "color_palette": {
+              "type": "array",
+              "description": "Colors consistently associated with this character.",
+              "items": {
+                "type": "string"
+              },
+              "examples": [["Deep blue", "Gold", "Crimson accents"]]
+            },
+            "key_visual_elements": {
+              "type": "array",
+              "description": "Objects, symbols, or visual motifs associated with the character.",
+              "items": {
+                "type": "string"
+              },
+              "examples": [["Minamoto clan crest", "Cherry blossoms", "Eight-pointed star"]]
+            },
+            "generation_prompts": {
+              "type": "array",
+              "description": "Collection of standardized prompts for AI image generation to maintain visual consistency across different depictions of the character.",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "prompt_name": {
+                    "type": "string",
+                    "description": "Identifier for this specific prompt template. Example: 'Standard Portrait', 'Battle Stance', 'Emotional Close-up'."
+                  },
+                  "prompt_text": {
+                    "type": "string",
+                    "description": "The actual generation prompt text, structured for optimal AI image generation. Should include consistent character details. Example: 'Portrait of Minamoto no Yoshitsune, young Japanese samurai warrior with piercing eyes and flowing black hair, wearing ornate armor with the Minamoto clan crest, solemn expression, standing confidently, 12th century Japan, ultra-detailed, cinematic lighting'."
+                  },
+                  "intended_use": {
+                    "type": "string",
+                    "description": "When this particular prompt variant should be used. Example: 'For character introduction scenes and formal moments showing Yoshitsune's noble bearing'."
+                  },
+                  "style_parameters": {
+                    "type": "object",
+                    "description": "Technical specifications for consistent image generation across different AI systems.",
+                    "properties": {
+                      "aspect_ratio": {
+                        "type": "string",
+                        "description": "Preferred image dimensions. Example: '1:1' or '3:4'."
+                      },
+                      "art_style": {
+                        "type": "string",
+                        "description": "Visual aesthetic to maintain. Example: 'Realistic digital painting' or 'Japanese woodblock print inspired'."
+                      },
+                      "lighting": {
+                        "type": "string",
+                        "description": "Characteristic lighting setup. Example: 'Dramatic side lighting with warm highlights and cool shadows'."
+                      },
+                      "camera_perspective": {
+                        "type": "string",
+                        "description": "Viewpoint for character depiction. Example: 'Eye-level medium shot' or 'Heroic low-angle portrait'."
+                      },
+                      "negative_prompts": {
+                        "type": "array",
+                        "description": "Elements to specifically exclude from generation to maintain character accuracy.",
+                        "items": {
+                          "type": "string"
+                        },
+                        "examples": [["cartoon style", "heavy armor", "older than 25", "facial hair", "modern elements"]]
+                      }
+                    }
+                  },
+                  "sample_output": {
+                    "type": "string",
+                    "description": "Link or reference to a successful generation using this prompt that serves as the approved visual standard."
+                  },
+                  "variations": {
+                    "type": "array",
+                    "description": "Modified versions of the base prompt for different contexts while maintaining character consistency.",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string",
+                          "description": "Identifier for this variation. Example: 'Battle Version' or 'Ceremonial Attire'."
+                        },
+                        "prompt_modifications": {
+                          "type": "string",
+                          "description": "Changes to apply to the base prompt. Example: 'Replace \"standing confidently\" with \"in dynamic battle pose, wielding Hizamaru sword\" and add \"intense expression, action scene\"'."
+                        },
+                        "context": {
+                          "type": "string",
+                          "description": "When to use this specific variation. Example: 'For combat scenes, especially the Gojo Bridge duel sequence'."
+                        }
+                      },
+                      "required": ["name", "prompt_modifications"]
+                    }
+                  }
+                },
+                "required": ["prompt_name", "prompt_text", "intended_use"]
+              }
+            }
+          }
+        },
+        "metadata": {
+          "type": "object",
+          "description": "Administrative information about this character entry.",
+          "properties": {
+            "creation_date": {
+              "type": "string",
+              "format": "date",
+              "description": "When this character was first created."
+            },
+            "last_updated": {
+              "type": "string",
+              "format": "date",
+              "description": "When this character was last modified."
+            },
+            "version": {
+              "type": "string",
+              "description": "Version of this character's development. Example: '2.3'"
+            },
+            "status": {
+              "type": "string",
+              "enum": ["draft", "review", "approved", "published"],
+              "description": "Current state in the development workflow."
+            },
+            "tags": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "examples": [["historical", "warrior", "tragic", "heian-period"]]
+            }
+          }
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "role",
+        "description",
+        "personality",
+        "skills",
+        "relationships"
+      ]
+    }
+  },
+  "required": ["character"]
+}
