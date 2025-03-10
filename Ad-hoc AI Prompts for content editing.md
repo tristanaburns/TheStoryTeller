@@ -5,9 +5,9 @@
 **Use the following yaml as the variables within the <<>> for all instructions below**
 
 ```yaml
-FileName: The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER The Warriors Oath
+FileName: The Shadow Team Chronicles - DRAFT - STORYLINE - The Path Into the Mountains
 ChapterName:
-PassageName: ### **🔥 First Steps as Comrades**
+PassageName: **📖 The Shadow Team Chronicles - The Path Into the Mountains (Part 8: The Silent Standoff on the Mountain Trail)**
 PartName:
 ```
 
