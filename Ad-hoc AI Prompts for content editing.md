@@ -5,10 +5,10 @@
 **Use the following yaml as the variables within the <<>> for all instructions below**
 
 ```yaml
-FileName: The Shadow Team Chronicles - DRAFT - STORYLINE - The Path Into the Mountains
+FileName: 3. The Shadow Team Chronicles - DRAFT - STORYLINE - The Path Into the Mountains.md
 ChapterName:
-PassageName: **📖 The Shadow Team Chronicles - The Path Into the Mountains (Part 8: The Silent Standoff on the Mountain Trail)**
-PartName:
+PassageName:
+PartName: ### **🔥 The Path Into the Mountains - The Aftermath of the Mountain Clash (Part 12)**
 ```
 
 **NOTE:** These are the code markers used in the target fileName. Do Not action anything here.
@@ -35,17 +35,55 @@ PartName:
 If the variables above are undefined, assume that the instruction with the variable is not required.
 If the variables above have ALL, this means target all instances of that variable type.
 
+📌 **IMPORTANT**
+
+AI must ensure:
+1. Ensure all JSON props follow the established schema pattern define in the JSON schema `AI_Writing_Metadata_Schema.json`
+2. Include relevant image and video prompt instructions within the JSON metadata as per the JSON metadata schema
+
+📌 **IMPORTANT**
+**Constraint-Based Story Part Generation**
+To ensure structured and immersive storytelling, every generated story part must adhere to the following constraints:
+
+✅ Maximum Words: **600**
+✅ Maximum Characters: **3600**
+✅ Maximum Tokens: **800**
+
+Each part must be structured to fit within these limits naturally while preserving:
+
+✅ Logical scene breaks that enhance immersion rather than disrupt it.
+✅ Smooth narrative continuation across parts.
+✅ Consistent pacing, tone, and storytelling integrity.
+
+If any part reaches the maximum threshold, it must be split at a logical transition point, ensuring:
+
+✅ The passage continues seamlessly, without abrupt cuts.
+✅ Each break occurs at a natural story beat.
+✅ The immersion and dramatic weight of the scene remain intact.
+
+**This rule applies automatically to all story parts, reinforcing structured pacing and maintaining high-quality cinematic storytelling.**
+
+📌 **IMPORTANT**
 **Refer to the following files for additional information:**
 
 - `AI_Writing_Metadata_Schema.json`
 - `character_database.json`
 - `The Shadow Team Chronicles - MASTER - TIMELINE.csv`
 
+📌 **IMPORTANT**
 **Perform the following actions / instructions:**
 
 0. **Content Source Instructions:**
 
-- The specific content to be modified is located below the "**TARGET CONTENT BELOW**" marker
+- The specific content to be modified is located below the "**TARGET CONTENT BELOW**" marker.
+- Use the following markers in the files for the specific content if they are not defined,    assume that the identified part, passage, chapter or entire file contents is the target contents.
+
+  `**TARGET CONTENT BELOW**`
+  `**START OF TARGET CONTENT**`
+
+  `**END OF TARGET CONTENT**`
+  `**TARGET CONTENT ABOVE**`
+
 - Review this target content thoroughly before applying any modifications
 - Ensure you understand the context and purpose of the content before proceeding
 - Apply all enhancement instructions specifically to this marked content
@@ -59,8 +97,6 @@ If the variables above have ALL, this means target all instances of that variabl
 - <<ChapterName>> Add or update the JSON props object for the chapter
 - <<PassageName>> Add or update the JSON props object for the passage
 - <<PartName>> Add or update the JSON props object for the part
-- Ensure all JSON props follow the established schema pattern define in the JSON schema `AI_Writing_Metadata_Schema.json`
-- Include relevant image and video prompt metadata
 
 2. **Content Analysis & Enhancement:**
 
@@ -143,14 +179,12 @@ If the variables above have ALL, this means target all instances of that variabl
     - Maintain continuity with previous and subsequent sections
     - Validate that all technical requirements have been met
 
-**After completing all the above tasks, write the fully updated content below the "INSERT THE UPDATED CONTENT HERE" marker. DO NOT replace the placeholder.**
-
-  `**TARGET CONTENT BELOW**`
-  `**START OF TARGET CONTENT**`
-
-  `**END OF TARGET CONTENT**`
-  `**TARGET CONTENT ABOVE**`
+---
 
 **Do not change, modify, or delete any content below this marker. Leave everything beyond this point exactly as it appears.**
 
   `**DO NOT DELETE OR MODIFY THIS CONTENT BELOW**`
+
+--- 
+
+**DO NOT DIRECTLY UPDATE THE FILE, JUST PRINT THE RESULT TO THE CHAT**
