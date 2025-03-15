@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://storyteller.ai/schemas/organization/communication_methods",
+  "title": "Organization Communication Methods Schema",
+  "description": "The systems, protocols, and technologies used by the organization to share information internally and coordinate activities across different hierarchical levels and geographical locations.",
+  "type": "object",
+  "properties": {
+    "internal_communication": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "method": {
+            "type": "string",
+            "description": "The specific communication technique or technology used by members within the organization, such as messenger systems, code languages, or magical/technological means."
+          },
+          "security_level": {
+            "type": "string",
+            "enum": ["open", "restricted", "confidential", "secret", "compartmentalized"],
+            "description": "The degree of secrecy and security applied to this communication method, determining which members have access to information shared through it."
+          },
+          "usage_context": {
+            "type": "string",
+            "description": "When and how this communication method is typically employed, such as for routine updates, emergency situations, or specific types of sensitive information."
+          }
+        },
+        "required": ["method"]
+      },
+      "description": "The various ways in which organization members exchange information among themselves, maintaining operational cohesion and hierarchical control."
+    },
+    "external_messaging": {
+      "type": "object",
+      "properties": {
+        "public_communications": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "How the organization communicates with the general populace, including propaganda methods, public announcements, or symbolic displays that reinforce its presence."
+        },
+        "diplomatic_channels": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "The formal and informal pathways through which the organization communicates with other power structures, negotiates, or shares intelligence with allies and rivals."
+        }
+      },
+      "description": "How the organization projects its message to the outside world, manages its public image, and conducts relations with other entities."
+    },
+    "distinctive_practices": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Unique or signature communication elements that distinguish this organization, such as special greetings, coded messages, or unique information networks that reflect its culture and operational needs."
+    }
+  }
+}

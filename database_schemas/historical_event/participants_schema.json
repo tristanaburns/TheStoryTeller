@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://storyteller.ai/schemas/historical_event/participants",
+  "title": "Historical Event Participants Schema",
+  "description": "Information about the individuals, organizations, and factions involved in a historical event.",
+  "type": "object",
+  "properties": {
+    "key_figures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "character_reference": {
+            "$ref": "common/object_reference_schema.json"
+          },
+          "role": {
+            "type": "string",
+            "description": "The function or position this individual held during the event."
+          },
+          "significance": {
+            "type": "string",
+            "description": "How this individual's actions influenced the course or outcome of the event."
+          }
+        },
+        "required": ["character_reference", "role"]
+      },
+      "description": "The principal individuals whose actions directly shaped the event's course and outcome."
+    },
+    "organizations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "organization_reference": {
+            "$ref": "common/object_reference_schema.json"
+          },
+          "involvement": {
+            "type": "string",
+            "description": "The nature and extent of this organization's participation in the event."
+          }
+        },
+        "required": ["organization_reference"]
+      },
+      "description": "Collective entities that participated in or were affected by the event."
+    }
+  }
+}

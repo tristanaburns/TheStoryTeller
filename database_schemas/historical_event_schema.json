@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://storyteller.ai/schemas/historical_event",
+  "title": "Historical Event Schema",
+  "description": "Schema for documenting significant historical events within The Shadow Team Chronicles universe, such as battles, discoveries, political changes, and other narrative turning points that shape the world and its characters.",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "base_metadata_schema.json"
+    }
+  ],
+  "properties": {
+    "object_type": {
+      "const": "historical_event",
+      "description": "Fixed value indicating this is a historical event object. This constrains the general object_type property from the base schema to ensure proper categorization."
+    },
+    "event_type": {
+      "type": "string",
+      "enum": ["battle", "discovery", "political", "technological", "social", "natural_disaster", "assassination", "ceremony", "treaty", "revelation"],
+      "description": "Classification of the event's fundamental nature, determining how it impacts the world and narrative. This categorization helps with filtering events and understanding their typical patterns of influence on the world."
+    },
+    "temporal_data": {
+      "$ref": "historical_event/temporal_data_schema.json"
+    },
+    "location_data": {
+      "$ref": "historical_event/location_data_schema.json"
+    },
+    "participants": {
+      "$ref": "historical_event/participants_schema.json"
+    },
+    "causes": {
+      "$ref": "historical_event/causes_schema.json"
+    },
+    "consequences": {
+      "$ref": "historical_event/consequences_schema.json"
+    },
+    "narrative_significance": {
+      "$ref": "historical_event/narrative_significance_schema.json"
+    },
+    "documentation": {
+      "$ref": "historical_event/documentation_schema.json"
+    },
+    "multimedia": {
+      "$ref": "multimedia_schema.json#/properties/multimedia"
+    }
+  },
+  "required": ["event_type", "temporal_data", "location_data", "participants", "consequences"]
+}

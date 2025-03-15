@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Character Metadata Schema",
+  "description": "Minimal metadata for character tracking within database systems.",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "base_metadata_schema.json"
+    }
+  ],
+  "properties": {
+    "object_type": {
+      "const": "character",
+      "description": "Fixed value indicating this is a character object."
+    },
+    "status": {
+      "$ref": "character_schema.json#/properties/status"
+    },
+    "role": {
+      "$ref": "character_schema.json#/properties/role"
+    }
+  },
+  "required": ["status"]
+}

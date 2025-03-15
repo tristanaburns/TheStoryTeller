@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://storyteller.ai/schemas/organization/culture",
+  "title": "Organization Culture Schema",
+  "description": "The shared values, practices, symbols, and traditions that define this organization's identity and shape its members' behavior and worldview.",
+  "type": "object",
+  "properties": {
+    "core_values": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "string",
+            "description": "A fundamental principle or belief held by the organization and expected to be embraced by its members."
+          },
+          "description": {
+            "type": "string",
+            "description": "Explanation of how this value manifests in the organization's decisions, policies, and members' behavior."
+          }
+        }
+      },
+      "description": "The fundamental principles and beliefs that guide the organization's decisions and define what its members consider most important."
+    },
+    "rituals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The title or designation for this specific ceremony or practice."
+          },
+          "description": {
+            "type": "string",
+            "description": "Detailed account of how this ritual is performed, including required participants, actions, and settings."
+          },
+          "purpose": {
+            "type": "string",
+            "description": "The function this ritual serves within the organization, explaining why it continues to be performed."
+          }
+        }
+      },
+      "description": "Ceremonial practices and formalized procedures that reinforce the organization's values, commemorate its history, or mark significant transitions for its members."
+    },
+    "symbols": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The identifier for this emblem, icon, or symbolic element used by the organization."
+          },
+          "description": {
+            "type": "string",
+            "description": "Detailed account of the symbol's appearance, including colors, shapes, and design elements."
+          },
+          "meaning": {
+            "type": "string",
+            "description": "The significance and symbolism behind this visual representation."
+          }
+        }
+      },
+      "description": "Visual emblems, insignias, colors, or icons that represent the organization's identity, history, or values."
+    }
+  }
+}

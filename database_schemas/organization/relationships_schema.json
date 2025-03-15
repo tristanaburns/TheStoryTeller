@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://storyteller.ai/schemas/organization/relationships",
+  "title": "Organization Relationships Schema",
+  "description": "The organization's connections to other entities in the world, defining its political position and network of influence.",
+  "type": "object",
+  "properties": {
+    "allies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "organization_id": {
+            "type": "string",
+            "format": "uuid",
+            "description": "Reference to another organization with which this group maintains positive relations."
+          },
+          "relationship_type": {
+            "type": "string",
+            "enum": ["formal_alliance", "mutual_protection", "trade_partnership", "shared_ideology", "temporary_cooperation", "secret_alliance", "patron_client", "blood_ties"],
+            "description": "The nature of cooperation between these organizations, indicating the foundation of their relationship and reciprocal obligations."
+          },
+          "strength": {
+            "type": "string",
+            "enum": ["unbreakable", "strong", "moderate", "fragile", "deteriorating"],
+            "description": "The current stability and reliability of this alliance, indicating how likely it is to endure under pressure or competing interests."
+          },
+          "public_knowledge": {
+            "type": "boolean",
+            "description": "Whether this alliance is openly acknowledged or kept secret from the general population and other organizations."
+          }
+        },
+        "required": ["organization_id", "relationship_type"]
+      },
+      "description": "Organizations with which this group maintains positive relationships, cooperation, or formal alliances."
+    },
+    "rivals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "organization_id": {
+            "type": "string",
+            "format": "uuid",
+            "description": "Reference to another organization with which this group has conflict or competition."
+          },
+          "conflict_type": {
+            "type": "string",
+            "enum": ["ideological", "territorial", "economic", "personal", "historical", "proxy_war", "resource_competition", "religious"],
+            "description": "The fundamental source of tension between these organizations, defining the nature of their opposition and potential resolution paths."
+          },
+          "intensity": {
+            "type": "string",
+            "enum": ["open_warfare", "violent_conflict", "cold_war", "political_rivalry", "mild_competition"],
+            "description": "The current severity of hostilities between the organizations, indicating the methods and tactics employed in their conflict."
+          }
+        },
+        "required": ["organization_id", "conflict_type"]
+      },
+      "description": "Organizations with which this group has conflict, competition, or outright enmity."
+    },
+    "general_reputation": {
+      "type": "object",
+      "properties": {
+        "public_perception": {
+          "type": "string",
+          "enum": ["revered", "respected", "trusted", "neutral", "mistrusted", "feared", "despised", "unknown"],
+          "description": "How the common populace generally views this organization, affecting its ability to operate openly and recruit new members."
+        },
+        "elite_perception": {
+          "type": "string",
+          "enum": ["revered", "respected", "trusted", "neutral", "mistrusted", "feared", "despised", "unknown"],
+          "description": "How the ruling class, nobility, or other power centers view this organization, influencing its political leverage and access to resources."
+        }
+      },
+      "description": "The overall standing and reputation of this organization among different segments of society."
+    }
+  }
+}

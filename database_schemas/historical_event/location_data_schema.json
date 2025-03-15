@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://storyteller.ai/schemas/historical_event/location_data",
+  "title": "Historical Event Location Data Schema",
+  "description": "Information about where a historical event took place, including both primary and secondary locations.",
+  "type": "object",
+  "properties": {
+    "primary_location": {
+      "$ref": "common/location_reference_schema.json"
+    },
+    "secondary_locations": {
+      "type": "array",
+      "items": {
+        "$ref": "common/location_reference_schema.json"
+      },
+      "description": "Additional locations that played important but secondary roles in this historical event."
+    },
+    "geographical_scope": {
+      "type": "string",
+      "enum": ["localized", "regional", "national", "continental", "global", "extraterrestrial", "interdimensional"],
+      "description": "The spatial extent of this event's immediate effects and occurrence."
+    }
+  },
+  "required": ["primary_location"]
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://storyteller.ai/schemas/organization/notable_activities",
+  "title": "Organization Notable Activities Schema",
+  "description": "Significant operations, campaigns, projects, or ongoing initiatives conducted by the organization that demonstrate its methods, capabilities, and impact on the narrative world.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "The title or designation for this activity, whether its official name or what it has become known as in historical records or common knowledge."
+      },
+      "description": {
+        "type": "string",
+        "description": "Detailed explanation of what this activity entailed, including its methods, scope, and distinctive characteristics that reflect the organization's approach and capabilities."
+      },
+      "time_period": {
+        "type": "string",
+        "description": "When this activity took place or, if ongoing, when it began and its current status within the organization's operations timeline."
+      },
+      "outcome": {
+        "type": "string",
+        "enum": ["successful", "partial_success", "ongoing", "failed", "abandoned", "exposed", "unknown"],
+        "description": "The result or current state of this activity, indicating whether it achieved its intended goals and what consequences it had for the organization."
+      },
+      "significance": {
+        "type": "string",
+        "description": "Why this particular activity matters to the organization's history, development, or current standing, and how it has influenced its reputation or capabilities."
+      },
+      "related_event_id": {
+        "type": "string",
+        "format": "uuid",
+        "description": "Optional reference to a historical event object that fully documents this activity if it was significant enough to warrant separate historical documentation."
+      }
+    },
+    "required": ["name", "description", "significance"]
+  }
+}

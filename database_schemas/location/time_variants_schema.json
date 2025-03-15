@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://storyteller.ai/schemas/location/time_variants",
+  "title": "Location Time Variants Schema",
+  "description": "Tracking how a location changes across different time periods within the narrative.",
+  "type": "array",
+  "items": {
+    "$ref": "timeline/time_state_variants_schema.json#/items"
+  }
+}

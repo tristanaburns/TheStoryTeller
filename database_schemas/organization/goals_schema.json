@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://storyteller.ai/schemas/organization/goals",
+  "title": "Organization Goals Schema",
+  "description": "The organization's primary objectives and motivations that drive its actions and policies within the narrative world.",
+  "type": "object",
+  "properties": {
+    "mission_statement": {
+      "type": "string",
+      "description": "The official purpose or raison d'être that the organization publicly claims to follow, which may or may not align with its true objectives."
+    },
+    "short_term_objectives": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string",
+            "description": "The specific near-term goal that the organization is actively pursuing."
+          },
+          "priority": {
+            "type": "string",
+            "enum": ["critical", "high", "moderate", "low", "contingent"],
+            "description": "The relative importance of this objective compared to others, indicating how much resources and attention the organization dedicates to it."
+          },
+          "progress_status": {
+            "type": "string",
+            "enum": ["not_started", "planning_phase", "in_progress", "nearly_complete", "achieved", "abandoned"],
+            "description": "The current state of progress toward achieving this objective, indicating where it stands in the organization's timeline of activities."
+          }
+        },
+        "required": ["description"]
+      },
+      "description": "Immediate aims that the organization is currently working toward and expects to accomplish within a relatively short timeframe."
+    },
+    "long_term_vision": {
+      "type": "string",
+      "description": "The ultimate aspiration or end-state that the organization strives to bring about, often ideological in nature and potentially requiring generations to achieve."
+    },
+    "hidden_agenda": {
+      "type": "string",
+      "description": "Secret or undisclosed objectives that the organization pursues but does not openly admit, often known only to inner circle members."
+    }
+  },
+  "required": ["mission_statement"]
+}

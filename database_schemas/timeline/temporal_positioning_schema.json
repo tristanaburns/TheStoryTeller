@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://storyteller.ai/schemas/timeline/temporal_positioning",
+  "title": "Temporal Positioning Schema",
+  "description": "Data about when an object exists or occurs within the narrative timeline, allowing for precise temporal placement.",
+  "type": "object",
+  "properties": {
+    "absolute_timeframe": {
+      "type": "object",
+      "description": "Fixed positioning within the story universe's master timeline, using standard chronological measurements.",
+      "properties": {
+        "start_date": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The specific in-universe date when this object first appears or begins to exist in the timeline."
+        },
+        "end_date": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The specific in-universe date when this object disappears or ceases to exist in the timeline, if applicable."
+        },
+        "duration": {
+          "type": "string",
+          "description": "The length of time this object exists or the event spans, using appropriate units of measure (minutes, days, years, centuries, etc.)."
+        },
+        "precision_level": {
+          "type": "string",
+          "enum": ["exact", "approximate", "estimated", "traditional", "mythological", "unknown"],
+          "description": "The degree of confidence in the temporal positioning, particularly important for ancient objects or events with limited historical documentation."
+        }
+      },
+      "required": ["precision_level"]
+    },
+    "relative_positioning": {
+      "type": "object",
+      "description": "Placement within the timeline relative to other significant events or temporal landmarks in the narrative.",
+      "properties": {
+        "era": {
+          "type": "string",
+          "description": "The broadest historical division in which this object exists (e.g., 'Pre-Divergence Era', 'Shadow War Period', 'New Horizon Age')."
+        },
+        "period": {
+          "type": "string",
+          "description": "A more specific historical timeframe within an era (e.g., 'Early Heian Period', 'Post-Calamity Recovery', 'Second Shadow War')."
+        },
+        "in_relation_to": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "event_id": {
+                "type": "string",
+                "format": "uuid",
+                "description": "Reference to another event used as a temporal anchor point."
+              },
+              "relation_type": {
+                "type": "string",
+                "enum": ["before", "after", "during", "overlapping_start", "overlapping_end", "concurrent"],
+                "description": "How this object's timeframe relates to the referenced event."
+              },
+              "time_distance": {
+                "type": "string",
+                "description": "The temporal distance from the reference event (e.g., '3 days before', 'centuries after', 'moments during')."
+              }
+            },
+            "required": ["event_id", "relation_type"]
+          },
+          "description": "Positioning relative to other significant events that serve as chronological landmarks in the narrative."
+        },
+        "narrative_sequence": {
+          "type": "integer",
+          "description": "A numerical value indicating the order in which events occur within a specific storyline, useful for maintaining correct sequence even when absolute dates are unclear."
+        }
+      }
+    },
+    "cyclical_time": {
+      "type": "object",
+      "description": "Recurring temporal patterns relevant to this object or event, capturing seasonal, ceremonial, or other cyclical aspects of time.",
+      "properties": {
+        "cycle_type": {
+          "type": "string",
+          "enum": ["daily", "seasonal", "annual", "astrological", "ritual", "generational", "custom"],
+          "description": "The nature of the temporal cycle relevant to this object."
+        },
+        "position_in_cycle": {
+          "type": "string",
+          "description": "Where within the cycle this object or event is positioned (e.g., 'winter solstice', 'third day of festival', 'harvest moon')."
+        },
+        "significance": {
+          "type": "string",
+          "description": "Why this particular cyclical position is meaningful to the object or event's narrative role."
+        }
+      }
+    }
+  },
+  "required": ["absolute_timeframe"]
+}

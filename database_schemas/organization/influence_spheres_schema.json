@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://storyteller.ai/schemas/organization/influence_spheres",
+  "title": "Organization Influence Spheres Schema",
+  "description": "The domains of society and life where this organization exerts influence, showing its reach and impact beyond its formal boundaries and membership.",
+  "type": "object",
+  "properties": {
+    "power_domains": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "domain": {
+            "type": "string",
+            "enum": ["military", "economic", "political", "religious", "cultural", "technological", "underworld", "educational", "media", "intelligence"],
+            "description": "A sphere of society or aspect of life where this organization exercises significant influence or control."
+          },
+          "influence_level": {
+            "type": "string",
+            "enum": ["dominant", "major", "significant", "limited", "indirect", "emerging", "declining"],
+            "description": "The degree of power the organization wields within this domain, indicating whether it is a primary authority or merely one of many actors."
+          },
+          "methods": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "The specific techniques, resources, or approaches the organization uses to maintain or expand its influence in this domain."
+          }
+        },
+        "required": ["domain", "influence_level"]
+      },
+      "description": "The specific areas of society where the organization wields power, showing the breadth of its influence across different aspects of the narrative world."
+    },
+    "geographical_reach": {
+      "type": "string",
+      "enum": ["local", "regional", "national", "continental", "global", "multi-realm"],
+      "description": "The spatial extent of the organization's influence, indicating how far beyond its headquarters its power and reputation extend."
+    },
+    "influence_tactics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tactic": {
+            "type": "string",
+            "description": "A specific approach used by the organization to expand or maintain its influence and achieve its goals within the broader society."
+          },
+          "effectiveness": {
+            "type": "string",
+            "enum": ["highly_effective", "successful", "mixed_results", "limited_success", "counterproductive"],
+            "description": "How well this approach has worked for the organization in achieving its desired impact and influence."
+          },
+          "ethics": {
+            "type": "string",
+            "enum": ["ethical", "questionable", "unethical", "illegal", "brutal"],
+            "description": "The moral character of this influence tactic, which may affect how the organization is perceived by others and how members feel about their participation."
+          }
+        },
+        "required": ["tactic"]
+      },
+      "description": "The methods and strategies the organization employs to spread its influence, maintain control, or advance its agenda within the narrative world."
+    },
+    "legacy_impact": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "The organization's lasting contributions or changes to the world that would persist even if the organization itself ceased to exist, representing its historical footprint."
+    }
+  },
+  "required": ["power_domains"]
+}

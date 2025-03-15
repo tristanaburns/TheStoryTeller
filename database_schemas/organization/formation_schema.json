@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://storyteller.ai/schemas/organization/formation",
+  "title": "Organization Formation Schema",
+  "description": "Information about when, how, and why an organization was created, establishing its historical context and original purpose.",
+  "type": "object",
+  "properties": {
+    "founding_date": {
+      "type": "string",
+      "description": "When this organization was first established within the narrative timeline. This could be a specific date or a general era."
+    },
+    "founders": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "character_id": {
+            "type": "string",
+            "format": "uuid",
+            "description": "Reference to a character who played a significant role in founding this organization."
+          },
+          "role": {
+            "type": "string",
+            "description": "The specific contribution or position this founder held during the organization's creation."
+          }
+        }
+      },
+      "description": "Key individuals responsible for establishing this organization."
+    },
+    "founding_purpose": {
+      "type": "string",
+      "description": "The original mission or reason for this organization's creation, which may differ from its current purpose as the organization evolved over time."
+    },
+    "founding_location_id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Reference to the place where this organization was first established."
+    }
+  }
+}
