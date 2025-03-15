@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://storyteller.ai/schemas/organization/membership",
   "title": "Organization Membership Schema",
-  "description": "Information about the individuals who comprise the organization, their demographics, recruitment processes, and common characteristics.",
+  "description": "Details about who belongs to an organization, how they join, and what membership entails.",
   "type": "object",
   "properties": {
     "size_category": {
@@ -73,6 +73,29 @@
         "required": ["character_id", "significance"]
       },
       "description": "Individuals within the organization who are especially noteworthy for their skills, influence, or other distinguishing characteristics."
+    },
+    "requirements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "requirement": {
+            "$ref": "../common/membership_requirement_schema.json",
+            "description": "A condition or qualification necessary for joining the organization."
+          },
+          "description": {
+            "type": "string",
+            "description": "Detailed explanation of how this requirement is implemented or evaluated."
+          },
+          "strictness": {
+            "type": "string",
+            "enum": ["absolute", "typical", "flexible", "waivable", "situational"],
+            "description": "How rigidly this requirement is enforced when considering potential members."
+          }
+        },
+        "required": ["requirement", "description"]
+      },
+      "description": "Conditions that must be met to become a member of the organization."
     }
   }
 }

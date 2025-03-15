@@ -36,9 +36,7 @@
           "description": "Unique identifier for this historical event, allowing for cross-referencing with other timeline elements."
         },
         "timestamp": {
-          "type": "string",
-          "format": "date-time",
-          "description": "When this event occurred in the timeline."
+          "$ref": "common/timestamp_schema.json"
         },
         "event_name": {
           "type": "string",

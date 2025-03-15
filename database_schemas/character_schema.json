@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://storyteller.ai/schemas/character",
   "title": "Character Schema",
-  "description": "Schema for defining characters within The Shadow Team Chronicles narrative universe, capturing their attributes, relationships, development arcs, and narrative significance.",
+  "description": "Schema for defining characters within The Shadow Team Chronicles universe, including their personal attributes, relationships, and narrative functions.",
   "type": "object",
   "allOf": [
     {
@@ -16,19 +16,22 @@
     },
     "status": {
       "type": "string",
-      "enum": ["alive", "deceased", "unknown", "transformed", "ascended"],
-      "description": "The character's current living state as of the latest point in the narrative timeline. This status may change throughout the story as events unfold."
+      "enum": ["alive", "deceased", "unknown", "missing", "transcended", "undead", "dormant"],
+      "description": "The character's current living state as of the latest point in the narrative timeline."
     },
     "role": {
       "type": "string",
-      "enum": ["protagonist", "antagonist", "supporting", "neutral", "faction_leader", "mentor", "ally", "traitor"],
-      "description": "The character's primary narrative function within the story structure, determining how they interact with main plot elements and other characters."
-    },
-    "timeline": {
-      "$ref": "character/timeline_schema.json"
+      "enum": ["protagonist", "antagonist", "deuteragonist", "supporting", "mentor", "foil", "catalyst"],
+      "description": "The character's primary narrative function within the story structure."
     },
     "personal_data": {
       "$ref": "character/personal_data_schema.json"
+    },
+    "attributes": {
+      "$ref": "character/attributes_schema.json"
+    },
+    "skills": {
+      "$ref": "character/skills_schema.json"
     },
     "relationships": {
       "$ref": "character/relationships_schema.json"
@@ -39,12 +42,36 @@
     "character_arc": {
       "$ref": "character/character_arc_schema.json"
     },
-    "attributes": {
-      "$ref": "character/attributes_schema.json"
+    "narrative_function": {
+      "$ref": "character/narrative_function_schema.json"
+    },
+    "backstory": {
+      "$ref": "character/backstory_schema.json"
+    },
+    "equipment": {
+      "$ref": "character/equipment_schema.json"
+    },
+    "voice": {
+      "$ref": "character/voice_schema.json"
+    },
+    "visual_representation": {
+      "$ref": "character/visual_representation_schema.json"
+    },
+    "identity": {
+      "$ref": "character/identity_schema.json"
+    },
+    "psychological_profile": {
+      "$ref": "character/psychological_profile_schema.json"
+    },
+    "timeline": {
+      "$ref": "character/timeline_schema.json"
     },
     "multimedia": {
       "$ref": "multimedia_schema.json#/properties/multimedia"
+    },
+    "metadata": {
+      "$ref": "character/character_metadata_schema.json"
     }
   },
-  "required": ["status", "role"]
+  "required": ["object_type", "status", "role", "personal_data"]
 }

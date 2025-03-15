@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://storyteller.ai/schemas/organization/culture",
   "title": "Organization Culture Schema",
-  "description": "The shared values, practices, symbols, and traditions that define this organization's identity and shape its members' behavior and worldview.",
+  "description": "The shared values, beliefs, practices, and environment that characterize an organization.",
   "type": "object",
   "properties": {
     "core_values": {
@@ -11,16 +11,26 @@
         "type": "object",
         "properties": {
           "value": {
-            "type": "string",
-            "description": "A fundamental principle or belief held by the organization and expected to be embraced by its members."
+            "$ref": "../common/cultural_value_schema.json",
+            "description": "A principle or quality that is particularly important to the organization."
           },
-          "description": {
+          "priority": {
             "type": "string",
-            "description": "Explanation of how this value manifests in the organization's decisions, policies, and members' behavior."
+            "enum": ["primary", "secondary", "tertiary", "aspirational"],
+            "description": "How central this value is to the organization's identity and decision-making."
+          },
+          "expression": {
+            "type": "string",
+            "description": "How this value manifests in the organization's practices, policies, or behaviors."
           }
-        }
+        },
+        "required": ["value"]
       },
-      "description": "The fundamental principles and beliefs that guide the organization's decisions and define what its members consider most important."
+      "description": "The fundamental principles that shape the organization's identity and guide its actions."
+    },
+    "ethos": {
+      "type": "string",
+      "description": "A brief statement that captures the distinctive character, spirit, or attitude of the organization."
     },
     "rituals": {
       "type": "array",

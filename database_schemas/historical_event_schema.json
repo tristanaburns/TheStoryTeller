@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://storyteller.ai/schemas/historical_event",
   "title": "Historical Event Schema",
-  "description": "Schema for documenting significant historical events within The Shadow Team Chronicles universe, such as battles, discoveries, political changes, and other narrative turning points that shape the world and its characters.",
+  "description": "Schema for defining historical events within The Shadow Team Chronicles universe, including their temporal, geographic, and causal properties.",
   "type": "object",
   "allOf": [
     {
@@ -12,37 +12,43 @@
   "properties": {
     "object_type": {
       "const": "historical_event",
-      "description": "Fixed value indicating this is a historical event object. This constrains the general object_type property from the base schema to ensure proper categorization."
+      "description": "Fixed value indicating this is a historical event object."
     },
     "event_type": {
-      "type": "string",
-      "enum": ["battle", "discovery", "political", "technological", "social", "natural_disaster", "assassination", "ceremony", "treaty", "revelation"],
-      "description": "Classification of the event's fundamental nature, determining how it impacts the world and narrative. This categorization helps with filtering events and understanding their typical patterns of influence on the world."
+      "$ref": "common/event_type_schema.json",
+      "description": "The categorical classification of this historical event."
     },
     "temporal_data": {
-      "$ref": "historical_event/temporal_data_schema.json"
+      "$ref": "historical_event/temporal_data_schema.json",
+      "description": "When the event occurred, including start and end dates, duration, and temporal context."
     },
     "location_data": {
-      "$ref": "historical_event/location_data_schema.json"
+      "$ref": "historical_event/location_data_schema.json",
+      "description": "Where the event took place, including primary and secondary locations."
     },
     "participants": {
-      "$ref": "historical_event/participants_schema.json"
+      "$ref": "historical_event/participants_schema.json",
+      "description": "Who was involved in the event, including individuals, organizations, and affected populations."
     },
-    "causes": {
-      "$ref": "historical_event/causes_schema.json"
+    "causality": {
+      "$ref": "historical_event/causality_schema.json",
+      "description": "The causes and effects of the event, both immediate and long-term."
     },
-    "consequences": {
-      "$ref": "historical_event/consequences_schema.json"
+    "cultural_significance": {
+      "$ref": "historical_event/cultural_significance_schema.json",
+      "description": "How the event is remembered, commemorated, and represented in culture."
+    },
+    "historical_significance": {
+      "$ref": "common/historical_significance_schema.json",
+      "description": "The event's broader impact on the world's history and development."
     },
     "narrative_significance": {
-      "$ref": "historical_event/narrative_significance_schema.json"
-    },
-    "documentation": {
-      "$ref": "historical_event/documentation_schema.json"
+      "$ref": "common/narrative_significance_schema.json",
+      "description": "How the event functions within the narrative structure and themes."
     },
     "multimedia": {
       "$ref": "multimedia_schema.json#/properties/multimedia"
     }
   },
-  "required": ["event_type", "temporal_data", "location_data", "participants", "consequences"]
+  "required": ["object_type", "event_type", "temporal_data", "location_data", "causality"]
 }

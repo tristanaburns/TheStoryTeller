@@ -98,32 +98,7 @@
           "description": "The level of importance this object has in this particular story reference, indicating whether it's central to the scene or merely mentioned in passing."
         },
         "writing_style": {
-          "type": "object",
-          "description": "The narrative style characteristics present in this reference, connecting world-building elements to consistent storytelling approaches.",
-          "properties": {
-            "tone": {
-              "type": "string",
-              "enum": ["Epic", "Cinematic", "Mythic", "Intimate", "Analytical", "Mysterious"],
-              "description": "The emotional and atmospheric quality of this reference's presentation."
-            },
-            "theme": {
-              "type": "string",
-              "description": "The central thematic element explored through this reference."
-            },
-            "style_type": {
-              "type": "string",
-              "enum": [
-                "Mythic & Poetic",
-                "Cinematic & Precise",
-                "Controlled Chaos",
-                "Emotional & Measured",
-                "Narrative Historian",
-                "Atmospheric & Immersive",
-                "Dreamlike & Fragmented"
-              ],
-              "description": "The specific narrative approach used when this reference appears in the story."
-            }
-          }
+          "$ref": "common/writing_elements_schema.json"
         }
       },
       "required": ["story_id", "sequence_data", "significance"]

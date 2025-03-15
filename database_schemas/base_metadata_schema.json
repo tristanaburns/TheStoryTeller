@@ -25,8 +25,7 @@
       "description": "A comprehensive and detailed explanation of the object, including its history, purpose, significance, and distinguishing characteristics. This should provide sufficient context for understanding the object's role in the narrative."
     },
     "object_type": {
-      "type": "string",
-      "enum": ["location", "organization", "artifact", "weapon", "faction", "historical_event", "character", "technology"],
+      "$ref": "common/object_type_schema.json",
       "description": "The primary classification category that defines what kind of entity this object represents within the world-building framework."
     },
     "status": {

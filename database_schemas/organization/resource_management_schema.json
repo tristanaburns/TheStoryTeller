@@ -2,9 +2,48 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://storyteller.ai/schemas/organization/resource_management",
   "title": "Organization Resource Management Schema",
-  "description": "How the organization allocates, maintains, and utilizes its resources to sustain operations and achieve its objectives within the narrative world.",
+  "description": "How an organization acquires, allocates, and utilizes its resources to pursue its objectives.",
   "type": "object",
   "properties": {
+    "priority_resources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "resource_type": {
+            "$ref": "../common/resource_type_schema.json",
+            "description": "The category of resource that is particularly important to this organization."
+          },
+          "importance": {
+            "type": "string",
+            "enum": ["vital", "high", "moderate", "supplemental"],
+            "description": "How crucial this resource is to the organization's core functions and goals."
+          },
+          "description": {
+            "type": "string",
+            "description": "Specific details about this resource and why it matters to the organization."
+          },
+          "typical_sources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Where or how the organization typically obtains this resource."
+          },
+          "current_status": {
+            "type": "string",
+            "enum": ["abundant", "sufficient", "strained", "scarce", "depleted", "inaccessible"],
+            "description": "The organization's present situation regarding this resource."
+          },
+          "allocation_strategy": {
+            "type": "string",
+            "description": "How the organization distributes this resource among its divisions or activities."
+          }
+        },
+        "required": ["resource_type", "importance", "description"]
+      },
+      "description": "The key resources that the organization needs to function and pursue its goals."
+    },
     "sustainability": {
       "type": "string",
       "enum": ["self-sufficient", "dependent", "parasitic", "symbiotic", "exploitative", "balanced"],
