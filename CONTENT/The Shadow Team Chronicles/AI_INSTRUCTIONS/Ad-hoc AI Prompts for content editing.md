@@ -26,14 +26,50 @@ PartName: ### **🔥 The Path Into the Mountains - The Aftermath of the Mountain
 
 ### Content Enhancement Instructions
 
-**Explicitly follow all the instructions in the following files for all following actions / instructions:**
+**DO NOT DIRECTLY UPDATE THE FILE, JUST PRINT THE RESULT TO THE CHAT**
 
-1. `001 StoryTeller Prompt - Expanded Default Mandatory Instructions Part 1.md`
-2. `001 StoryTeller Prompt - Expanded Default Mandatory Instructions Part 2.md`
-3. `002 StoryTeller Prompt - User Defined Instructions.md`
+1. Read the entire target content first to understand context, tone, and narrative structure.
 
-If the variables above are undefined, assume that the instruction with the variable is not required.
-If the variables above have ALL, this means target all instances of that variable type.
+2. Review and apply these enhancement techniques:
+   - Implement prose variation techniques from `prose_variation_technique_schema.json`
+   - Match writing style from `writing_style_schema.json` to appropriate scene type from `scene_type_schema.json`
+   - Ensure narrative structure follows hierarchy in `narrative_structure_schema.json`
+   - Maintain consistency with previous narrative elements
+
+3. Common enhancement requests:
+   ```
+   /enhance prose
+   Apply at least 3 prose variation techniques to make the writing more natural and dynamic.
+   
+   /adjust writing style <style_name>
+   Change the prose to match the specified writing style (e.g., cinematic_precise, atmospheric_immersive).
+   
+   /improve scene <scene_type>
+   Optimize content for the specified scene type (e.g., action_sequence, tension_buildup).
+   
+   /refine dialogue
+   Make character voices more distinct and conversations more natural.
+   
+   /deepen description
+   Add sensory details and atmospheric elements without increasing length significantly.
+   
+   /tighten pacing
+   Remove unnecessary content and improve narrative flow.
+   
+   /enhance consistency
+   Align details with previously established narrative elements.
+   ```
+
+4. For all edits, preserve:
+   - Key plot points and character decisions
+   - Essential world-building elements
+   - Narrative voice and tone
+   - Special formatting or structure
+
+5. Output the enhanced content between:
+```
+**INSERT THE UPDATED CONTENT HERE**
+```
 
 📌 **IMPORTANT**
 
@@ -179,8 +215,7 @@ If any part reaches the maximum threshold, it must be split at a logical transit
     - Maintain continuity with previous and subsequent sections
     - Validate that all technical requirements have been met
 
----
-
+--- 
 **Do not change, modify, or delete any content below this marker. Leave everything beyond this point exactly as it appears.**
 
   `**DO NOT DELETE OR MODIFY THIS CONTENT BELOW**`

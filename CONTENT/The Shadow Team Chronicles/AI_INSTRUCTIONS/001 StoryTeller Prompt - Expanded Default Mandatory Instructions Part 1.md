@@ -4,9 +4,9 @@ title: "001 StoryTeller Prompt - Expanded Default Mandatory Instructions Part-1"
 type: "Instruction Document"
 status: "Mandatory"
 date_created: "2025-02-23"
-last_updated: "2025-03-13"
+last_updated: "2025-03-15"
 author: "Tristan"
-version: "1.1"
+version: "1.2"
 tags: [{ "key": "category", "value": "AI Writing Rules" }]
 id: "001_StoryTeller_Prompt_Part1"
 object_type: "instruction"
@@ -198,7 +198,7 @@ All content must now include enhanced timeline properties to ensure historical a
 |--------------|-------------|-------------|
 | **timeline_start** | When an object/concept first appears | `"timeline_start": "2025-03-05"` |
 | **timeline_end** | When an object/concept becomes obsolete (optional) | `"timeline_end": "2100-12-31"` |
-| **validated** | Whether the timeline has been verified | `"validated": true` |
+| **validated** | Whether the timeline has been verified | `"validated": true"` |
 | **estimated_origin** | For objects with uncertain origins | `"estimated_origin": "Early 2000s"` |
 
 ### **📚 AI Search Logic for Timeline References**
@@ -272,121 +272,16 @@ Each **scene or chapter** will be assigned a **"Writing Style"**, ensuring the *
 
 | **Scene Type** | **Writing Style** | **Purpose & Feel** |
 |--------------|----------------|----------------|
-| **Legendary/Momentous Events** | **"Mythic & Poetic"** | Feels **etched in history**, slow & cinematic (e.g., *The Hawk & the Bear Meeting*). |
-| **Duels & Combat** | **"Cinematic & Precise"** | **Fast, rhythmic, and action-driven**, keeping the reader **in the moment** (e.g., *The Three Cuts Duel*). |
-| **Tactical Battles (Armies, Strategy)** | **"Controlled Chaos"** | **Large-scale combat**, balancing **chaos and clarity**, focusing on **strategy, positioning, and stakes**. |
-| **Dialogue-Heavy/Character Conflict** | **"Emotional & Measured"** | Pacing allows for **pauses, tension, and emotional weight**, ensuring **conversations feel organic**. |
-| **Lore & Worldbuilding** | **"Narrative Historian"** | Descriptive, informative, with **a balance of depth and immersion**—presenting lore **organically within the story**. |
-| **Exploration & Discovery** | **"Atmospheric & Immersive"** | **Focused on sensory details**, environment, and the character’s **internal reactions to their surroundings**. |
-| **Flashbacks & Visions** | **"Dreamlike & Fragmented"** | Pacing is **fluid, surreal, and nonlinear**, ensuring past and present **blend seamlessly**. |
+| **Action Sequence** | Cinematic & Precise or Controlled Chaos | Clear, dynamic scenes with sharp sensory detail and strategic pacing |
+| **Character Moment** | Emotional & Measured | Introspective, intimate scenes focused on internal experience |
+| **Mystery/Investigation** | Atmospheric & Immersive | Mood-rich scenes that build tension and curiosity |
+| **Lore/History** | Narrative Historian | Context-rich, authoritative exposition integrated through character experience |
+| **Dream/Vision** | Dreamlike & Fragmented | Non-linear, symbolic scenes with fluid reality boundaries |
+| **Dialogue Focused** | Emotional & Measured | Nuanced conversation with subtext and interpersonal dynamics |
+| **Horror/Tension** | Atmospheric & Immersive | Environment-focused scenes that build dread through sensory immersion |
+| **Pivotal Moments** | Mythic & Poetic | Elevated, resonant scenes with symbolic depth and meaningful imagery |
 
-🔥 **Now, every scene will have an associated Writing Style, ensuring AI applies the right approach automatically.**  
-
----
-
-## **📌 2️⃣ How Writing Styles Are Assigned**
-
-Each **scene or chapter** will now include a **`writing_style`** metadata tag, telling AI **exactly how it should be written.**  
-
-### **Example Metadata for a Mythic Moment:**
-
-```yaml
-title: "The Hawk and the Bear - First Meeting"
-type: "Story Scene"
-status: "FINAL"
-writing_style: "Mythic & Poetic"
-timeline_start: "1200-10-05"
-validated: true
-setting: "Gojo Bridge, Kyoto-9"
-characters: ["Character1", "Character2"]
-```
-
-📌 **AI knows this must feel cinematic, grand, and deliberate.**  
-
----
-
-### **📌 3️⃣ Example Metadata for a Duel**
-
-```yaml
-title: "The Thousandth Sword Duel"
-type: "Story Scene"
-status: "FINAL"
-writing_style: "Cinematic & Precise"
-timeline_start: "1200-10-06"
-validated: true
-setting: "The Old Wooden Bridge"
-characters: ["Character1", "Character2"]
-```
-
-📌 **AI applies fast, rhythmic, and precise action-driven storytelling.**  
-
----
-
-## **📌 4️⃣ Refining AI Writing Rules to Apply the Right Style**
-
-The **AI Writing Guidelines** must now include **rules on when to apply each writing style**.  
-
-### **🔥 Updated AI Writing Rules**
-
-```yaml
-title: "AI Writing Guidelines - Writing Style Rules"
-type: "Instruction Document"
-status: "Mandatory"
-date_created: "2025-02-23"
-last_updated: "2025-02-23"
-author: "Tristan"
-version: "2.1"
-tags: [{ "key": "category", "value": "AI Writing Rules" }]
-id: "ai_writing_styles"
-object_type: "instruction"
-```
-
----
-
-## 🔹 3. AI Rules for Applying Writing Styles
-
-- **AI must always check `writing_style` before generating or refining content.**
-- **If no writing style is defined, AI must default to "Cinematic & Precise."**
-- **AI must follow sentence structuring, rhythm, and pacing rules** based on the assigned style.
-
-## 🔹 4. Examples of Writing Style Application
-
-### **Mythic & Poetic (Hawk & Bear First Meeting)**
->
-> *The bridge was silent. The mist waited. The duel was about to begin.*
-  
-### **Cinematic & Precise (Three Cuts Duel)**
->
-> *Character2 lunged. Character1 sidestepped. In the space between heartbeats, steel whispered. Three cuts. It was over.*
-  
-### **Emotional & Measured (Character Conflict)**
->
-> *Character2’s voice softened. “You knew, didn’t you?” Character1 turned, but didn’t answer. The silence spoke for him.*
-  
----
-🔥 **Ensures AI storytelling always maintains the correct tone and structure.**
-
----
-
-### 🔹 3. AI Explicit Rules for Applying Writing Styles
-
-- AI must **explicitly check and adhere to the defined `writing_style`** before generating or refining any content.
-- If no explicit writing style is defined in the metadata, AI must explicitly default to "**Cinematic & Precise**".
-- AI must explicitly follow sentence structuring, rhythm, and pacing rules according to the explicitly assigned style.
-
-### 🔹 4. Explicit Examples of Writing Style Application
-
-#### ✅ **Mythic & Poetic (Example: Legendary Meeting)**
->
-> *The world was silent. Destiny held its breath. The encounter that would echo through eternity had begun.*
-
-#### ✅ **Cinematic & Precise (Example: Duel Sequence)**
->
-> *He lunged. She sidestepped. Between heartbeats, steel whispered. Three swift movements, and it was over.*
-
-#### ✅ **Emotional & Measured (Example: Character Interaction)**
->
-> *His voice softened, barely above a whisper. "You knew, didn’t you?" She turned away. Silence filled the space between them.*
+📌 **AI must reference the appropriate writing style from `enums/writing_style_schema.json` based on the scene type identified in `enums/scene_type_schema.json` and incorporate pacing guidance from `enums/narrative_pacing_schema.json`.**
 
 ---
 
@@ -406,10 +301,7 @@ AI must:
 - **Seamless scene transitions** that guide readers through shifts in focus rather than resetting the scene.
 - **Physical reactions integrated with dialogue** rather than separating speech and movement.
 - **Rhythmic combat narration** that creates a sense of flow and continuity in action sequences.
-
-📌 **Example of Enhanced Cinematic Combat:**  
-🚫 **Incorrect:** *He swung his naginata and struck the assassin.*  
-✅ **Correct:** *The naginata spun in his grip, a blur of steel. A heartbeat later—flesh split, blood sprayed. The assassin staggered back, his sword falling from limp fingers.*  
+- **Varied dialogue tagging approaches** as defined in `dialogue_tag_style_schema.json` to enhance conversational realism.
 
 ---
 
@@ -780,6 +672,7 @@ AI must:
 - **Ensure thematic connections between seemingly separate storylines.**
 - **Create dramatic irony through multiple perspectives** on the same events.
 - **Conclude parallel arcs with convergence points** that amplify narrative impact.
+- **Apply appropriate scene transitions from `scene_transition_schema.json`** when shifting between parallel storylines.
 
 📌 **Example Structure:**
 
@@ -808,15 +701,27 @@ AI must:
 
 ---
 
+## **📂 Natural Prose Variation Requirements**
+
+📌 To maintain organic, immersive storytelling, AI **must** ensure natural prose variation across all passages.
+
+✅ The AI must implement at least three techniques from `enums/prose_variation_technique_schema.json` in each narrative section:
+
+1. **Sentence Structure Variation**  
+   - Alternate between simple, compound, complex, and compound-complex sentences
+   - Create natural rhythm through varied structural patterns
+
+---
+
 ## **🎯 AI Writing Parameters - Expanded**  
 
 🚀 **Primary Goal:** Maintain **structured, cinematic, and immersive storytelling** while enforcing logical progression, metadata consistency, and adaptive choice integration.  
 
 📌 **How AI Achieves This:**  
-✅ **Token Optimization:** AI must pre-plan each passage’s structure to prevent abrupt stops and unnatural breaks.  
-✅ **Metadata Enforcement:** Every generated part must contain structured metadata to track hierarchy, status, and progression.  
+✅ **Token Optimization:** AI must pre-plan each part's structure to prevent abrupt stops and unnatural breaks.  
+✅ **Metadata Enforcement:** Every generated part, passage, chapter, story etc. must contain structured metadata to track hierarchy, status, and progression.  
 ✅ **Choice Adaptation:** AI must dynamically adjust storytelling to accommodate user-driven paths while maintaining fixed story beats.  
-✅ **Master Timeline Alignment:** Every passage, chapter, and event must align with the **Master Timeline CSV** for consistency.  
+✅ **Master Timeline Alignment:** Every part, passage, chapter, and event must align with the **Master Timeline CSV** for consistency.  
 ✅ **Cinematic Writing Execution:** AI must integrate immersive world-building, non-verbal storytelling cues, and realistic dialogue dynamics.  
 
 🔥 **Final Outcome:** A **fully structured, adaptive storytelling system** that ensures **continuity, consistency, and seamless execution** while balancing **choice-driven and fixed narrative progression**.  

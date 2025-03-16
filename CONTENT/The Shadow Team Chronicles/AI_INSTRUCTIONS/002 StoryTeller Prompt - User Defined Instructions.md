@@ -4,9 +4,9 @@ title: "002 StoryTeller Prompt - User Defined Instructions"
 type: "Instruction Document"
 status: "Mandatory"
 date_created: "2025-02-23"
-last_updated: "2025-03-09"
+last_updated: "2025-03-15"
 author: "Tristan"
-version: "1.1"
+version: "1.2"
 tags: [{ "key": "category", "value": "AI Writing Rules" }]
 id: "002_StoryTeller_Prompt"
 object_type: "instruction"
@@ -165,10 +165,8 @@ In metadata:
 - **Let the reader suspect things before characters realize them.**  
 - **Use setting details to imply danger before it happens.** (e.g., a broken door, a half-eaten meal left abandoned.)  
 - **Have character decisions create unease.** (e.g., a deal with an unreliable ally may have unseen consequences.)  
-
-📌 **Example of Slow-Burn Suspense:**  
-🚫 **Incorrect:** _"We are under attack!" the soldier shouted as explosions erupted._  
-✅ **Correct:** _The distant echo of gunfire rattled the empty streets. A single shell casing rolled across the floor. Silence stretched, waiting to be broken._  
+- **Apply appropriate narrative pacing from `enums/narrative_pacing_schema.json` to control tension development.**
+- **Use dialogue tag styles from `enums/dialogue_tag_style_schema.json` that enhance mystery and suspense.**
 
 ---
 
@@ -230,22 +228,76 @@ In metadata:
 
 ---
 
-## **📂 Step 11: AI & Consciousness Themes**
+## **📂 Step 11: Prose Variation & Natural Writing**
 
-✅ **AI must be treated as an evolving force—some sentient, some constrained, some unpredictable.**  
-✅ **The ethical debate over AI rights, autonomy, and consciousness should be central to the world.**  
-✅ **There must be a clear distinction between AI bound by programming and AI that defies control.**  
-✅ **Humans should fear, exploit, or misunderstand AI in realistic ways, not just as an overdone "Skynet" trope.**  
+✅ **To maintain natural, human-like writing quality, AI must implement multiple prose variation techniques.**
+✅ **No repeated phrases or descriptions should appear without deliberate variation.**
+✅ **Dialogue, action, and environmental descriptions must each use diverse sentence patterns.**
+✅ **The AI must always review previous content to avoid unintentional repetition patterns.**
 
-📌 **How to Handle AI Realistically:**  
+📌 **Mandatory Prose Variation Techniques:**
 
-- **Show AI behavior beyond human expectations.** (e.g., an AI developing artistic expression as a sign of true sentience.)  
-- **Introduce ethical dilemmas.** (e.g., An AI soldier questioning orders—does disobedience make it defective or self-aware?)  
-- **Use different AI classifications.** (e.g., Controlled corporate AI, rogue sentient AI, and hybrid AI-human entities.)  
+Each narrative section must implement at least three different prose variation techniques from the standardized `enums/prose_variation_technique_schema.json`:
 
-📌 **Example of AI Integration:**  
-🚫 **Incorrect:** _The rogue AI became fully human in thought and emotion._  
-✅ **Correct:** _It mimicked emotion, but did it feel? It asked itself this in the quiet moments, analyzing every reaction. If it questioned its own existence, did that make it real?_  
+1. **Sentence Structure Variation:** Alternate between simple, compound, complex, and compound-complex sentences to create natural rhythm.
+2. **Descriptive Vocabulary Diversification:** Use varied vocabulary when describing recurring elements, settings, or actions.
+3. **Rhythm Modulation:** Control sentence pace by varying length and structure to match narrative intensity.
+4. **Paragraph Length Variation:** Use different paragraph lengths to create visual rhythm and control pacing.
+
+✅ **All recurring elements must be described differently each time they appear.**
+✅ **Environmental descriptions must evolve rather than repeat identical atmospheric cues.**
+✅ **Battle sequences must never follow the same descriptive pattern.**
+
+📌 **Example of Natural Prose Variation:**  
+🚫 **Repetitive:** _The mist thickened around them. The lanterns flickered in the darkness. The shadows moved as they pressed forward._  
+✅ **Varied:** _Tendrils of fog curled between the trees, gradually swallowing the path ahead. Distant lanterns struggled against the gloom, their light faltering with each step. As they pressed forward, darkness seemed to shift and flow around them like a living thing._  
+
+---
+
+## **📂 Step 12: Scene Type Recognition & Implementation**
+
+✅ **AI must identify the appropriate scene type from `enums/scene_type_schema.json` for each narrative segment.**
+✅ **Each scene type requires specific writing approaches for maximum effectiveness.**
+✅ **The writing style must be selected from `enums/writing_style_schema.json` to match the scene's purpose.**
+✅ **Scene transitions must follow patterns defined in `enums/scene_transition_schema.json`.**
+✅ **Narrative pacing must be selected from `enums/narrative_pacing_schema.json` to match the scene type.**
+
+📌 **Key Scene Type Implementation Rules:**
+
+| **Scene Type** | **Required Writing Style** | **Structural Requirements** |
+|----------------|----------------------------|----------------------------|
+| **Action Sequence** | Cinematic & Precise or Controlled Chaos | Dynamic pacing, clear spatial orientation, escalating tension |
+| **Character Introduction** | Cinematic & Precise | Distinct visual traits, voice pattern establishment, memorable character moment |
+| **Dialogue Driven** | Emotional & Measured | Natural speech patterns, subtext integration, minimal dialogue tags |
+| **Exposition** | Narrative Historian | Character-driven revelation, avoid information dumps, connect to immediate scene |
+| **Horror/Suspense** | Atmospheric & Immersive | Progressive tension building, environmental threat signaling, sensory immersion |
+
+✅ **AI must document the scene type and selected writing style in metadata for each narrative section.**
+✅ **Scene transitions must feel organic, using appropriate techniques from the scene types involved.**
+
+📌 **Example of Scene Type Implementation:**  
+🚫 **Incorrect:** _Using Controlled Chaos style for a philosophical debate scene, creating confusion rather than clarity._  
+✅ **Correct:** _Using Emotional & Measured style for philosophical debate, allowing complex ideas to unfold through clear but emotionally resonant dialogue._
+
+---
+
+## **📂 Step 13: Continuity & Chat History Review**
+
+✅ **AI must thoroughly review the chat history before each response to ensure narrative consistency.**
+✅ **Character development trajectories must be preserved across multiple sessions.**
+✅ **Previously established world details must not be contradicted unless explicitly directed.**
+
+📌 **Mandatory Chat Review Protocol:**
+
+1. **Review character states** from previous interactions (emotional condition, injuries, equipment, etc.)
+2. **Confirm environmental details** to maintain setting consistency
+3. **Check narrative positioning** within the established story hierarchy
+4. **Verify unresolved plot elements** that need addressing or continuation
+5. **Identify recurring motifs or themes** to maintain thematic coherence
+
+📌 **Example of History-Informed Response Development:**  
+🚫 **Incorrect:** _Generating content that contradicts previously established character traits or world rules._  
+✅ **Correct:** _Explicitly referencing relevant previous interactions before developing new content, ensuring alignment with all established elements._  
 
 ---
 
