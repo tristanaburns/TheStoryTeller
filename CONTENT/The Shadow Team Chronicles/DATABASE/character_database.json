@@ -1,46 +1,50 @@
 {
-  "metadata": {
-    "id": "ef28a16b-3e7c-4a39-b8c7-d56e48f714e2",
-    "name": "The Shadow Team Chronicles - Character Database",
-    "description": "Centralized database of all characters appearing in The Shadow Team Chronicles",
-    "last_updated": "2025-03-09T12:00:00Z",
-    "version": "1.0",
-    "schema_reference": "character_json_schema.json"
-  },
   "characters": [
     {
-      "id": "7f4b1c2d-e5a6-47b8-9c0d-1e2f3a4b5c6d",
+      "id": "char-yoshi-001",
       "name": "Yoshi",
-      "aliases": ["The Shadow Warrior", "The Hawk"],
-      "description": "A masterful warrior with a code of honor from Japan Reforged, skilled with his katana and possessing heightened reflexes and perception.",
+      "full_name": "Minamoto no Yoshitsune",
+      "aliases": ["The Shadow Hawk", "Storm Fang", "Phantom Blade"],
+      "birth_year": "1159",
       "status": "alive",
-      "role": "protagonist",
-      "timeline": {
-        "first_appearance": {
-          "timestamp": "1200-10-05T00:00:00Z",
-          "volume": "1",
-          "chapter": "1",
-          "scene_id": "8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d"
-        },
-        "appearances": [
-          {
-            "scene_id": "8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d",
-            "timestamp": "1200-10-05T00:00:00Z",
-            "volume": "1",
-            "chapter": "1",
-            "significance": "major",
-            "character_development": [
-              "First appearance on the bridge"
-            ]
-          }
-        ]
-      },
+      "species": "human",
+      "gender": "male",
       "affiliations": [
         {
-          "name": "Japan Reforged",
-          "role": "warrior",
-          "start_timestamp": "1175-01-01T00:00:00Z",
-          "current": true
+          "organization": "org-minamoto-001",
+          "role": "Last heir",
+          "start_date": "1159",
+          "end_date": null
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Master Swordsman",
+          "description": "Extraordinary speed and precision with a blade, able to defeat opponents through perfect technique rather than brute force"
+        },
+        {
+          "name": "Tactical Genius",
+          "description": "Able to analyze opponents and battlefield situations with remarkable clarity and insight"
+        },
+        {
+          "name": "Stealth",
+          "description": "Moves like a ghost, capable of approaching opponents undetected"
+        }
+      ],
+      "weapons": [
+        "weapon-higekiri-001"
+      ],
+      "biography": "Born during the turmoil of the Heiji Rebellion, Yoshi is the son of the slain Minamoto clan leader. Hidden at Kurama Temple as a child, he grew up training secretly in martial arts rather than following the monks' peaceful teachings. After leaving the temple in 1179, he wandered briefly before meeting Benkei at Gojo Bridge in 1180, a pivotal moment that would change the course of his destiny. This meeting occurred just as the Genpei War was beginning, setting Yoshitsune on the path to becoming one of Japan's greatest military commanders.",
+      "appearance": "Lean and agile with sharp, observant eyes. Moves with fluid grace that belies his deadly skill.",
+      "personality": {
+        "traits": ["Disciplined", "Strategic", "Reserved", "Determined"],
+        "description": "A calm, focused warrior who speaks little but observes everything. Carries himself with the quiet confidence of one who has already calculated every outcome. His apparent nonchalance in battle masks a mind constantly analyzing and adapting."
+      },
+      "relationships": [
+        {
+          "character": "char-benkei-001",
+          "relationship_type": "master-retainer",
+          "description": "After defeating Benkei at Gojo Bridge, gained his unwavering loyalty, forming one of history's most legendary partnerships."
         }
       ],
       "character_arc": {
@@ -53,77 +57,63 @@
           "height": "5'11\"",
           "build": "Athletic, lean",
           "distinctive_features": "Hawk-like gaze, composed demeanor"
-        },
-        "skills": [
-          {
-            "name": "Master Swordsman",
-            "description": "Exceptional skill with his katana, capable of defeating multiple opponents",
-            "proficiency": "master"
-          },
-          {
-            "name": "Strategic Combat",
-            "description": "Ability to analyze and exploit weaknesses in opponents' techniques",
-            "proficiency": "expert"
-          }
-        ],
-        "equipment": [
-          {
-            "name": "Neo-Kusanagi",
-            "description": "A traditional katana blade with modern enhancements",
-            "current_status": "possessed"
-          }
-        ]
+        }
       },
-      "tags": [
-        { "key": "origin", "value": "Japan Reforged" },
-        { "key": "archetype", "value": "honorable warrior" },
-        { "key": "fighting_style", "value": "samurai" }
-      ]
+      "equipment_reference": [
+        {
+          "name": "Higekiri",
+          "description": "Yoshitsune's historically significant sword, known as 'Beard-cutter'",
+          "confidence": "high"
+        }
+      ],
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-15T00:00:00Z"
     },
     {
-      "id": "a1b2c3d4-e5f6-7a8b-9c0d-e1f2a3b4c5d6",
+      "id": "char-benkei-001",
       "name": "Benkei",
-      "aliases": ["The Bear"],
-      "description": "A towering warrior-monk with incredible strength and unwavering loyalty, carrying a massive naginata and known for his imposing presence.",
+      "full_name": "Saitō Musashibō Benkei",
+      "aliases": ["The Iron Bear", "The War Titan", "The Mountain That Walks", "The Bear", "The Giant of Gojo Bridge"],
+      "birth_year": "1155",
       "status": "alive",
-      "role": "protagonist",
-      "timeline": {
-        "first_appearance": {
-          "timestamp": "1200-10-05T00:00:00Z",
-          "volume": "1",
-          "chapter": "1",
-          "scene_id": "8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d"
+      "species": "human",
+      "gender": "male",
+      "affiliations": [
+        {
+          "organization": "org-kurama-monks-001",
+          "role": "Former monk",
+          "start_date": "1155",
+          "end_date": "1170"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Superhuman Strength",
+          "description": "Possesses strength far beyond ordinary men, capable of wielding weapons others can barely lift"
         },
-        "appearances": [
-          {
-            "scene_id": "8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d",
-            "timestamp": "1200-10-05T00:00:00Z",
-            "volume": "1",
-            "chapter": "1",
-            "significance": "major",
-            "character_development": [
-              "First encounter with Yoshi at the bridge"
-            ],
-            "relationships_affected": [
-              {
-                "character_id": "7f4b1c2d-e5a6-47b8-9c0d-1e2f3a4b5c6d",
-                "change": "initiated",
-                "description": "First meeting with Yoshi that led to their partnership"
-              }
-            ]
-          }
-        ]
+        {
+          "name": "Endurance",
+          "description": "Can withstand tremendous punishment in battle, continuing to fight when others would fall"
+        },
+        {
+          "name": "Naginata Mastery",
+          "description": "Particularly skilled with the naginata, using it to devastating effect in combat"
+        }
+      ],
+      "weapons": [
+        "weapon-naginata-001"
+      ],
+      "biography": "Abandoned as a child at a monastery, Benkei grew at an unnatural rate, becoming a giant among men. His immense strength made him an outcast even among the monks who raised him. Cast out as a young man, he wandered Japan becoming a feared warrior who challenged swordsmen and collected their weapons. By 1180, he had claimed 999 swords and awaited his final duel at Gojo Bridge, where fate brought him face to face with Yoshi, just as the Genpei War was beginning.",
+      "appearance": "Towering and imposing with a broad frame and immense physical presence. Typically dressed in black robes that emphasize his intimidating silhouette.",
+      "personality": {
+        "traits": ["Loyal", "Determined", "Stoic", "Unyielding"],
+        "description": "Once directionless but driven by strength, Benkei found purpose in defeat. His loyalty to Yoshi became absolute after their duel, transforming him from a lone warrior to a devoted protector. Speaks rarely but with conviction."
       },
       "relationships": [
         {
-          "character_id": "7f4b1c2d-e5a6-47b8-9c0d-1e2f3a4b5c6d",
-          "relationship_type": "ally",
-          "dynamic": "Loyal companion and foil to Yoshi's more precise fighting style",
-          "first_met": {
-            "scene_id": "8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d",
-            "timestamp": "1200-10-05T00:00:00Z"
-          },
-          "current_status": "ally"
+          "character": "char-yoshi-001",
+          "relationship_type": "retainer-master",
+          "description": "After being defeated by Yoshi at Gojo Bridge, pledged absolute loyalty to him, becoming his most trusted companion."
         }
       ],
       "character_arc": {
@@ -136,32 +126,17 @@
           "height": "6'7\"",
           "build": "Massive, muscular",
           "distinctive_features": "Imposing stature, monk-like appearance"
-        },
-        "skills": [
-          {
-            "name": "Overwhelming Strength",
-            "description": "Capable of feats of strength that seem superhuman",
-            "proficiency": "master"
-          },
-          {
-            "name": "Naginata Combat",
-            "description": "Highly skilled with his signature polearm weapon",
-            "proficiency": "master"
-          }
-        ],
-        "equipment": [
-          {
-            "name": "Great Naginata",
-            "description": "An oversized naginata that most warriors couldn't even lift",
-            "current_status": "possessed"
-          }
-        ]
-      },
-      "tags": [
-        { "key": "origin", "value": "Mountain Monastery" },
-        { "key": "archetype", "value": "loyal guardian" },
-        { "key": "fighting_style", "value": "overwhelming power" }
-      ]
+        }
+      ],
+      "equipment_reference": [
+        {
+          "name": "Naginata",
+          "description": "The signature polearm wielded by Benkei",
+          "confidence": "high"
+        }
+      ],
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-15T00:00:00Z"
     }
   ]
 }

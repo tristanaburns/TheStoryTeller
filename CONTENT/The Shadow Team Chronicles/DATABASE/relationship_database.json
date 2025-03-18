@@ -1,0 +1,114 @@
+{
+  "relationships": [
+    {
+      "id": "rel-yoshi-benkei-001",
+      "type": "master-retainer",
+      "start_date": "1180",
+      "end_date": null,
+      "status": "active",
+      "entities": [
+        {
+          "id": "char-yoshi-001",
+          "role": "master"
+        },
+        {
+          "id": "char-benkei-001",
+          "role": "retainer"
+        }
+      ],
+      "description": "The legendary bond between Yoshi and Benkei, formed after their duel at Gojo Bridge. Characterized by Benkei's unwavering loyalty and Yoshi's trust in his strength.",
+      "defining_events": [
+        "event-yoshi-benkei-duel-001"
+      ],
+      "dynamics": [
+        "Mutual respect born from combat",
+        "Complementary skills and abilities",
+        "Shared purpose despite different backgrounds"
+      ],
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-14T00:00:00Z"
+    },
+    {
+      "id": "rel-minamoto-taira-001",
+      "type": "clan-rivalry",
+      "start_date": "unknown",
+      "end_date": null,
+      "status": "active",
+      "entities": [
+        {
+          "id": "org-minamoto-001",
+          "role": "defeated clan"
+        },
+        {
+          "id": "org-taira-001",
+          "role": "dominant clan"
+        }
+      ],
+      "description": "The bitter rivalry between the Minamoto and Taira clans that shaped Japanese politics during the late Heian period. This conflict forms the backdrop for Yoshi's story as the last hope of the Minamoto.",
+      "defining_events": [
+        "event-heiji-rebellion-001"
+      ],
+      "dynamics": [
+        "Power struggle for control of Japan",
+        "Personal vendetta following the execution of Minamoto leaders",
+        "Political maneuvering and military confrontation"
+      ],
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-10T00:00:00Z"
+    },
+    {
+      "id": "rel-yoshi-kurama-monks-001",
+      "type": "pupil-sanctuary",
+      "start_date": "1159",
+      "end_date": "1179",
+      "status": "former",
+      "entities": [
+        {
+          "id": "char-yoshi-001",
+          "role": "hidden heir"
+        },
+        {
+          "id": "org-kurama-monks-001",
+          "role": "protectors"
+        }
+      ],
+      "description": "The complex relationship between young Yoshi and the monks who raised him, characterized by protection but also constraint, as Yoshi's warrior spirit chafed against their peaceful teachings.",
+      "defining_events": [
+        "event-yoshi-temple-training-001",
+        "event-yoshi-leaves-temple-001"
+      ],
+      "dynamics": [
+        "Protection versus confinement",
+        "Secret training against monastic wishes",
+        "Philosophical differences regarding violence and duty"
+      ],
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-10T00:00:00Z"
+    },
+    {
+      "id": "rel-benkei-kurama-monks-001",
+      "type": "former-member",
+      "start_date": "1155",
+      "end_date": "1170",
+      "status": "former",
+      "entities": [
+        {
+          "id": "char-benkei-001",
+          "role": "outcast"
+        },
+        {
+          "id": "org-kurama-monks-001",
+          "role": "former order"
+        }
+      ],
+      "description": "Benkei's troubled relationship with the monastic order that raised him but ultimately cast him out due to his uncontrollable strength and violent tendencies.",
+      "dynamics": [
+        "Failed attempts to conform to monastic discipline",
+        "Rejection leading to wandering warrior path",
+        "Use of monastic combat training for personal glory"
+      ],
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-10T00:00:00Z"
+    }
+  ]
+}

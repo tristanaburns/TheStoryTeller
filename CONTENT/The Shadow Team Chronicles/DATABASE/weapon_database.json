@@ -1,0 +1,105 @@
+{
+  "weapons": [
+    {
+      "id": "weapon-voidfang-001",
+      "name": "Voidfang",
+      "type": "katana",
+      "owner": "char-yoshi-001",
+      "description": "Yoshi's primary katana, known for its exceptional sharpness and lightness. Used during his legendary duel with Benkei at Gojo Bridge.",
+      "properties": [
+        "Lightweight but incredibly durable",
+        "Exceptional cutting edge that rarely dulls",
+        "Perfect balance allowing for Yoshi's precise fighting style"
+      ],
+      "history": "The origin of this blade is shrouded in mystery, though it was in Yoshi's possession during his pivotal duel at Gojo Bridge.",
+      "significance": "The sword that Benkei sought as his 1000th trophy, but failed to claim, changing both warriors' destinies. The weapon that cemented Yoshi's reputation as a peerless swordsman.",
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-12T00:00:00Z"
+    },
+    {
+      "id": "weapon-dawnpiercer-001",
+      "name": "Dawnpiercer",
+      "type": "tanto",
+      "owner": "char-yoshi-001",
+      "description": "A companion blade to Yoshi's katana, this tanto serves as both tool and emergency weapon.",
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-10T00:00:00Z"
+    },
+    {
+      "id": "weapon-stormpiercer-001",
+      "name": "Stormpiercer",
+      "type": "bow",
+      "owner": "char-yoshi-001",
+      "description": "A compact yet powerful bow that Yoshi uses for ranged combat when necessary.",
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-10T00:00:00Z"
+    },
+    {
+      "id": "weapon-crimson-dawn-001",
+      "name": "Crimson Dawn",
+      "type": "oversized_katana",
+      "owner": "char-benkei-001",
+      "description": "A massive katana that most warriors could not even lift, forged specifically for Benkei's tremendous strength.",
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-10T00:00:00Z" 
+    },
+    {
+      "id": "weapon-dreadfang-001",
+      "name": "Dreadfang",
+      "type": "naginata",
+      "owner": "char-benkei-001",
+      "description": "Benkei's signature warborn naginata, a polearm weapon with exceptional reach and devastating cutting power.",
+      "properties": [
+        "Exceptionally long reach",
+        "Reinforced shaft capable of blocking sword strikes",
+        "Crescent blade with both cutting and piercing capabilities"
+      ],
+      "history": "Wielded by Benkei during his legendary confrontation with Yoshi at Gojo Bridge.",
+      "significance": "The weapon that defined Benkei as 'The Giant of Gojo Bridge' during his collection of 999 swords.",
+      "special_attributes": ["Warborn", "Oversized for normal warriors"],
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-12T00:00:00Z"
+    },
+    {
+      "id": "weapon-judgment-001",
+      "name": "Judgment",
+      "type": "war_hammer",
+      "owner": "char-benkei-001",
+      "description": "A massive war hammer that complements Benkei's arsenal, allowing him to deliver crushing blows against armored opponents.",
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-10T00:00:00Z"
+    },
+    {
+      "id": "weapon-higekiri-001",
+      "name": "Higekiri",
+      "type": "katana",
+      "owner": "char-yoshi-001",
+      "description": "Yoshitsune's famous sword, known as 'Beard-cutter' in historical accounts. A well-crafted blade of exceptional quality that became legendary through its association with Yoshitsune's exploits.",
+      "properties": [
+        "Exceptional cutting edge",
+        "Perfect balance allowing for precise fighting style",
+        "Historical significance as a weapon of Minamoto no Yoshitsune"
+      ],
+      "history": "One of the historically significant swords associated with Minamoto no Yoshitsune. Its name 'Higekiri' ('Beard-cutter') reflects its legendary sharpness.",
+      "significance": "The sword that Benkei sought as his 1000th trophy, but failed to claim, changing both warriors' destinies. A symbol of Yoshitsune's martial prowess.",
+      "created_at": "2025-03-15T00:00:00Z",
+      "updated_at": "2025-03-15T00:00:00Z"
+    },
+    {
+      "id": "weapon-naginata-001",
+      "name": "Benkei's Naginata",
+      "type": "naginata",
+      "owner": "char-benkei-001",
+      "description": "Benkei's primary weapon, a traditional Japanese polearm consisting of a curved blade on a long shaft, allowing for powerful sweeping attacks and maintaining distance from opponents.",
+      "properties": [
+        "Exceptionally long reach",
+        "Reinforced shaft capable of blocking sword strikes",
+        "Crescent blade with both cutting and piercing capabilities"
+      ],
+      "history": "Wielded by Benkei during his legendary confrontation with Yoshitsune at Gojo Bridge in 1180.",
+      "significance": "The weapon that defined Benkei as 'The Giant of Gojo Bridge' during his collection of 999 swords.",
+      "created_at": "2025-03-15T00:00:00Z",
+      "updated_at": "2025-03-15T00:00:00Z"
+    }
+  ]
+}

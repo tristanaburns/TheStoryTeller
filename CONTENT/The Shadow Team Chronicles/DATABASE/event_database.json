@@ -1,0 +1,131 @@
+{
+  "events": [
+    {
+      "id": "event-heiji-rebellion-001",
+      "name": "Heiji Rebellion",
+      "date": "1159",
+      "location": "loc-kyoto-001",
+      "description": "A brief but violent conflict where the Taira clan crushed the Minamoto uprising, resulting in the execution of the Minamoto leader Yoshitomo and the near-extinction of the clan.",
+      "significance": "Created the power vacuum that shaped Yoshi's early life as a hunted child and heir to a defeated legacy.",
+      "participants": [
+        {
+          "organization": "org-minamoto-001",
+          "role": "defeated faction"
+        },
+        {
+          "organization": "org-taira-001",
+          "role": "victorious faction"
+        }
+      ],
+      "consequences": [
+        "Death of Minamoto no Yoshitomo, Yoshi's father",
+        "Taira dominance over Japanese politics",
+        "Yoshi being hidden at Kurama Temple for his safety"
+      ],
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-10T00:00:00Z"
+    },
+    {
+      "id": "event-yoshi-temple-training-001",
+      "name": "Yoshi's Secret Training at Kurama Temple",
+      "date": "1160-1179",
+      "location": "loc-kurama-temple-001",
+      "description": "During his time at Kurama Temple, young Yoshi secretly trained in martial arts, studying combat scrolls and practicing at night while the other monks slept. He developed his distinctive fighting style combining speed, precision, and tactical thinking.",
+      "significance": "Formative period where Yoshi developed the skills that would later make him legendary.",
+      "participants": [
+        {
+          "character": "char-yoshi-001",
+          "role": "student"
+        },
+        {
+          "organization": "org-kurama-monks-001",
+          "role": "unwitting teachers"
+        }
+      ],
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-10T00:00:00Z"
+    },
+    {
+      "id": "event-yoshi-leaves-temple-001",
+      "name": "Yoshi Leaves Kurama Temple",
+      "date": "1179",
+      "location": "loc-kurama-temple-001",
+      "description": "Following a raid on the temple where Yoshi killed several bandits, revealing his combat skills and true nature, he chose to leave the monastery and begin his journey as a wandering swordsman.",
+      "significance": "Marked Yoshi's transition from hidden child to active warrior, beginning his path toward becoming a legend.",
+      "participants": [
+        {
+          "character": "char-yoshi-001",
+          "role": "departing warrior"
+        },
+        {
+          "organization": "org-kurama-monks-001",
+          "role": "former guardians"
+        }
+      ],
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-10T00:00:00Z"
+    },
+    {
+      "id": "event-benkei-sword-collection-001",
+      "name": "Benkei's 999 Sword Collection",
+      "date": "1176-1180",
+      "description": "Over several years, Benkei challenged and defeated 999 swordsmen across Japan, taking their weapons as trophies. His reputation grew with each victory, making him a feared figure known as the 'Demon of Gojo Bridge'.",
+      "significance": "Established Benkei's fearsome reputation and set the stage for his fateful meeting with Yoshi.",
+      "participants": [
+        {
+          "character": "char-benkei-001",
+          "role": "challenger"
+        }
+      ],
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-10T00:00:00Z"
+    },
+    {
+      "id": "event-yoshi-benkei-duel-001",
+      "name": "The Duel at Gojo Bridge",
+      "date": "1180",
+      "location": "loc-gojo-bridge-001",
+      "description": "The legendary confrontation where Yoshi and Benkei first met. Benkei challenged Yoshi, seeking his sword Higekiri as the thousandth in his collection. Despite Benkei's overwhelming strength, Yoshi defeated him with swift strikes, earning Benkei's lifelong loyalty.",
+      "significance": "Pivotal moment marking the beginning of one of history's most legendary partnerships and the start of their shared destiny.",
+      "participants": [
+        {
+          "character": "char-yoshi-001",
+          "role": "victor"
+        },
+        {
+          "character": "char-benkei-001",
+          "role": "defeated challenger"
+        }
+      ],
+      "consequences": [
+        "Benkei pledging loyalty to Yoshi",
+        "Formation of their legendary partnership",
+        "Beginning of their journey together"
+      ],
+      "themes": ["Fate", "Honor", "Battle of Legends"],
+      "narrative_tones": ["Epic", "Cinematic", "Mythic"],
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-15T00:00:00Z"
+    },
+    {
+      "id": "event-genpei-war-start-001",
+      "name": "Beginning of the Genpei War",
+      "date": "1180",
+      "location": "loc-kyoto-001",
+      "description": "The outbreak of the Genpei War between the Minamoto and Taira clans, a major conflict that would decide the fate of Japan.",
+      "significance": "Major historical conflict that provided the backdrop for Yoshi's rise as a military leader alongside his loyal retainer Benkei.",
+      "participants": [
+        {
+          "organization": "org-minamoto-001",
+          "role": "challenger faction"
+        },
+        {
+          "organization": "org-taira-001",
+          "role": "ruling faction"
+        }
+      ],
+      "created_at": "2025-03-14T00:00:00Z",
+      "updated_at": "2025-03-14T00:00:00Z"
+    }
+  ]
+}

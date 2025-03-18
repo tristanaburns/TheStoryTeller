@@ -1,0 +1,57 @@
+{
+  "timeline": {
+    "id": "timeline-main-001",
+    "name": "Main Timeline",
+    "description": "The primary chronological sequence of events in The Shadow Team Chronicles universe, aligned with historical records of the late Heian period",
+    "events": [
+      {
+        "event_id": "event-heiji-rebellion-001",
+        "date": "1159",
+        "significance": "high",
+        "causal_impact": [
+          "event-yoshi-temple-training-001"
+        ]
+      },
+      {
+        "event_id": "event-yoshi-temple-training-001",
+        "date": "1160-1179",
+        "significance": "medium",
+        "causal_impact": [
+          "event-yoshi-leaves-temple-001"
+        ]
+      },
+      {
+        "event_id": "event-benkei-sword-collection-001",
+        "date": "1176-1180",
+        "significance": "medium",
+        "causal_impact": [
+          "event-yoshi-benkei-duel-001"
+        ]
+      },
+      {
+        "event_id": "event-yoshi-leaves-temple-001",
+        "date": "1179",
+        "significance": "medium",
+        "causal_impact": [
+          "event-yoshi-benkei-duel-001"
+        ]
+      },
+      {
+        "event_id": "event-yoshi-benkei-duel-001",
+        "date": "1180",
+        "significance": "high",
+        "causal_impact": [
+          "event-genpei-war-start-001"
+        ]
+      },
+      {
+        "event_id": "event-genpei-war-start-001",
+        "date": "1180",
+        "significance": "high",
+        "causal_impact": []
+      }
+    ],
+    "created_at": "2025-03-10T00:00:00Z",
+    "updated_at": "2025-03-14T00:00:00Z"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "organizations": [
+    {
+      "id": "org-minamoto-001",
+      "name": "Minamoto Clan",
+      "type": "clan",
+      "founded": "unknown",
+      "status": "weakened",
+      "description": "A powerful samurai clan that once rivaled the Taira for influence in Japan. Nearly destroyed during the Heiji Rebellion of 1159, when their leader Minamoto no Yoshitomo was killed. Yoshi is one of the few surviving heirs to this once-great lineage.",
+      "headquarters": "formerly Kyoto region",
+      "leadership": [
+        {
+          "name": "Minamoto no Yoshitomo",
+          "role": "Clan Head",
+          "start_date": "unknown",
+          "end_date": "1159",
+          "status": "deceased"
+        },
+        {
+          "name": "Minamoto no Yoritomo",
+          "role": "Clan Head",
+          "start_date": "1180",
+          "end_date": null,
+          "status": "active"
+        }
+      ],
+      "notable_members": [
+        "char-yoshi-001"
+      ],
+      "rivals": [
+        "org-taira-001"
+      ],
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-10T00:00:00Z"
+    },
+    {
+      "id": "org-taira-001",
+      "name": "Taira Clan",
+      "type": "clan",
+      "founded": "unknown",
+      "status": "dominant",
+      "description": "The ruling clan of Japan during the late Heian period after defeating the Minamoto in the Heiji Rebellion. Controlling the imperial court and maintaining power through strategic marriages and political alliances.",
+      "headquarters": "Kyoto",
+      "leadership": [
+        {
+          "name": "Taira no Kiyomori",
+          "role": "Clan Head",
+          "start_date": "unknown",
+          "end_date": null,
+          "status": "active"
+        }
+      ],
+      "rivals": [
+        "org-minamoto-001"
+      ],
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-10T00:00:00Z"
+    },
+    {
+      "id": "org-kurama-monks-001",
+      "name": "Kurama Temple Monks",
+      "type": "religious_order",
+      "founded": "unknown",
+      "status": "active",
+      "description": "The monastic order residing at Mount Kurama, combining spiritual practice with martial training. Known for both their religious devotion and their skills as warrior monks (sōhei).",
+      "headquarters": "loc-kurama-temple-001",
+      "leadership": [
+        {
+          "name": "Abbot of Kurama",
+          "role": "Spiritual Leader",
+          "start_date": "unknown",
+          "end_date": null,
+          "status": "active"
+        }
+      ],
+      "notable_former_members": [
+        "char-benkei-001"
+      ],
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-10T00:00:00Z"
+    }
+  ]
+}

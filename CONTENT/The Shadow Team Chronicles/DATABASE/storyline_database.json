@@ -1,0 +1,67 @@
+{
+  "storylines": [
+    {
+      "id": "storyline-shadow-team-001",
+      "name": "The Shadow Team Chronicles",
+      "description": "The epic saga of legendary warriors whose fates become intertwined through encounters that shape the course of history.",
+      "volumes": [
+        {
+          "id": "volume-introduction-001",
+          "name": "Introduction",
+          "description": "The foundational events that establish the core characters and their legendary partnerships.",
+          "acts": [
+            {
+              "id": "act-origins-001",
+              "name": "Act I - Origins",
+              "description": "The origin stories of key characters and how their paths cross in ways that will change the course of history.",
+              "stories": [
+                {
+                  "id": "story-bridge-of-fate-001",
+                  "name": "The Bridge of Fate",
+                  "description": "The legendary first meeting between Yoshi and Benkei that forges their unbreakable bond and sets them on a shared path.",
+                  "chapters": [
+                    {
+                      "id": "chapter-duel-at-gojo-001",
+                      "name": "Chapter 1 - The Duel at Gojo Bridge",
+                      "description": "The fateful encounter where Yoshi and Benkei's legendary duel takes place in 1180, changing both their destinies forever, with the backdrop of the beginning Genpei War.",
+                      "passages": [
+                        {
+                          "id": "passage-bridge-decide-fate-001",
+                          "name": "The Bridge That Would Decide Fate",
+                          "description": "The atmospheric setting of Gojo Bridge, where countless duels have taken place and where Yoshi and Benkei are about to meet.",
+                          "parts": [
+                            {
+                              "id": "part-opening-duel-001",
+                              "name": "Opening Duel Between Yoshi and Benkei",
+                              "description": "The initial confrontation between Yoshi and Benkei, establishing their legendary rivalry and eventual partnership.",
+                              "writing_style": "Cinematic & Precise",
+                              "scene_elements": {
+                                "characters": ["char-yoshi-001", "char-benkei-001"],
+                                "locations": ["loc-gojo-bridge-001"],
+                                "events": ["event-yoshi-benkei-duel-001"],
+                                "themes": ["Fate", "Honor", "Battle of Legends"],
+                                "tone": ["Epic", "Cinematic", "Mythic"]
+                              },
+                              "multimedia": {
+                                "image_prompt": "A mist-covered wooden bridge under the pale moonlight. The air is thick with silence and the echoes of past battles. At the center stands Benkei, a towering warrior, gripping his naginata. Opposite him, Yoshi—a lean, sharp-eyed swordsman—with his hand ready to draw his sword Higekiri. The bridge bears the scars of countless duels: broken railings, deep slashes in the wood, and a single bloodstained sandal at its entrance.",
+                                "video_prompt": "A cinematic video sequence capturing the legendary duel at Gojo Bridge. The camera pans through the mist, revealing the bridge's battle-worn structure. Temple bells toll softly in the distance. The mist shifts to reveal Benkei, standing like an immovable statue, gripping his naginata. Across from him, Yoshi smirks, drawing his sword Higekiri. The atmosphere is tense—like the breath before a storm. A single gust of wind sweeps through the bridge. Then, silence. And the duel begins."
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "key_characters": ["char-yoshi-001", "char-benkei-001"],
+      "main_locations": ["loc-gojo-bridge-001", "loc-kyoto-001"],
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-15T00:00:00Z"
+    }
+  ]
+}

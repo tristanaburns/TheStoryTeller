@@ -1,0 +1,80 @@
+{
+  "locations": [
+    {
+      "id": "loc-gojo-bridge-001",
+      "name": "Gojo Bridge",
+      "type": "landmark",
+      "region": "Kyoto",
+      "country": "Japan",
+      "era": "Late Heian Period",
+      "description": "A legendary wooden bridge spanning the Kamo River in Kyoto. Known as a dueling ground where warriors test their skills. The site of the famous encounter between Yoshi and Benkei in 1180. The bridge bears the scars of countless duels: broken railings, deep slashes in the wood, and even bloodstained artifacts remaining from past confrontations.",
+      "significance": "Historical dueling ground and the location where Yoshi defeated Benkei, beginning their legendary partnership.",
+      "features": [
+        "Wide wooden planks bearing scars from countless duels",
+        "Atmospheric mist that often shrouds the bridge, adding to its mystique",
+        "Central position in Kyoto, making it a natural meeting point and challenge ground",
+        "Broken railings and deep slashes in the wood from past battles",
+        "Occasional remnants of past duels, including abandoned or bloodstained items"
+      ],
+      "notable_events": [
+        "event-yoshi-benkei-duel-001"
+      ],
+      "associated_characters": [
+        "char-yoshi-001",
+        "char-benkei-001"
+      ],
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-14T00:00:00Z"
+    },
+    {
+      "id": "loc-kurama-temple-001",
+      "name": "Kurama Temple",
+      "type": "religious_site",
+      "region": "Mount Kurama",
+      "country": "Japan",
+      "era": "Late Heian Period",
+      "description": "A mountaintop Buddhist temple north of Kyoto where Yoshi spent his childhood and youth. The temple combines religious practice with martial training, housing both monks devoted to peace and warrior monks skilled in combat.",
+      "significance": "Sanctuary for young Yoshi after his father's death and the site of his formative training.",
+      "features": [
+        "Remote mountain location providing natural protection",
+        "Training grounds where warrior monks practice combat disciplines",
+        "Ancient library with scrolls on strategy and martial arts",
+        "Stone courtyards used for meditation and combat training"
+      ],
+      "notable_events": [
+        "event-yoshi-temple-training-001",
+        "event-yoshi-leaves-temple-001"
+      ],
+      "associated_characters": [
+        "char-yoshi-001"
+      ],
+      "associated_organizations": [
+        "org-kurama-monks-001"
+      ],
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-10T00:00:00Z"
+    },
+    {
+      "id": "loc-kyoto-001",
+      "name": "Kyoto",
+      "type": "city",
+      "region": "Central Japan",
+      "country": "Japan",
+      "era": "Late Heian Period",
+      "description": "The imperial capital of Japan during the Heian period, a center of power, culture, and political intrigue. The city where Gojo Bridge is located.",
+      "significance": "Center of political power in Japan and setting for key events in Yoshi and Benkei's story.",
+      "features": [
+        "Imperial Palace complex",
+        "Numerous temples and shrines",
+        "Kamo River dividing portions of the city",
+        "Bustling markets and districts"
+      ],
+      "associated_organizations": [
+        "org-minamoto-001",
+        "org-taira-001"
+      ],
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-10T00:00:00Z"
+    }
+  ]
+}
