@@ -75,6 +75,15 @@ These schemas define structures for specific narrative elements:
 - `psychological_profile_schema.json` - Mental characteristics
 - `backstory_schema.json` - Personal history
 - `character_metadata_schema.json` - Character documentation
+- `chapter_information_schema.json` - Comprehensive chapter documentation and analysis
+
+#### Chapter Information Schemas (`chapter/`)
+- `chapter_information_schema.json` - Primary schema for chapter documentation and analysis
+- `chapter_sections_schema.json` - Structure for breaking down chapter components
+- `chapter_narrative_elements_schema.json` - Elements that compose narrative structure
+- `character_arc_schema.json` - Character development tracking within chapters
+- `editorial_notes_schema.json` - Writing guidance and improvement tracking
+- `pacing_analysis_schema.json` - Rhythm and flow analysis of narrative sections
 
 #### Location Schemas (`location/`)
 - `geographic_data_schema.json` - Physical characteristics
@@ -133,5 +142,10 @@ For guidance on implementing these schemas, refer to our documentation suite:
 * **[Location Schemas Guide](location_schemas_guide.md)** - Location schema implementation
 * **[Organization Schemas Guide](organization_schemas_guide.md)** - Organization schema implementation
 * **[Timeline Schemas Guide](timeline_schemas_guide.md)** - Timeline schema implementation
+* **[Chapter Information Schema Usage](chapter_information_schema_usage.md)** - Chapter information schema implementation
+* **[Chapter Information Implementation Guide](chapter_information_implementation_guide.md)** - Step-by-step chapter documentation
+* **[Chapter Information Schema Visual Guide](chapter_information_schema_visual_guide.md)** - Visual chapter schema representation
+* **[Chapter Information Schema Quick Reference](chapter_information_schema_quick_reference.md)** - At-a-glance reference
+* **[Chapter Information Schema Troubleshooting](chapter_information_schema_troubleshooting.md)** - Common issues and solutions
 * **[Historical Events Guide](historical_events_guide.md)** - Historical event schema implementation
 * **[Implementing Metadata System](implementing_metadata_system.md)** - Metadata schema implementation

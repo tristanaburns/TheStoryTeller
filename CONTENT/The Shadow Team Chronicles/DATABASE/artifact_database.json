@@ -1,0 +1,52 @@
+{
+  "artifacts": [
+    {
+      "id": "artifact-999-swords-collection",
+      "name": "Benkei's Collection of 999 Swords",
+      "type": "collection",
+      "sub_type": "war_trophy",
+      "owner": "char-benkei-001",
+      "location": "unknown",
+      "description": "A collection of 999 swords taken from warriors defeated by Benkei at Gojo Bridge. Each weapon represents a victory and contributes to Benkei's fearsome reputation as 'The Giant of Gojo Bridge.'",
+      "physical_properties": {
+        "composition": "Various swords of different makes and qualities",
+        "appearance": "Diverse collection of blades, some likely ornate, others simple but functional",
+        "condition": "Varied - some might be damaged from the duels in which they were claimed"
+      },
+      "significance": {
+        "historical": "Tangible evidence of Benkei's martial prowess and the many duels fought at Gojo Bridge",
+        "personal": "Represents Benkei's quest and purpose, possibly filling some deeper void",
+        "narrative": "Sets up the significance of the 1000th sword (Yoshi's) as a milestone and turning point",
+        "cultural": "Reflects the warrior tradition of collecting trophies from defeated opponents"
+      },
+      "history": {
+        "creation": "Accumulated over months of duels at Gojo Bridge",
+        "notable_events": [
+          {
+            "event_id": "event-benkei-999-swords",
+            "description": "The completion of the collection up to 999 swords"
+          }
+        ]
+      },
+      "cultural_context": {
+        "symbolism": "Represents martial achievement and dominance in warrior culture",
+        "traditions": "Collection of defeated opponents' weapons is a recognized practice in samurai tradition"
+      },
+      "related_artifacts": [
+        {
+          "artifact_id": "weapon-higekiri-001",
+          "relationship": "sought_as_addition",
+          "description": "Yoshi's sword, which Benkei sought to claim as his 1000th trophy"
+        }
+      ],
+      "metadata": {
+        "creation_date": "2025-03-15T00:00:00Z",
+        "last_modified": "2025-03-15T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - INTRODUCTION - The Bridge of Fate.md",
+        "confidence": "high"
+      }
+    }
+  ]
+}

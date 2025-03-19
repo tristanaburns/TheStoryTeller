@@ -646,6 +646,54 @@ Connect timeline events to organizational development:
 }
 ```
 
+## Integration with Chapter Information Schema
+
+The timeline system works closely with the Chapter Information Schema to ensure narrative consistency:
+
+### Timeline-Chapter Connections
+
+1. **Timeline Placement**: Each chapter's `narrative_time` element places it within the broader timeline
+2. **Chapter Sequencing**: The `previous_chapter` and `next_chapter` references establish reading order
+3. **Event Anchoring**: Chapters reference events that are positioned within the timeline
+4. **Time Span Documentation**: The `time_span_description` provides context about temporal duration
+
+### Implementation Best Practices
+
+When connecting timeline and chapter information:
+
+1. **Validate Timeline Consistency**: Ensure chapter dates align with established timeline events
+2. **Document Timeline Anomalies**: When using non-linear storytelling (flashbacks, flash-forwards), document these explicitly
+3. **Maintain Causality**: Events referenced in chapters should respect cause-effect relationships in the timeline
+4. **Cross-Reference Events**: Events should be documented in both the timeline and chapter information
+
+### Example Timeline-Chapter Integration
+
+```json
+// In chapter_information.json
+"narrative_time": {
+  "start_date": "1180-03-15",
+  "end_date": "1180-03-19",
+  "time_span_description": "Four days during early spring"
+},
+"key_events": ["event-benkei-oath-001", "event-journey-north-begins-001"]
+
+// In timeline_database.json
+"timeline_events": [
+  {
+    "id": "event-benkei-oath-001",
+    "date": "1180-03-15",
+    "chapter_reference": "chapter-warriors-oath-001"
+  },
+  {
+    "id": "event-journey-north-begins-001",
+    "date": "1180-03-16",
+    "chapter_reference": "chapter-warriors-oath-001"
+  }
+]
+```
+
+For detailed information on working with chapter information specifically, refer to the [Chapter Information Schema Usage Guide](chapter_information_schema_usage.md).
+
 ## Conclusion
 
 The timeline schema system provides a powerful framework for creating coherent historical narratives within The Shadow Team Chronicles universe. By thoughtfully connecting events, establishing clear temporal relationships, and integrating with characters, locations, and organizations, you can build a rich and internally consistent world history that supports compelling storytelling.

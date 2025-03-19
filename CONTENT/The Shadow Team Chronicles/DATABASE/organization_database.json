@@ -78,6 +78,95 @@
       ],
       "created_at": "2025-03-10T00:00:00Z",
       "updated_at": "2025-03-10T00:00:00Z"
+    },
+    {
+      "id": "org-mountain-monastery-001",
+      "name": "Mountain Monastery",
+      "type": "religious",
+      "sub_type": "buddhist_monastery",
+      "era": "Heian Period",
+      "description": "A remote Buddhist monastery built into the side of a steep mountain where young Benkei was raised. The monastery combines religious education with physical disciplines, including martial arts training for self-defense.",
+      "leadership": [
+        {
+          "character_id": "char-monastery-abbot-001",
+          "role": "Abbot",
+          "authority_level": "absolute within monastery"
+        }
+      ],
+      "location": {
+        "location_id": "loc-mountain-monastery-001",
+        "relationship": "headquarters"
+      },
+      "historical_significance": "One of many remote monasteries that preserved Buddhist teachings and provided education to orphaned or abandoned children during the Heian period.",
+      "activities": [
+        "Religious instruction and practice",
+        "Self-sustaining agriculture",
+        "Physical training including martial arts",
+        "Taking in orphaned children"
+      ],
+      "symbolism": {
+        "representation": "The struggle between spiritual ideals and innate nature",
+        "narrative_role": "Origin of Benkei's conflict between peaceful teachings and warrior spirit"
+      },
+      "members": [
+        {
+          "character_id": "char-benkei-001",
+          "role": "former novice",
+          "joined_date": "approximate:1155",
+          "left_date": "approximate:1170",
+          "leaving_circumstances": "Chose to leave after failing to reconcile his warrior nature with monastic ideals"
+        }
+      ],
+      "metadata": {
+        "creation_date": "2025-03-17T00:00:00Z",
+        "last_modified": "2025-03-17T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md"
+      }
+    },
+    {
+      "id": "org-taira-mercenaries-001",
+      "name": "Taira Mercenary Scouts",
+      "type": "military",
+      "sub_type": "mercenary_group",
+      "era": "Heian Period",
+      "description": "A small group of hired fighters loyal to the Taira clan, tasked with hunting down surviving Minamoto clan members and supporters. They operate in rural areas away from major cities, using ambush tactics against travelers.",
+      "leadership": [
+        {
+          "character_id": null,
+          "name": "Unnamed Leader",
+          "role": "Squad Commander",
+          "authority_level": "tactical field leader"
+        }
+      ],
+      "parent_organization": {
+        "organization_id": "org-taira-001",
+        "relationship": "hired_force"
+      },
+      "activities": [
+        "Tracking Minamoto sympathizers",
+        "Ambushing lone travelers or small groups",
+        "Gathering intelligence in rural areas",
+        "Enforcing Taira authority in remote regions"
+      ],
+      "symbolism": {
+        "representation": "The reach of Taira political power beyond the capital",
+        "narrative_role": "Early antagonists representing the broader political conflict"
+      },
+      "appears_in": [
+        {
+          "event_id": "event-taira-mercenary-ambush-001",
+          "role": "attackers"
+        }
+      ],
+      "metadata": {
+        "creation_date": "2025-03-17T00:00:00Z",
+        "last_modified": "2025-03-17T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md"
+      }
     }
   ]
 }

@@ -3,28 +3,79 @@
     {
       "id": "loc-gojo-bridge-001",
       "name": "Gojo Bridge",
-      "type": "landmark",
+      "type": "structure",
+      "sub_type": "bridge",
       "region": "Kyoto",
       "country": "Japan",
-      "era": "Late Heian Period",
-      "description": "A legendary wooden bridge spanning the Kamo River in Kyoto. Known as a dueling ground where warriors test their skills. The site of the famous encounter between Yoshi and Benkei in 1180. The bridge bears the scars of countless duels: broken railings, deep slashes in the wood, and even bloodstained artifacts remaining from past confrontations.",
-      "significance": "Historical dueling ground and the location where Yoshi defeated Benkei, beginning their legendary partnership.",
+      "era": "Heian Period",
+      "coordinates": {
+        "latitude": 35.0030,
+        "longitude": 135.7686
+      },
+      "description": "A wooden bridge spanning the Kamo River, worn by centuries of travelers and marked by countless duels. Its planks show evidence of many battles - sword marks on railings, splintered sections where bodies have fallen, and a damaged support pillar. The bridge has become known as a place of challenge, where warriors test their mettle against worthy opponents.",
+      "sensory_details": {
+        "visual": "Weathered wooden planks, some polished smooth from years of foot traffic, others splintered from violent impacts. Sword marks visible on railings. Mist often curls around the structure, especially at night.",
+        "auditory": "Creaking wood, flowing water from the river below, distant temple bells marking time intervals.",
+        "tactile": "Worn wood smooth in places, rough in others. Occasionally damp from mist or rain.",
+        "olfactory": "River water, night air, occasionally the metallic scent of blood after duels."
+      },
+      "significance": {
+        "historical": "Southern gateway to Kyoto, an important crossing point over the Kamo River that has taken on greater significance as a dueling ground.",
+        "cultural": "Has evolved from a simple crossing to a symbolic proving ground where warriors seek to test their skills or build reputations.",
+        "narrative": "The site of the legendary first meeting between Yoshi and Benkei, a pivotal moment that changed both their destinies."
+      },
       "features": [
-        "Wide wooden planks bearing scars from countless duels",
-        "Atmospheric mist that often shrouds the bridge, adding to its mystique",
-        "Central position in Kyoto, making it a natural meeting point and challenge ground",
-        "Broken railings and deep slashes in the wood from past battles",
-        "Occasional remnants of past duels, including abandoned or bloodstained items"
+        {
+          "name": "Main Span",
+          "description": "Wide enough for two horses to pass, supported by pillars anchored in the riverbed."
+        },
+        {
+          "name": "Eastern Approach",
+          "description": "Path leading to the bridge from the eastern bank, lined with cherry trees and stone lanterns."
+        },
+        {
+          "name": "Western Approach",
+          "description": "Path leading from the bridge toward the city proper, wider than the eastern approach."
+        },
+        {
+          "name": "Battle Scars",
+          "description": "Deep gouges in railings, gashes in the planks, and a shattered support pillar - all evidence of past confrontations."
+        }
       ],
-      "notable_events": [
-        "event-yoshi-benkei-duel-001"
+      "connections": [
+        {
+          "location_id": "loc-kamo-river-001",
+          "relationship": "spans_over"
+        },
+        {
+          "location_id": "loc-kyoto-001",
+          "relationship": "located_within"
+        }
       ],
-      "associated_characters": [
-        "char-yoshi-001",
-        "char-benkei-001"
+      "events": [
+        {
+          "event_id": "event-yoshi-benkei-first-meeting-001",
+          "relationship": "setting_of"
+        }
       ],
-      "created_at": "2025-03-10T00:00:00Z",
-      "updated_at": "2025-03-14T00:00:00Z"
+      "occupants": [
+        {
+          "character_id": "char-benkei-001",
+          "relationship": "guards",
+          "timeframe": "Prior to and during 1180-03-15"
+        }
+      ],
+      "ambient_conditions": {
+        "weather_patterns": "Prone to evening mist rising from the river. Cherry blossoms drift over it in spring.",
+        "lighting": "At night, limited visibility with occasional lanterns creating pools of warm light that barely penetrate the mist. Moonlight creates silver highlights on the river's surface."
+      },
+      "metadata": {
+        "creation_date": "2025-03-15T00:00:00Z",
+        "last_modified": "2025-03-15T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - INTRODUCTION - The Bridge of Fate.md"
+      }
     },
     {
       "id": "loc-kurama-temple-001",
@@ -75,6 +126,289 @@
       ],
       "created_at": "2025-03-10T00:00:00Z",
       "updated_at": "2025-03-10T00:00:00Z"
+    },
+    {
+      "id": "loc-kyoto-outskirts-001",
+      "name": "Kyoto Outskirts - Northern Road",
+      "type": "passage",
+      "sub_type": "road",
+      "region": "Kyoto Prefecture",
+      "country": "Japan",
+      "era": "Heian Period",
+      "description": "The winding road leading north from Kyoto, passing through farmland before entering more rugged forest terrain. The well-traveled route gradually becomes narrower and less maintained as it moves away from the capital.",
+      "sensory_details": {
+        "visual": "Dirt path winding between rice fields and forests, gradually becoming more wild and overgrown as it moves northward.",
+        "auditory": "Bird calls, rustling leaves, distant sounds of farming activity near the city that fade into wilderness sounds.",
+        "tactile": "Packed earth underfoot, occasionally muddy after rain.",
+        "olfactory": "Agricultural smells near the city giving way to forest scents of pine and cedar."
+      },
+      "significance": {
+        "historical": "An important trade route connecting Kyoto to northern provinces.",
+        "narrative": "The first path traveled by Yoshi and Benkei together, marking the beginning of their journey."
+      },
+      "features": [
+        {
+          "name": "Crossroads",
+          "description": "A three-way fork where Yoshi deliberately chose the northern path, symbolically moving toward Minamoto territories and away from Taira control."
+        },
+        {
+          "name": "Forest Entrance",
+          "description": "Where the road transitions from open farmland to denser woodland, marking the boundary between civilized areas and wilderness."
+        }
+      ],
+      "connections": [
+        {
+          "location_id": "loc-kyoto-001",
+          "relationship": "leads_from"
+        },
+        {
+          "location_id": "loc-mountain-forest-village-001",
+          "relationship": "leads_to"
+        }
+      ],
+      "events": [
+        {
+          "event_id": "event-journey-north-begins-001",
+          "relationship": "setting_of"
+        }
+      ],
+      "metadata": {
+        "creation_date": "2025-03-17T00:00:00Z",
+        "last_modified": "2025-03-17T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md"
+      }
+    },
+    {
+      "id": "loc-mountain-forest-village-001",
+      "name": "Mountain Forest Village",
+      "type": "settlement",
+      "sub_type": "village",
+      "region": "Northern Kyoto Prefecture",
+      "country": "Japan",
+      "era": "Heian Period",
+      "description": "A small, isolated settlement nestled in a protected valley between forested mountains. The village consists of modest dwellings surrounded by newly planted spring fields that will not yield food for months, indicating the residents have endured a lean winter.",
+      "sensory_details": {
+        "visual": "Wooden dwellings with thatched roofs arranged in a circle around a central clearing. Terraced fields extend outward from the village center.",
+        "auditory": "Children playing, domestic animals, work sounds of daily village life.",
+        "tactile": "Packed earth paths between structures, worn smooth by generations of footsteps.",
+        "olfactory": "Woodsmoke from cooking fires, earthy smell of tilled fields, forest scents from surrounding woods."
+      },
+      "significance": {
+        "historical": "Represents the typical rural settlement that supported the more populous urban centers during the Heian period.",
+        "narrative": "The site of Yoshi's first demonstration of his character through generosity to commoners."
+      },
+      "features": [
+        {
+          "name": "Central Clearing",
+          "description": "Common area where village gatherings and celebrations take place, where the boar was prepared and shared."
+        },
+        {
+          "name": "Spring Fields",
+          "description": "Newly planted agricultural areas surrounding the village, evidence of the community's precarious food security after winter."
+        }
+      ],
+      "connections": [
+        {
+          "location_id": "loc-kyoto-outskirts-001",
+          "relationship": "accessible_from"
+        },
+        {
+          "location_id": "loc-mountain-path-001",
+          "relationship": "leads_to"
+        }
+      ],
+      "events": [
+        {
+          "event_id": "event-village-boar-hunt-001",
+          "relationship": "setting_of"
+        }
+      ],
+      "occupants": [
+        {
+          "character_id": "char-village-elder-001",
+          "relationship": "leader"
+        },
+        {
+          "character_id": "char-tanaka-hunter-001",
+          "relationship": "resident"
+        }
+      ],
+      "metadata": {
+        "creation_date": "2025-03-17T00:00:00Z",
+        "last_modified": "2025-03-17T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md"
+      }
+    },
+    {
+      "id": "loc-mountain-path-001",
+      "name": "Treacherous Mountain Path",
+      "type": "passage",
+      "sub_type": "mountain_trail",
+      "region": "Northern Mountains",
+      "country": "Japan",
+      "era": "Heian Period",
+      "description": "A narrow, winding trail that climbs through forested mountains north of Kyoto. The path is dangerous in good weather and treacherous during rain, with steep drops on one side and unstable terrain in several sections.",
+      "sensory_details": {
+        "visual": "Narrow dirt path clinging to mountainsides, with dense forest on one side and precipitous drops on the other. Occasional widening at switchbacks.",
+        "auditory": "Wind through trees, distant water sounds from mountain streams, occasional wildlife calls.",
+        "tactile": "Rocky, uneven ground that becomes slippery and unstable when wet.",
+        "olfactory": "Damp earth, pine resin, and the mineral scent of exposed rock."
+      },
+      "significance": {
+        "historical": "A lesser-used route through the mountains, primarily traveled by those avoiding the main roads for various reasons.",
+        "narrative": "Site of Yoshi's near fall and Benkei's first act of protection, marking a shift in their relationship's dynamic."
+      },
+      "features": [
+        {
+          "name": "Landslide Section",
+          "description": "A particularly treacherous portion where the soil is unstable and gave way beneath Yoshi, requiring Benkei's intervention."
+        },
+        {
+          "name": "Deer Trail",
+          "description": "An alternative path discovered by Benkei that provided safer passage, demonstrating his wilderness knowledge."
+        }
+      ],
+      "connections": [
+        {
+          "location_id": "loc-mountain-forest-village-001",
+          "relationship": "leads_from"
+        },
+        {
+          "location_id": "loc-forest-ambush-point-001",
+          "relationship": "leads_to"
+        }
+      ],
+      "events": [
+        {
+          "event_id": "event-mountain-path-landslide-001",
+          "relationship": "setting_of"
+        }
+      ],
+      "ambient_conditions": {
+        "weather_patterns": "Frequent rain and mist, particularly dangerous during spring thaw when soil becomes unstable.",
+        "lighting": "Dappled sunlight through forest canopy, creating constantly shifting patterns of light and shadow."
+      },
+      "metadata": {
+        "creation_date": "2025-03-17T00:00:00Z",
+        "last_modified": "2025-03-17T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md"
+      }
+    },
+    {
+      "id": "loc-forest-ambush-point-001",
+      "name": "Forest Ambush Point",
+      "type": "natural_feature",
+      "sub_type": "forest_clearing",
+      "region": "Northern Mountains",
+      "country": "Japan",
+      "era": "Heian Period",
+      "description": "A strategic point along the northern forest path where the trail widens briefly before narrowing again, creating a natural bottleneck. Dense vegetation on both sides provides excellent cover for ambushers, while limited escape routes make it a perfect location for trapping travelers.",
+      "sensory_details": {
+        "visual": "A slightly wider section of trail bordered by dense undergrowth and trees with low-hanging branches, offering multiple hiding spots.",
+        "auditory": "Unnatural silence indicating wildlife has been disturbed by hidden human presence.",
+        "tactile": "Soft forest floor with strategically placed dry leaves that crackle underfoot, alerting hidden watchers.",
+        "olfactory": "Forest scents mingled with the subtle smell of humans lying in wait—oil from weapons and leather from armor."
+      },
+      "significance": {
+        "historical": "A location frequently used by bandits and military scouts to ambush travelers and messengers.",
+        "narrative": "Site of Yoshi's demonstration of his exceptional combat prowess and tactical restraint in defeating the Taira mercenaries."
+      },
+      "features": [
+        {
+          "name": "Natural Cover Points",
+          "description": "Several large boulders and dense thickets where the Taira mercenaries concealed themselves before the attack."
+        },
+        {
+          "name": "Trail Narrowing",
+          "description": "The point where the path constricts, creating a natural choke point for controlling movement."
+        }
+      ],
+      "connections": [
+        {
+          "location_id": "loc-mountain-path-001",
+          "relationship": "accessible_from"
+        }
+      ],
+      "events": [
+        {
+          "event_id": "event-taira-mercenary-ambush-001",
+          "relationship": "setting_of"
+        }
+      ],
+      "metadata": {
+        "creation_date": "2025-03-17T00:00:00Z",
+        "last_modified": "2025-03-17T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md"
+      }
+    },
+    {
+      "id": "loc-mountain-monastery-001",
+      "name": "Mountain Monastery",
+      "type": "religious_site",
+      "sub_type": "buddhist_monastery",
+      "region": "Remote Mountain Region",
+      "country": "Japan",
+      "era": "Heian Period",
+      "description": "An isolated Buddhist monastery built into the side of a steep mountain, consisting of modest wooden structures connected by covered walkways. The monastery is largely self-sufficient, with terraced gardens and a small orchard, though it is austere in design and function.",
+      "sensory_details": {
+        "visual": "Simple wooden buildings with curved tile roofs, connected by covered walkways. Stone lanterns mark spiritual areas amid carefully tended rock gardens.",
+        "auditory": "Prayer bells at regular intervals, chanting during morning and evening services, wind through pine trees.",
+        "tactile": "Smooth wooden floors worn by generations of monks, cold stone in meditation areas.",
+        "olfactory": "Incense used in rituals, pine resin from surrounding forest, simple vegetarian meals cooking."
+      },
+      "significance": {
+        "historical": "One of many remote monasteries that preserved Buddhist teachings and provided education during the Heian period.",
+        "narrative": "Benkei's childhood home where his conflict between spiritual calling and warrior nature began."
+      },
+      "features": [
+        {
+          "name": "Training Yard",
+          "description": "A simple courtyard where young monks practiced physical exercises and Benkei secretly trained with makeshift weapons at night."
+        },
+        {
+          "name": "Main Hall",
+          "description": "Where the abbot would counsel troubled novices, including his attempts to guide young Benkei toward controlling his strength."
+        },
+        {
+          "name": "Novices' Quarters",
+          "description": "Where Benkei endured harassment from other young monks frightened by his size and strength."
+        }
+      ],
+      "events": [
+        {
+          "event_id": "event-benkei-monastery-childhood-001",
+          "relationship": "setting_of"
+        }
+      ],
+      "occupants": [
+        {
+          "character_id": "char-monastery-abbot-001",
+          "relationship": "leader"
+        },
+        {
+          "organization_id": "org-mountain-monastery-001",
+          "relationship": "resident_organization"
+        }
+      ],
+      "ambient_conditions": {
+        "weather_patterns": "Frequently shrouded in mist, particularly in mornings and evenings, creating an ethereal atmosphere.",
+        "lighting": "Muted natural light filtered through paper screens, supplemented by oil lamps at night."
+      },
+      "metadata": {
+        "creation_date": "2025-03-17T00:00:00Z",
+        "last_modified": "2025-03-17T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md"
+      }
     }
   ]
 }

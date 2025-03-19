@@ -53,5 +53,233 @@
     ],
     "created_at": "2025-03-10T00:00:00Z",
     "updated_at": "2025-03-14T00:00:00Z"
-  }
+  },
+  "id": "timeline-heian-period-gojo-bridge-events",
+  "name": "Gojo Bridge Events - Heian Period",
+  "description": "Chronology of significant events at Gojo Bridge during the Heian Period, centered on Benkei's activities and his fateful meeting with Yoshi",
+  "era": "Heian Period",
+  "scope": "localized",
+  "entries": [
+    {
+      "id": "timeline-benkei-begins-challenge",
+      "date": "approximate:1179",
+      "precise_date": null,
+      "name": "Benkei Begins Challenging Warriors",
+      "description": "Benkei takes position at Gojo Bridge and begins challenging warriors who attempt to cross, taking their swords upon defeat.",
+      "related_events": [],
+      "confidence": "medium"
+    },
+    {
+      "id": "timeline-benkei-collection-grows",
+      "date": "1179-1180",
+      "precise_date": null,
+      "name": "Benkei's Sword Collection Grows",
+      "description": "Over months of challenges and victories, Benkei amasses hundreds of swords from defeated opponents.",
+      "related_events": [],
+      "confidence": "medium"
+    },
+    {
+      "id": "timeline-benkei-999-swords",
+      "date": "1180-03-14",
+      "precise_date": null,
+      "name": "Benkei Reaches 999 Swords",
+      "description": "Benkei's collection reaches 999 swords, setting the stage for his encounter with Yoshi.",
+      "related_events": [
+        {
+          "event_id": "event-benkei-999-swords",
+          "relationship": "references"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "timeline-yoshi-benkei-meet",
+      "date": "1180-03-15",
+      "precise_date": "night",
+      "name": "Yoshi and Benkei's First Meeting",
+      "description": "Yoshi approaches Gojo Bridge and is challenged by Benkei, who seeks to claim his sword as the 1000th trophy. They engage in what will become a legendary confrontation.",
+      "related_events": [
+        {
+          "event_id": "event-yoshi-benkei-first-meeting-001",
+          "relationship": "describes"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "timeline-yoshi-benkei-three-cuts",
+      "date": "1180-03-15",
+      "precise_date": "night",
+      "name": "The Three Cuts Duel",
+      "description": "Yoshi defeats Benkei through three precise cuts, each demonstrating a principle of combat that transforms Benkei's understanding of martial prowess.",
+      "related_events": [
+        {
+          "event_id": "event-yoshi-benkei-three-cuts-001",
+          "relationship": "describes"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "timeline-benkei-oath",
+      "date": "1180-03-15",
+      "precise_date": "night",
+      "name": "Benkei's Oath of Loyalty",
+      "description": "Following his defeat, Benkei kneels and pledges loyalty to Yoshi with the words 'Then my path is yours', beginning their legendary partnership.",
+      "related_events": [
+        {
+          "event_id": "event-benkei-oath-001",
+          "relationship": "describes"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "timeline-journey-north-begins",
+      "date": "1180-03-15",
+      "precise_date": "night_to_dawn",
+      "name": "The Journey North Begins",
+      "description": "Yoshi and Benkei leave Gojo Bridge together, with Benkei following at the proper three paces distance as they head north from Kyoto.",
+      "related_events": [
+        {
+          "event_id": "event-journey-north-begins-001",
+          "relationship": "describes"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "timeline-village-boar-hunt",
+      "date": "1180-03-18",
+      "precise_date": "afternoon",
+      "name": "Village Boar Hunt and Shared Feast",
+      "description": "Yoshi and Benkei encounter a hunter tracking a wounded boar. After Yoshi mercifully kills the animal, he orders Benkei to carry it to the hunter's village for sharing rather than claiming it, revealing his character.",
+      "related_events": [
+        {
+          "event_id": "event-village-boar-hunt-001",
+          "relationship": "describes"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "timeline-mountain-path-landslide",
+      "date": "1180-03-19",
+      "precise_date": "day",
+      "name": "The Mountain Path Landslide",
+      "description": "When the ground beneath Yoshi's foot gives way on a treacherous mountain path, Benkei breaks formal protocol to save him, marking the first significant evolution in their relationship.",
+      "related_events": [
+        {
+          "event_id": "event-mountain-path-landslide-001",
+          "relationship": "describes"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "timeline-taira-mercenary-ambush",
+      "date": "1180-03-19",
+      "precise_date": "midday",
+      "name": "Taira Mercenary Ambush",
+      "description": "Five men claiming to work for Lord Taira Kiyomori ambush Yoshi and Benkei. Yoshi orders Benkei to stand aside and demonstrates his extraordinary skill by defeating all five attackers without killing any of them.",
+      "related_events": [
+        {
+          "event_id": "event-taira-mercenary-ambush-001",
+          "relationship": "describes"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "timeline-benkei-monastery-childhood",
+      "date": "1165-1170",
+      "precise_date": null,
+      "name": "Benkei's Troubled Monastery Childhood",
+      "description": "Backstory revealing young Benkei's difficult childhood at a monastery, where his unusual size and strength led to conflicts with other novices and eventually his departure from monastic life.",
+      "related_events": [
+        {
+          "event_id": "event-benkei-monastery-childhood-001",
+          "relationship": "describes"
+        }
+      ],
+      "confidence": "high"
+    }
+  ],
+  "relationships": [
+    {
+      "source_entry_id": "timeline-benkei-begins-challenge",
+      "target_entry_id": "timeline-benkei-collection-grows",
+      "relationship_type": "leads_to"
+    },
+    {
+      "source_entry_id": "timeline-benkei-collection-grows",
+      "target_entry_id": "timeline-benkei-999-swords",
+      "relationship_type": "culminates_in"
+    },
+    {
+      "source_entry_id": "timeline-benkei-999-swords",
+      "target_entry_id": "timeline-yoshi-benkei-meet",
+      "relationship_type": "directly_precedes"
+    },
+    {
+      "source_entry_id": "timeline-yoshi-benkei-meet",
+      "target_entry_id": "timeline-yoshi-benkei-three-cuts",
+      "relationship_type": "directly_leads_to"
+    },
+    {
+      "source_entry_id": "timeline-yoshi-benkei-three-cuts",
+      "target_entry_id": "timeline-benkei-oath",
+      "relationship_type": "directly_causes"
+    },
+    {
+      "source_entry_id": "timeline-benkei-oath",
+      "target_entry_id": "timeline-journey-north-begins",
+      "relationship_type": "directly_leads_to"
+    },
+    {
+      "source_entry_id": "timeline-journey-north-begins",
+      "target_entry_id": "timeline-village-boar-hunt",
+      "relationship_type": "leads_to"
+    },
+    {
+      "source_entry_id": "timeline-village-boar-hunt",
+      "target_entry_id": "timeline-mountain-path-landslide",
+      "relationship_type": "leads_to"
+    },
+    {
+      "source_entry_id": "timeline-mountain-path-landslide",
+      "target_entry_id": "timeline-taira-mercenary-ambush",
+      "relationship_type": "indirectly_leads_to"
+    },
+    {
+      "source_entry_id": "timeline-benkei-monastery-childhood",
+      "target_entry_id": "timeline-benkei-begins-challenge",
+      "relationship_type": "indirectly_leads_to"
+    }
+  ],
+  "metadata": {
+    "creation_date": "2025-03-15T00:00:00Z",
+    "last_modified": "2025-03-15T00:00:00Z",
+    "version": 1,
+    "canon_status": "official",
+    "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - INTRODUCTION - The Bridge of Fate.md"
+  },
+  "timeline_notes": [
+    {
+      "id": "timeline-note-yoshi-benkei-meeting-date-resolved",
+      "title": "Chronology Note: Yoshi and Benkei's First Meeting - RESOLVED",
+      "description": "Historical research confirms 1180-03-15 as the canonical date for the first meeting between Yoshi and Benkei at Gojo Bridge, coinciding with the beginning of the Genpei War period. This aligns with Yoshi's departure from Kurama Temple in 1179 and his subsequent rise as a military leader.",
+      "affected_events": [
+        "event-yoshi-benkei-first-meeting-001", 
+        "event-yoshi-benkei-duel-001"
+      ],
+      "resolution_status": "resolved",
+      "canonical_date": "1180-03-15",
+      "metadata": {
+        "creation_date": "2025-03-16T00:00:00Z",
+        "last_modified": "2025-03-16T00:00:00Z",
+        "version": 1
+      }
+    }
+  ]
 }

@@ -1,17 +1,15 @@
 # The Shadow Team Chronicles - Complete Database Update Request
 
-I need you to analyze provided content, extract all narrative elements (characters, locations, events, technologies, organizations, relationships), and update all relevant database files while maintaining cross-references and relational integrity.
+I need you to analyze provided content, extract all narrative elements (characters, locations, events, technologies, organizations, relationships), and update all relevant database files and json object data stored within the files while maintaining cross-references and relational integrity.
 
 ## Content Source
 
 [OPTION 1: DIRECT CONTENT]
 
-
-
 [OPTION 2: FILE REFERENCE]
 
-File path: CONTENT\The Shadow Team Chronicles\STORYLINE\DRAFT\1. The Shadow Team Chronicles - DRAFT - STORYLINE - INTRODUCTION - The Bridge of Fate .md
-Section to process: # **📖 The Shadow Team Chronicles - DRAFT - STORYLINE - INTRODUCTION - The Bridge of Fate** 
+File path: CONTENT\The Shadow Team Chronicles\STORYLINE\DRAFT\2. The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md
+Section to process: 
 
 ## Update Requirements
 

@@ -2,31 +2,104 @@
   "relationships": [
     {
       "id": "rel-yoshi-benkei-001",
-      "type": "master-retainer",
-      "start_date": "1180",
-      "end_date": null,
-      "status": "active",
-      "entities": [
+      "type": "interpersonal",
+      "sub_type": "warrior_bond",
+      "primary_entity": "char-yoshi-001",
+      "secondary_entity": "char-benkei-001",
+      "status": "evolving",
+      "timeline_start": "1180-03-15",
+      "timeline_end": null,
+      "description": "The complex relationship between Yoshi and Benkei, beginning as opponents and transforming into a deep master-retainer bond. Their connection shows a steady evolution from formal role-based interaction to genuine complementary partnership.",
+      "dynamics": [
         {
-          "id": "char-yoshi-001",
-          "role": "master"
+          "type": "respect",
+          "direction": "mutual",
+          "description": "Initial respect based on skill evolves into deeper appreciation of each other's strengths and compensating characteristics."
         },
         {
-          "id": "char-benkei-001",
-          "role": "retainer"
+          "type": "loyalty",
+          "direction": "benkei_to_yoshi",
+          "description": "Beginning with Benkei's formal oath at Gojo Bridge, evolving into genuine dedication that transcends mere obligation."
+        },
+        {
+          "type": "protection",
+          "direction": "benkei_to_yoshi",
+          "description": "First demonstrated during the mountain path landslide when Benkei breaks protocol to save Yoshi."
+        },
+        {
+          "type": "instruction",
+          "direction": "yoshi_to_benkei",
+          "description": "Yoshi provides indirect lessons in combat philosophy and leadership through example rather than explicit teaching."
+        },
+        {
+          "type": "trust",
+          "direction": "mutual",
+          "description": "Develops from formal roles toward genuine reliance, with Yoshi trusting Benkei to follow instructions during the ambush and later to stand watch while he sleeps."
         }
       ],
-      "description": "The legendary bond between Yoshi and Benkei, formed after their duel at Gojo Bridge. Characterized by Benkei's unwavering loyalty and Yoshi's trust in his strength.",
-      "defining_events": [
-        "event-yoshi-benkei-duel-001"
+      "evolution": [
+        {
+          "phase": "initial_meeting",
+          "timeline_point": "1180-03-15",
+          "description": "Opponents meeting on Gojo Bridge, with Benkei challenging Yoshi for his sword.",
+          "key_event": "event-yoshi-benkei-first-meeting-001"
+        },
+        {
+          "phase": "defeat_and_oath",
+          "timeline_point": "1180-03-15",
+          "description": "Yoshi defeats Benkei in the Three Cuts Duel, leading to Benkei's pledge of loyalty.",
+          "key_event": "event-yoshi-benkei-three-cuts-001"
+        },
+        {
+          "phase": "formal_beginning",
+          "timeline_point": "1180-03-15",
+          "description": "Benkei begins following Yoshi at the proper three-pace distance, observing traditional master-retainer protocols.",
+          "key_event": "event-journey-north-begins-001"
+        },
+        {
+          "phase": "first_transgression",
+          "timeline_point": "1180-03-19",
+          "description": "Benkei breaks formal protocol to save Yoshi during the mountain path landslide, marking first emotional priority over tradition.",
+          "key_event": "event-mountain-path-landslide-001"
+        },
+        {
+          "phase": "trust_building",
+          "timeline_point": "1180-03-19",
+          "description": "Yoshi demonstrates trust by letting Benkei stand guard while he sleeps in the village, allowing vulnerability.",
+          "key_event": "event-village-boar-hunt-001"
+        }
       ],
-      "dynamics": [
-        "Mutual respect born from combat",
-        "Complementary skills and abilities",
-        "Shared purpose despite different backgrounds"
+      "significance": {
+        "narrative": "This relationship forms the foundation of the legendary partnership between Minamoto no Yoshitsune and his most loyal retainer.",
+        "thematic": "Represents the meeting and complementary nature of different warrior philosophies - Benkei's overwhelming strength versus Yoshi's precision and speed.",
+        "historical": "Based on the historical relationship between Minamoto no Yoshitsune and Benkei that shaped events during the Genpei War."
+      },
+      "symbolic_representation": {
+        "names": "The Hawk and The Bear - contrasting natural strengths and approaches that complement each other",
+        "visual_metaphor": "Three paces - the formal distance between master and retainer that symbolizes their relationship's evolution as it's occasionally broken and reformed"
+      },
+      "protocol_elements": [
+        {
+          "element_name": "Three Paces Distance",
+          "description": "The traditional spacing between master and retainer when traveling, maintained meticulously by Benkei after pledging loyalty."
+        },
+        {
+          "element_name": "First Watch",
+          "description": "Benkei offering to take first watch while Yoshi sleeps, establishing protective role within the relationship."
+        },
+        {
+          "element_name": "Combat Observation",
+          "description": "Benkei waiting as ordered during the ambush, demonstrating discipline and trust in Yoshi's combat ability."
+        }
       ],
-      "created_at": "2025-03-10T00:00:00Z",
-      "updated_at": "2025-03-14T00:00:00Z"
+      "metadata": {
+        "creation_date": "2025-03-15T00:00:00Z",
+        "last_modified": "2025-03-17T00:00:00Z",
+        "version": 3,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md",
+        "confidence": "high"
+      }
     },
     {
       "id": "rel-minamoto-taira-001",

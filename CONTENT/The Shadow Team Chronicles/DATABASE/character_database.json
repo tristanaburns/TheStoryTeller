@@ -34,7 +34,7 @@
       "weapons": [
         "weapon-higekiri-001"
       ],
-      "biography": "Born during the turmoil of the Heiji Rebellion, Yoshi is the son of the slain Minamoto clan leader. Hidden at Kurama Temple as a child, he grew up training secretly in martial arts rather than following the monks' peaceful teachings. After leaving the temple in 1179, he wandered briefly before meeting Benkei at Gojo Bridge in 1180, a pivotal moment that would change the course of his destiny. This meeting occurred just as the Genpei War was beginning, setting Yoshitsune on the path to becoming one of Japan's greatest military commanders.",
+      "biography": "Born during the turmoil of the Heiji Rebellion, Yoshi is the son of the slain Minamoto clan leader. Hidden at Kurama Temple as a child, he grew up training secretly in martial arts rather than following the monks' peaceful teachings. After leaving the temple in 1179, he wandered briefly before meeting Benkei at Gojo Bridge in early 1180, a pivotal moment that would change the course of his destiny. This meeting coincided with the beginning of the Genpei War, setting Yoshitsune on the path to becoming one of Japan's greatest military commanders.",
       "appearance": "Lean and agile with sharp, observant eyes. Moves with fluid grace that belies his deadly skill.",
       "personality": {
         "traits": ["Disciplined", "Strategic", "Reserved", "Determined"],
@@ -67,7 +67,7 @@
         }
       ],
       "created_at": "2025-03-10T00:00:00Z",
-      "updated_at": "2025-03-15T00:00:00Z"
+      "updated_at": "2025-03-16T00:00:00Z"
     },
     {
       "id": "char-benkei-001",
@@ -103,31 +103,44 @@
       "weapons": [
         "weapon-naginata-001"
       ],
-      "biography": "Abandoned as a child at a monastery, Benkei grew at an unnatural rate, becoming a giant among men. His immense strength made him an outcast even among the monks who raised him. Cast out as a young man, he wandered Japan becoming a feared warrior who challenged swordsmen and collected their weapons. By 1180, he had claimed 999 swords and awaited his final duel at Gojo Bridge, where fate brought him face to face with Yoshi, just as the Genpei War was beginning.",
+      "biography": "Abandoned as a child at a monastery, Benkei grew at an unnatural rate, becoming a giant among men. His immense strength made him an outcast even among the monks who raised him. Cast out as a young man, he wandered Japan becoming a feared warrior who challenged swordsmen and collected their weapons. By early 1180, he had claimed 999 swords and awaited his final duel at Gojo Bridge, where fate brought him face to face with Yoshi, just as the Genpei War was beginning. After being defeated through Yoshi's 'Three Cuts' technique, Benkei pledged his loyalty with the words 'Then my path is yours,' finding new purpose in service to a worthy master.",
       "appearance": "Towering and imposing with a broad frame and immense physical presence. Typically dressed in black robes that emphasize his intimidating silhouette.",
       "personality": {
-        "traits": ["Loyal", "Determined", "Stoic", "Unyielding"],
-        "description": "Once directionless but driven by strength, Benkei found purpose in defeat. His loyalty to Yoshi became absolute after their duel, transforming him from a lone warrior to a devoted protector. Speaks rarely but with conviction."
+        "traits": ["Loyal", "Determined", "Stoic", "Unyielding", "Purpose-seeking"],
+        "description": "Once directionless but driven by strength, Benkei found purpose in defeat. His loyalty to Yoshi became absolute after their duel, transforming him from a lone warrior to a devoted protector. Speaks rarely but with conviction. Though he follows formal protocols of the master-retainer relationship, he will break these rules when Yoshi's safety is at risk, demonstrating that his loyalty transcends mere adherence to tradition."
       },
       "relationships": [
         {
           "character": "char-yoshi-001",
           "relationship_type": "retainer-master",
           "description": "After being defeated by Yoshi at Gojo Bridge, pledged absolute loyalty to him, becoming his most trusted companion."
+        },
+        {
+          "character": "char-monastery-abbot-001",
+          "relationship_type": "former_student-mentor",
+          "description": "The abbot attempted to help young Benkei control his strength, but ultimately could not reconcile his natural warrior spirit with monastic ideals."
         }
       ],
       "character_arc": {
-        "starting_state": "Powerful warrior seeking a worthy cause",
-        "current_state": "Powerful warrior seeking a worthy cause",
-        "goal": "To find purpose through service to a worthy master"
+        "starting_state": "Powerful warrior seeking a worthy cause and pursuing empty achievements",
+        "current_state": "Devoted retainer finding meaning through service to Yoshi",
+        "goal": "To find purpose through service to a worthy master and protect him in his journey"
+      },
+      "childhood": {
+        "description": "Raised in a mountain monastery where he was mocked as 'bear cub' by other novices due to his unusual size and strength. Despite the abbot's attempts to guide him toward controlling his power, Benkei's violent response to harassment and his natural warrior tendencies led to his departure from monastic life.",
+        "key_experiences": [
+          "Rejection by peers in the monastery",
+          "Struggling to contain his natural strength",
+          "Leaving monastic life to find his own path"
+        ]
       },
       "attributes": {
         "physical": {
-          "height": "6'7\"",
+          "height": "7'6\"",
           "build": "Massive, muscular",
           "distinctive_features": "Imposing stature, monk-like appearance"
         }
-      ],
+      },
       "equipment_reference": [
         {
           "name": "Naginata",
@@ -136,7 +149,100 @@
         }
       ],
       "created_at": "2025-03-10T00:00:00Z",
-      "updated_at": "2025-03-15T00:00:00Z"
+      "updated_at": "2025-03-17T00:00:00Z"
+    },
+    {
+      "id": "char-tanaka-hunter-001",
+      "name": "Tanaka",
+      "type": "supporting",
+      "role": "Hunter",
+      "birth_year": "approximate:1150",
+      "status": "alive",
+      "species": "human",
+      "gender": "male",
+      "description": "A hunter from a small mountain village who encounters Yoshi and Benkei while tracking a wounded boar. Weathered appearance with practical clothing designed for the forest. Carries a bow and hunting knife.",
+      "significance": "Represents common people's initial wariness toward warriors and their surprise when Yoshi acts with unexpected generosity.",
+      "attributes": {
+        "physical": {
+          "distinctive_features": "Weathered face, callused hands, wiry build",
+          "clothing": "Practical hunting attire with animal hide accents"
+        }
+      },
+      "appears_in": [
+        {
+          "event_id": "event-village-boar-hunt-001",
+          "role": "beneficiary"
+        }
+      ],
+      "metadata": {
+        "creation_date": "2025-03-17T00:00:00Z",
+        "last_modified": "2025-03-17T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md"
+      }
+    },
+    {
+      "id": "char-village-elder-001",
+      "name": "Village Elder",
+      "type": "supporting",
+      "role": "Community Leader",
+      "birth_year": "approximate:1125",
+      "status": "alive",
+      "species": "human",
+      "gender": "male",
+      "description": "The elderly leader of a small mountain village who welcomes Yoshi and Benkei, offering shelter in exchange for their contribution of the hunted boar. Gray-haired with a deeply lined face that shows wisdom gained through decades of rural leadership.",
+      "significance": "Represents rural community values and the reciprocal relationship between those who have power and those who provide hospitality.",
+      "attributes": {
+        "physical": {
+          "distinctive_features": "Gray hair, lined face, stooped but dignified posture",
+          "clothing": "Simple but clean clothing appropriate for a village leader"
+        }
+      },
+      "appears_in": [
+        {
+          "event_id": "event-village-boar-hunt-001",
+          "role": "host"
+        }
+      ],
+      "metadata": {
+        "creation_date": "2025-03-17T00:00:00Z",
+        "last_modified": "2025-03-17T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md"
+      }
+    },
+    {
+      "id": "char-monastery-abbot-001",
+      "name": "Mountain Monastery Abbot",
+      "type": "supporting",
+      "role": "Mentor",
+      "birth_year": "approximate:1120",
+      "status": "alive",
+      "species": "human",
+      "gender": "male",
+      "description": "The elderly leader of the monastery where Benkei was raised as a child. A wise but strict teacher who tried to help young Benkei control his immense strength and find peace within monastic discipline.",
+      "significance": "Represents the spiritual path that Benkei ultimately could not follow, showing how innate nature sometimes overrides nurture.",
+      "attributes": {
+        "physical": {
+          "distinctive_features": "Shaved head, serene expression, thin but strong build",
+          "clothing": "Simple monk's robes"
+        }
+      },
+      "appears_in": [
+        {
+          "event_id": "event-benkei-monastery-childhood-001",
+          "role": "mentor"
+        }
+      ],
+      "metadata": {
+        "creation_date": "2025-03-17T00:00:00Z",
+        "last_modified": "2025-03-17T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md"
+      }
     }
   ]
 }

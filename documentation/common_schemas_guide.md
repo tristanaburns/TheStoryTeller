@@ -25,6 +25,7 @@ The `common` directory contains schema components that are reused across multipl
 | `writing_elements_schema.json` | Writing style and tone | All content types |
 | `timestamp_schema.json` | Time and date formats | Events, Character timelines |
 | `time_period_schema.json` | Temporal ranges and eras | Timeline elements |
+| `chapter_information_schema.json` | Document and analyze narrative chapters | All narrative elements |
 
 ## How to Use Common Schemas
 
@@ -133,6 +134,26 @@ This schema defines how entities connect to thematic elements and plot functions
 
 **Prompt Instruction for AI:**
 When defining an entity's narrative significance, explicitly connect it to at least one major theme from the story. Explain how the entity moves the plot forward through specific functions or roles. Consider both obvious and subtle thematic connections.
+
+### `chapter_information_schema.json`
+
+**Purpose**: Document and analyze narrative chapters
+
+**Key Elements**:
+- Basic chapter identifiers
+- Narrative content details
+- Character appearances
+- Key events
+- Thematic elements
+- Structural analysis
+- Editorial assessment
+
+**Common Cross-References**:
+- Characters appearing in the chapter
+- Locations featured in the chapter
+- Events occurring during the chapter
+- Themes explored in the chapter
+- Previous and next chapters in sequence
 
 ## Best Practices
 

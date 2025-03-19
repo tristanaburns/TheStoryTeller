@@ -63,7 +63,14 @@ This documentation suite is organized to guide you from basic concepts to advanc
 11. **Timeline Implementation**
     - [Timeline Schemas Guide](timeline_schemas_guide.md) - Implementing timeline schemas
 
-12. **Historical Events Implementation**
+12. **Chapter Information Implementation**
+    - [Chapter Information Schema Usage](chapter_information_schema_usage.md) - Core usage guide
+    - [Chapter Information Implementation Guide](chapter_information_implementation_guide.md) - Practical implementation
+    - [Chapter Information Schema Visual Guide](chapter_information_schema_visual_guide.md) - Visual representation of schema relationships
+    - [Chapter Information Schema Quick Reference](chapter_information_schema_quick_reference.md) - At-a-glance reference
+    - [Chapter Information Schema Troubleshooting](chapter_information_schema_troubleshooting.md) - Solutions to common issues
+
+13. **Historical Events Implementation**
     - [Historical Events Guide](historical_events_guide.md) - Implementing historical event schemas
 
 ### 5️⃣ Technical Reference
@@ -158,6 +165,12 @@ When looking for guidance on specific topics:
 
 - **Schema Organization**
   - See [Schema Organization Guidelines](schema_organization_guidelines.md)
+
+- **Chapter Information Implementation**
+  - Start with [Chapter Information Schema Usage](chapter_information_schema_usage.md)
+  - For practical steps, see [Chapter Information Implementation Guide](chapter_information_implementation_guide.md)
+  - For visual understanding, see [Chapter Information Schema Visual Guide](chapter_information_schema_visual_guide.md)
+  - For common issues, see [Chapter Information Schema Troubleshooting](chapter_information_schema_troubleshooting.md)
 
 ## 🔄 Updating This Documentation
 
@@ -360,7 +373,7 @@ Use the following prompt when you need an AI assistant to extract information fr
 
 # The Shadow Team Chronicles - Complete Database Update Request
 
-I need you to analyze provided content, extract all narrative elements (characters, locations, events, technologies, organizations, relationships), and update all relevant database files while maintaining cross-references and relational integrity.
+I need you to analyze provided content, extract all narrative elements (characters, locations, events, technologies, organizations, relationships), and update all relevant database files and json object data stored within the files while maintaining cross-references and relational integrity.
 
 ## Content Source
 

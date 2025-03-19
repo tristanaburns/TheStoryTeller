@@ -1,0 +1,243 @@
+{
+  "sensory_entries": [
+    {
+      "id": "sensory-gojo-bridge-night-001",
+      "name": "Gojo Bridge at Night",
+      "type": "location_atmosphere",
+      "associated_location": "loc-gojo-bridge-001",
+      "time_of_day": "night",
+      "season": "unspecified",
+      "weather": "mist",
+      "visual_details": [
+        {
+          "element": "Mist",
+          "description": "White mist curling over the bridge and rising from the river below, creating an ethereal atmosphere that partially obscures visibility."
+        },
+        {
+          "element": "Moonlight",
+          "description": "Pale moonlight filtering through the mist, creating areas of soft illumination and deeper shadow across the bridge."
+        },
+        {
+          "element": "Battle Scars",
+          "description": "Visible marks of combat across the bridge - sword cuts in railings, splintered planks, and a damaged support pillar."
+        },
+        {
+          "element": "Abandoned Sandal",
+          "description": "A single straw sandal near the bridge entrance, torn and bloodstained, evidence of a previous encounter gone wrong."
+        }
+      ],
+      "auditory_details": [
+        {
+          "element": "Temple Bell",
+          "description": "Distant temple bells tolling at significant moments, reverberating across the night air and through the wooden structure of the bridge."
+        },
+        {
+          "element": "River Sounds",
+          "description": "The soft rushing of the Kamo River beneath the bridge, a constant background noise."
+        },
+        {
+          "element": "Wooden Creaks",
+          "description": "Subtle groaning and creaking of the bridge's wooden structure as weight shifts upon it."
+        },
+        {
+          "element": "Silence",
+          "description": "Periods of absolute stillness between sounds, described as 'the kind of silence that remembers blood' - weighted with historical significance."
+        }
+      ],
+      "tactile_details": [
+        {
+          "element": "Wooden Planks",
+          "description": "Some areas of the bridge worn smooth by years of foot traffic, while others remain rough and splintered from violent impacts."
+        },
+        {
+          "element": "Mist Dampness",
+          "description": "The cool moisture of the mist clinging to skin and clothing, creating a persistent dampness."
+        }
+      ],
+      "olfactory_details": [
+        {
+          "element": "River Scent",
+          "description": "The clean, earthy smell of the flowing river water below."
+        },
+        {
+          "element": "Night Air",
+          "description": "The crisp scent of the night, mixed with the moisture of the mist."
+        },
+        {
+          "element": "Metallic Hints",
+          "description": "Subtle traces of a metallic scent from blood spilled in previous confrontations, most noticeable near battle-damaged areas."
+        }
+      ],
+      "gustatory_details": [],
+      "emotional_response": {
+        "primary": "tension",
+        "secondary": ["anticipation", "reverence"],
+        "description": "The atmosphere evokes a sense of being in a place of power and historical significance, where important events have occurred and will occur again."
+      },
+      "narrative_significance": "Creates a liminal space where time seems suspended, appropriate for a meeting of destiny between two legendary warriors.",
+      "metadata": {
+        "creation_date": "2025-03-15T00:00:00Z",
+        "last_modified": "2025-03-15T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - INTRODUCTION - The Bridge of Fate.md"
+      }
+    },
+    {
+      "id": "sensory-mountain-path-rain-001",
+      "name": "Treacherous Mountain Path in Heavy Rain",
+      "type": "location_atmosphere",
+      "associated_location": "loc-mountain-path-001",
+      "time_of_day": "day",
+      "season": "spring",
+      "weather": "heavy_rain",
+      "visual_details": [
+        {
+          "element": "Unstable Terrain",
+          "description": "Wet earth crumbling at the path's edge, revealing dangerous drops obscured by mist and rain."
+        },
+        {
+          "element": "Rain Curtains",
+          "description": "Sheets of rain reducing visibility to mere feet, occasionally parting to reveal glimpses of the valley below."
+        },
+        {
+          "element": "Slick Rocks",
+          "description": "Stone surfaces along the path gleaming with dangerous wetness, requiring careful navigation."
+        },
+        {
+          "element": "Landslide Area",
+          "description": "A section where earth has recently given way, leaving a raw wound in the mountainside."
+        }
+      ],
+      "auditory_details": [
+        {
+          "element": "Rainfall",
+          "description": "The persistent drumming of heavy rain on rocky surfaces and forest canopy."
+        },
+        {
+          "element": "Occasional Rock Slides",
+          "description": "The alarming clatter of small stones breaking loose and tumbling down the mountainside."
+        },
+        {
+          "element": "Water Rushing",
+          "description": "Newly formed rivulets and streams cutting across the path and cascading down the mountain's face."
+        }
+      ],
+      "tactile_details": [
+        {
+          "element": "Unstable Footing",
+          "description": "The sensation of earth shifting beneath one's feet, creating moments of terrifying instability."
+        },
+        {
+          "element": "Cold Rain",
+          "description": "The persistent chill of mountain rain soaking through clothing and chilling the skin."
+        },
+        {
+          "element": "Mud and Grit",
+          "description": "The uncomfortable mixture clinging to hands after catching oneself from falling."
+        }
+      ],
+      "olfactory_details": [
+        {
+          "element": "Wet Earth",
+          "description": "The rich, primal scent of soil freshly exposed by rain and landslides."
+        },
+        {
+          "element": "Pine Resin",
+          "description": "The sharpened scent of pine trees, their fragrance intensified by the rain."
+        },
+        {
+          "element": "Fresh Foliage",
+          "description": "Green plants releasing their distinctive scent when brushed against or broken."
+        }
+      ],
+      "emotional_response": {
+        "primary": "danger",
+        "secondary": ["vulnerability", "alertness"],
+        "description": "Creates a heightened sense of mortal danger where even the most skilled warrior must acknowledge nature's power to harm or kill."
+      },
+      "narrative_significance": "Provides the setting for Benkei's first protective act toward Yoshi, breaking protocol to save his new master from falling, marking a pivotal moment in their relationship.",
+      "metadata": {
+        "creation_date": "2025-03-17T00:00:00Z",
+        "last_modified": "2025-03-17T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md"
+      }
+    },
+    {
+      "id": "sensory-forest-ambush-point-001",
+      "name": "Forest Ambush Setting",
+      "type": "location_atmosphere",
+      "associated_location": "loc-forest-ambush-point-001",
+      "time_of_day": "midday",
+      "season": "spring",
+      "weather": "overcast",
+      "visual_details": [
+        {
+          "element": "Dappled Light",
+          "description": "Filtered sunlight creating constantly shifting patterns on the forest floor as clouds move overhead."
+        },
+        {
+          "element": "Natural Cover",
+          "description": "Dense undergrowth and large boulders perfectly positioned to conceal ambushers."
+        },
+        {
+          "element": "Narrow Path",
+          "description": "The trail constricting between natural obstacles, creating a perfect bottleneck for trapping travelers."
+        },
+        {
+          "element": "Tell-tale Signs",
+          "description": "Subtle disturbances in the natural environment - broken twigs, disturbed leaves - visible only to the most observant."
+        }
+      ],
+      "auditory_details": [
+        {
+          "element": "Unnatural Silence",
+          "description": "The conspicuous absence of bird calls and animal sounds that would normally fill a forest."
+        },
+        {
+          "element": "Subtle Metallic Sounds",
+          "description": "The faint, nearly imperceptible sound of weapons being readied or armor shifting as ambushers prepare."
+        },
+        {
+          "element": "Whispered Commands",
+          "description": "Barely audible human voices communicating positions and tactics among the hidden attackers."
+        }
+      ],
+      "tactile_details": [
+        {
+          "element": "Soft Forest Floor",
+          "description": "Ground covered in years of accumulated leaves and pine needles that muffle footsteps."
+        },
+        {
+          "element": "Cool Shade",
+          "description": "The noticeable temperature drop when entering the densely wooded ambush area."
+        }
+      ],
+      "olfactory_details": [
+        {
+          "element": "Human Scent",
+          "description": "The subtle but distinctive smell of humans lying in wait - sweat, leather, and oil from weapons."
+        },
+        {
+          "element": "Forest Decay",
+          "description": "The earthy scent of decomposing leaves and moss that permeates the forest floor."
+        }
+      ],
+      "emotional_response": {
+        "primary": "tension",
+        "secondary": ["alertness", "anticipation"],
+        "description": "Creates an atmosphere of imminent danger that triggers instinctive wariness in experienced warriors."
+      },
+      "narrative_significance": "Provides the setting for Yoshi to demonstrate his extraordinary combat skills and tactical restraint to Benkei, furthering Benkei's respect and the development of their relationship.",
+      "metadata": {
+        "creation_date": "2025-03-17T00:00:00Z",
+        "last_modified": "2025-03-17T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md"
+      }
+    }
+  ]
+}
