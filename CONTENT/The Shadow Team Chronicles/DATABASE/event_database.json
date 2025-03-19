@@ -227,7 +227,10 @@
       }
     },
     {
-      "id": "event-yoshi-benkei-three-cuts-001",      "name": "The Three Cuts Duel",      "type": "combat",      "sub_type": "decisive_duel",
+      "id": "event-yoshi-benkei-three-cuts-001",
+      "name": "The Three Cuts Duel",
+      "type": "combat",
+      "sub_type": "decisive_duel",
       "timeline_date": "1180-03-15",
       "exact_time": "night",
       "location_id": "loc-gojo-bridge-001",
@@ -798,6 +801,371 @@
         "canon_status": "official",
         "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md"
       }
+    },
+    {
+      "id": "event-yoshi-benkei-duel-001",
+      "name": "The Duel at Gojo Bridge",
+      "type": "confrontation",
+      "description": "Yoshi and Benkei's legendary duel at Gojo Bridge, where Benkei sought his 1000th sword but was defeated through Yoshi's three perfect cuts. Each cut delivered a lesson: speed over strength, precision over power, and mastery over all.",
+      "location_id": "loc-gojo-bridge-001",
+      "participants": [
+        {
+          "character_id": "char-yoshi-001",
+          "role": "victor"
+        },
+        {
+          "character_id": "char-benkei-001",
+          "role": "defeated"
+        }
+      ],
+      "outcome": "Benkei swears an oath of loyalty to Yoshi, becoming his retainer",
+      "significance": "Marked the beginning of Benkei's transformation from a purposeless warrior to a devoted retainer",
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-17T00:00:00Z"
+    },
+    {
+      "id": "event-yoshi-benkei-mountain-journey-001",
+      "name": "Journey to the Hidden Forge",
+      "type": "journey",
+      "description": "Yoshi leads Benkei into the mountains to find the hidden forge, a journey that serves as both physical travel and metaphorical transformation.",
+      "location_id": "loc-mountain-path-001",
+      "participants": [
+        {
+          "character_id": "char-yoshi-001",
+          "role": "guide"
+        },
+        {
+          "character_id": "char-benkei-001",
+          "role": "follower"
+        }
+      ],
+      "outcome": "Arrival at the hidden forge where Benkei's transformation will be completed",
+      "significance": "Represents Benkei's willingness to follow Yoshi into the unknown and his acceptance of transformation",
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-17T00:00:00Z"
+    },
+    {
+      "id": "event-forging-weapons-armor-001",
+      "name": "The Forging of Benkei's Equipment",
+      "type": "transformation",
+      "description": "The blacksmith creates three items for Benkei: Crimson Dawn (a light-absorbing katana), Gale Cutter (a perfectly balanced naginata), and Iron Bear (armor that moves as one with its wearer).",
+      "location_id": "loc-hidden-forge-001",
+      "participants": [
+        {
+          "character_id": "char-blacksmith-001",
+          "role": "creator"
+        },
+        {
+          "character_id": "char-benkei-001",
+          "role": "recipient"
+        },
+        {
+          "character_id": "char-yoshi-001",
+          "role": "observer"
+        }
+      ],
+      "outcome": "Benkei receives equipment that symbolizes his new identity and purpose",
+      "significance": "Physical manifestation of Benkei's transformation from the warrior of Gojo Bridge to Yoshi's purposeful retainer",
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-17T00:00:00Z"
+    },
+    {
+      "id": "event-bandit-ambush-001",
+      "name": "Bandit Ambush on the Mountain Path",
+      "type": "confrontation",
+      "description": "As Yoshi and Benkei descend from the forge, they are ambushed by bandits seeking to steal their newly-forged weapons and armor.",
+      "location_id": "loc-mountain-path-001",
+      "participants": [
+        {
+          "character_id": "char-yoshi-001",
+          "role": "defender"
+        },
+        {
+          "character_id": "char-benkei-001",
+          "role": "defender"
+        }
+      ],
+      "outcome": "Benkei defeats the bandits, proving the effectiveness of his new equipment and transformed fighting style",
+      "significance": "The first test of Benkei's transformation, demonstrating his evolution from brute strength to purposeful protection",
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-17T00:00:00Z"
+    },
+    {
+      "id": "event-benkei-concealment-decision-001",
+      "name": "Benkei's Decision to Conceal His Identity",
+      "type": "character development",
+      "description": "Following Yoshi's guidance, Benkei decides to keep his helmet on at all times in public, concealing his identity and allowing 'Benkei the warrior monk' to fade into history while he adopts his new identity as Iron Bear.",
+      "location_id": "loc-hidden-forge-001",
+      "participants": [
+        {
+          "character_id": "char-yoshi-001",
+          "role": "advisor"
+        },
+        {
+          "character_id": "char-benkei-001",
+          "role": "decision maker"
+        }
+      ],
+      "outcome": "Benkei becomes known only as Iron Bear, his true identity hidden behind his helm",
+      "significance": "Symbolic shedding of his past identity and full embrace of his transformation and new purpose",
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-17T00:00:00Z"
+    },
+    {
+      "id": "event-first-kyoto-incursion-001",
+      "name": "First Entry into Kyoto",
+      "type": "strategic_move",
+      "timeline_date": "1180-03-16",
+      "location_id": "loc-kyoto-001",
+      "description": "Following their fateful duel at Gojo Bridge, Yoshi and Benkei enter Kyoto openly, a calculated move that announces Yoshi's presence to the city's power brokers. Their arrival causes tension throughout the city as word spreads of Benkei's defeat and subsequent oath of loyalty.",
+      "participants": [
+        {
+          "character_id": "char-yoshi-001",
+          "role": "strategist"
+        },
+        {
+          "character_id": "char-benkei-001",
+          "role": "follower"
+        }
+      ],
+      "outcome": "Successful entry into the city, drawing attention from Norimasa and other power figures",
+      "significance": "The first step in Yoshi's campaign to take control of Kyoto, establishing his presence as a force to be reckoned with",
+      "created_at": "2025-03-18T00:00:00Z",
+      "updated_at": "2025-03-18T00:00:00Z"
+    },
+    {
+      "id": "event-tea-meeting-001",
+      "name": "Tea Ceremony with Norimasa",
+      "type": "confrontation",
+      "sub_type": "political",
+      "timeline_date": "1180-03-16",
+      "exact_time": "afternoon",
+      "location_id": "loc-norimasa-compound-001",
+      "description": "Yoshi accepts an invitation to meet with Lord Norimasa for tea, knowing it is likely a trap but seeing an opportunity to assess his adversary directly. During the tense ceremony, both men engage in verbal sparring disguised as polite conversation, each probing the other's intentions while maintaining the pretense of civility.",
+      "participants": [
+        {
+          "character_id": "char-yoshi-001",
+          "role": "guest"
+        },
+        {
+          "character_id": "char-benkei-001",
+          "role": "bodyguard"
+        },
+        {
+          "character_id": "char-norimasa-001",
+          "role": "host"
+        }
+      ],
+      "sequence": [
+        {
+          "action": "Arrival at Norimasa's compound",
+          "significance": "Entering the enemy's domain voluntarily, demonstrating confidence"
+        },
+        {
+          "action": "Tea ceremony begins",
+          "significance": "Cultural ritual that constrains both parties with strict protocols"
+        },
+        {
+          "action": "Verbal exchanges with double meanings",
+          "significance": "Political maneuvering disguised as pleasantries"
+        },
+        {
+          "action": "Norimasa reveals knowledge of Yoshi's identity",
+          "significance": "Power play to demonstrate intelligence network"
+        },
+        {
+          "action": "Norimasa subtly signals for gates to be sealed",
+          "significance": "The trap is sprung"
+        }
+      ],
+      "outcome": "Yoshi and Benkei realize they are trapped in Kyoto as Norimasa's forces move to capture or kill them",
+      "significance": "The moment when subtle political maneuvering transforms into open conflict",
+      "created_at": "2025-03-18T00:00:00Z",
+      "updated_at": "2025-03-18T00:00:00Z"
+    },
+    {
+      "id": "event-kyoto-lockdown-001",
+      "name": "Kyoto Lockdown",
+      "type": "trap",
+      "timeline_date": "1180-03-16",
+      "location_id": "loc-kyoto-001",
+      "description": "Following the tea ceremony, Norimasa orders all gates of Kyoto sealed and deploys his forces throughout the city with orders to find and capture Yoshi and Benkei. The city becomes a maze of danger as patrols sweep the streets and spies watch from shadows.",
+      "participants": [
+        {
+          "character_id": "char-norimasa-001",
+          "role": "orchestrator"
+        },
+        {
+          "character_id": "char-yoshi-001",
+          "role": "target"
+        },
+        {
+          "character_id": "char-benkei-001",
+          "role": "target"
+        }
+      ],
+      "outcome": "Yoshi and Benkei are forced into hiding within the city, planning their escape",
+      "significance": "The first major obstacle in Yoshi's campaign, requiring him to adapt and overcome rather than confront directly",
+      "created_at": "2025-03-18T00:00:00Z",
+      "updated_at": "2025-03-18T00:00:00Z"
+    },
+    {
+      "id": "event-burning-records-001",
+      "name": "Burning of Norimasa's Records",
+      "type": "sabotage",
+      "timeline_date": "1180-03-16",
+      "exact_time": "night",
+      "location_id": "loc-norimasa-compound-001",
+      "description": "While escaping from Kyoto, Yoshi and Benkei infiltrate Norimasa's compound and discover his archive of secret records - blackmail material and intelligence reports that form the foundation of his power in Kyoto. In a desperate but strategic move, they set fire to these records, crippling Norimasa's intelligence network and power base.",
+      "participants": [
+        {
+          "character_id": "char-yoshi-001",
+          "role": "strategist"
+        },
+        {
+          "character_id": "char-benkei-001",
+          "role": "enforcer"
+        }
+      ],
+      "outcome": "Destruction of Norimasa's critical intelligence and blackmail network, significantly weakening his control over Kyoto",
+      "significance": "What begins as a desperate act of survival becomes a strategic blow against Norimasa's power structure",
+      "created_at": "2025-03-18T00:00:00Z",
+      "updated_at": "2025-03-18T00:00:00Z"
+    },
+    {
+      "id": "event-kyoto-escape-001",
+      "name": "Escape from Kyoto",
+      "type": "evasion",
+      "timeline_date": "1180-03-16",
+      "exact_time": "night",
+      "location_id": "loc-kyoto-gates-001",
+      "description": "After burning Norimasa's records, Yoshi and Benkei fight their way to the city gates, using stealth, deception, and combat to evade or overcome the forces searching for them. They escape into the night, wounded but alive, leaving chaos in their wake.",
+      "participants": [
+        {
+          "character_id": "char-yoshi-001",
+          "role": "escapee"
+        },
+        {
+          "character_id": "char-benkei-001",
+          "role": "escapee"
+        }
+      ],
+      "outcome": "Successful escape from Kyoto, though not without injuries",
+      "significance": "The first phase of the Kyoto campaign ends with a tactical retreat but a strategic advantage gained through the destruction of records",
+      "created_at": "2025-03-18T00:00:00Z",
+      "updated_at": "2025-03-18T00:00:00Z"
+    },
+    {
+      "id": "event-mountain-clan-recruitment-001",
+      "name": "Recruitment of Mountain Clan Warriors",
+      "type": "alliance_formation",
+      "timeline_date": "1180-03-20",
+      "location_id": "loc-mountain-path-001",
+      "description": "Following Benkei's reforging and equipped with his Iron Bear armor, Yoshi seeks out the independent warrior clans of the mountains. Initially skeptical, these clans test Yoshi's strength and resolve through challenges and duels. Benkei's transformed presence and Yoshi's leadership ultimately convince these fierce warriors to join their cause against Norimasa.",
+      "participants": [
+        {
+          "character_id": "char-yoshi-001",
+          "role": "leader"
+        },
+        {
+          "character_id": "char-benkei-001",
+          "role": "enforcer"
+        },
+        {
+          "group_type": "mountain clans",
+          "description": "Independent warrior clans with no loyalty to Kyoto's power structure"
+        }
+      ],
+      "outcome": "Formation of an alliance with the mountain clans, providing Yoshi with his first significant fighting force",
+      "significance": "Marks Yoshi's evolution from individual warrior to military leader capable of commanding forces",
+      "created_at": "2025-03-18T00:00:00Z",
+      "updated_at": "2025-03-18T00:00:00Z"
+    },
+    {
+      "id": "event-second-kyoto-incursion-001",
+      "name": "Second Assault on Kyoto",
+      "type": "battle",
+      "timeline_date": "1180-03-25",
+      "location_id": "loc-kyoto-gates-001",
+      "description": "Yoshi returns to Kyoto with warriors from the mountain clans, attempting to form alliances with other power brokers in the city who oppose Norimasa. Though they achieve some initial success and weaken Norimasa's position further, they ultimately face superior numbers and are forced to retreat from the city once again.",
+      "participants": [
+        {
+          "character_id": "char-yoshi-001",
+          "role": "commander"
+        },
+        {
+          "character_id": "char-benkei-001",
+          "role": "field commander"
+        },
+        {
+          "character_id": "char-norimasa-001",
+          "role": "defender"
+        },
+        {
+          "group_type": "mountain clan warriors",
+          "description": "Allied fighters from the mountain regions"
+        }
+      ],
+      "outcome": "Initial gains followed by tactical retreat when faced with overwhelming forces",
+      "significance": "Demonstrates that while Yoshi has grown stronger, he still lacks the forces needed for a decisive victory",
+      "created_at": "2025-03-18T00:00:00Z",
+      "updated_at": "2025-03-18T00:00:00Z"
+    },
+    {
+      "id": "event-yoritomo-message-001",
+      "name": "Yoritomo's Message of Support",
+      "type": "communication",
+      "timeline_date": "1180-04-01",
+      "location_id": "loc-mountain-path-001",
+      "description": "As Yoshi and his forces regroup in the mountains after their second retreat from Kyoto, a messenger arrives from his half-brother Yoritomo. The message promises substantial reinforcements and officially sanctions Yoshi's campaign against Kyoto as part of the broader Minamoto strategy to control Japan.",
+      "participants": [
+        {
+          "character_id": "char-yoshi-001",
+          "role": "recipient"
+        },
+        {
+          "character_id": "char-yoritomo-001",
+          "role": "sender"
+        }
+      ],
+      "outcome": "Yoshi gains the promise of significant reinforcements and official backing from the Minamoto clan",
+      "significance": "Transforms Yoshi's personal campaign into part of a larger strategic conflict for control of Japan",
+      "created_at": "2025-03-18T00:00:00Z",
+      "updated_at": "2025-03-18T00:00:00Z"
+    },
+    {
+      "id": "event-final-kyoto-battle-001",
+      "name": "Final Battle for Kyoto",
+      "type": "decisive_battle",
+      "timeline_date": "1180-04-10",
+      "location_id": "loc-kyoto-001",
+      "description": "With Yoritomo's reinforcements joining his mountain clan allies, Yoshi launches the final assault on Kyoto. Benkei, now fully transformed as Iron Bear, leads the charge through the gates. The battle rages throughout the city, culminating in a direct confrontation between Yoshi and Norimasa. After fierce fighting, Kyoto falls to the Minamoto forces.",
+      "participants": [
+        {
+          "character_id": "char-yoshi-001",
+          "role": "commander"
+        },
+        {
+          "character_id": "char-benkei-001",
+          "role": "vanguard leader"
+        },
+        {
+          "character_id": "char-norimasa-001",
+          "role": "defender"
+        },
+        {
+          "group_type": "Minamoto reinforcements",
+          "description": "Trained warriors sent by Yoritomo"
+        },
+        {
+          "group_type": "mountain clan warriors",
+          "description": "Allied fighters from the mountain regions"
+        }
+      ],
+      "outcome": "Decisive victory, with Kyoto falling under Minamoto control",
+      "significance": "Completes Yoshi's evolution from lone warrior to military leader and establishes Minamoto control over Kyoto",
+      "created_at": "2025-03-18T00:00:00Z",
+      "updated_at": "2025-03-18T00:00:00Z"
     }
   ]
 }

@@ -333,6 +333,31 @@
         "canon_status": "official",
         "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md"
       }
+    },
+    {
+      "id": "worldbuilding-mountain-forge-001",
+      "name": "The Hidden Mountain Forge",
+      "category": "location_lore",
+      "description": "A legendary forge hidden deep in the northern mountains of Japan, where weapons and armor of extraordinary quality are crafted. The forge is built into the living rock of the mountain, with a fire that seems to burn with unnatural vigor.",
+      "cultural_significance": "Known only to a select few, the forge is said to create weapons that are extensions of their wielders' souls rather than mere tools. The blacksmith who operates it is believed to shape more than just metal.",
+      "historical_context": "The forge's origins are unknown, but it appears to have existed for generations, serving those deemed worthy of its creations.",
+      "associated_beliefs": [
+        "Weapons forged here carry more than mere steel in their making",
+        "The forge shapes the wielder as much as the weapon",
+        "Only those guided to the forge are meant to possess its creations"
+      ],
+      "related_elements": [
+        {
+          "element_id": "loc-hidden-forge-001",
+          "relationship": "physical manifestation"
+        },
+        {
+          "element_id": "char-blacksmith-001",
+          "relationship": "keeper"
+        }
+      ],
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-17T00:00:00Z"
     }
   ]
 }

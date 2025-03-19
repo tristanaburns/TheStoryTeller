@@ -5,13 +5,16 @@
 **Use the following yaml as the variables within the <<>> for all instructions below**
 
 ```yaml
-FileName: 3. The Shadow Team Chronicles - DRAFT - STORYLINE - The Path Into the Mountains.md
+FileName: 2. The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md
 ChapterName:
 PassageName:
-PartName: ### **🔥 The Path Into the Mountains - The Aftermath of the Mountain Clash (Part 12)**
+PartName: ### **The Warrior’s Oath – The Man Who Knew Too Much**
 ```
 
 **NOTE:** These are the code markers used in the target fileName. Do Not action anything here.
+
+
+
 `**INSERT THE UPDATED CONTENT HERE**`
 
 `**DO NOT DELETE OR MODIFY THIS CONTENT BELOW**`
@@ -19,12 +22,68 @@ PartName: ### **🔥 The Path Into the Mountains - The Aftermath of the Mountain
 `**TARGET CONTENT BELOW**`
 `**START OF TARGET CONTENT**`
 
+**These are example markers. Read the contents of the target file defined in the YAML code `FileNeme:` variable referenced in this instruction... ignore these examples**
+
 `**END OF TARGET CONTENT**`
 `**TARGET CONTENT ABOVE**`
 
 ## Instructions
 
 ### Content Enhancement Instructions
+
+## 📌 **IMPORTANT - DATABASE STRUCTURE AND REFERENCES**
+**Refer to the baseline documentation for all database structures and schemas:**
+
+- `README.md` (located at the root of the project directory)
+- `/documentation/readme.md` (for specific database update procedures)
+- `/CONTENT/The Shadow Team Chronicles/DATABASE/*.json` (the actual databases are located here)
+
+These documentation files contain comprehensive information about:
+- All JSON database files which store the canonical story universe information
+- The purpose and structure of each database (character_database.json, location_database.json, event_database.json, etc.)
+- How these databases cross-reference each other to maintain narrative consistency
+- Schema definitions and validation guidelines for each database type
+- Proper procedures for updating and extending the story universe
+- Character, location, event, and timeline reference systems
+- How to format and add new content while maintaining database integrity
+- Cross-referencing patterns between database files
+
+The JSON database files form the foundational knowledge base of the entire story universe. Any content created or modified must align with the information stored in these databases to maintain narrative consistency. Always consult these documentation files before adding content that references characters, locations, events, artifacts, or other established story elements.
+
+📌 **IMPORTANT**
+
+AI must ensure:
+1. Ensure all JSON props follow the established schema pattern define in the JSON schema `AI_Writing_Metadata_Schema.json`
+2. Include relevant image and video prompt instructions within the JSON metadata as per the JSON metadata schema
+
+📌 **IMPORTANT**
+**Constraint-Based Story Part Generation**
+To ensure structured and immersive storytelling, every generated story part must adhere to the following constraints:
+
+✅ Maximum Words: **600**
+✅ Maximum Characters: **3600**
+✅ Maximum Tokens: **800**
+
+Each part must be structured to fit within these limits naturally while preserving:
+
+✅ Logical scene breaks that enhance immersion rather than disrupt it.
+✅ Smooth narrative continuation across parts.
+✅ Consistent pacing, tone, and storytelling integrity.
+
+If any part reaches the maximum threshold, it must be split at a logical transition point, ensuring:
+
+✅ The passage continues seamlessly, without abrupt cuts.
+✅ Each break occurs at a natural story beat.
+✅ The immersion and dramatic weight of the scene remain intact.
+
+**This rule applies automatically to all story parts, reinforcing structured pacing and maintaining high-quality cinematic storytelling.**
+
+📌 **IMPORTANT**
+**Refer to the following files for additional information:**
+
+- `AI_Writing_Metadata_Schema.json`
+- `character_database.json`
+- `timeline_database.json`
 
 **DO NOT DIRECTLY UPDATE THE FILE, JUST PRINT THE RESULT TO THE CHAT**
 
@@ -66,45 +125,8 @@ PartName: ### **🔥 The Path Into the Mountains - The Aftermath of the Mountain
    - Narrative voice and tone
    - Special formatting or structure
 
-5. Output the enhanced content between:
-```
-**INSERT THE UPDATED CONTENT HERE**
-```
 
-📌 **IMPORTANT**
 
-AI must ensure:
-1. Ensure all JSON props follow the established schema pattern define in the JSON schema `AI_Writing_Metadata_Schema.json`
-2. Include relevant image and video prompt instructions within the JSON metadata as per the JSON metadata schema
-
-📌 **IMPORTANT**
-**Constraint-Based Story Part Generation**
-To ensure structured and immersive storytelling, every generated story part must adhere to the following constraints:
-
-✅ Maximum Words: **600**
-✅ Maximum Characters: **3600**
-✅ Maximum Tokens: **800**
-
-Each part must be structured to fit within these limits naturally while preserving:
-
-✅ Logical scene breaks that enhance immersion rather than disrupt it.
-✅ Smooth narrative continuation across parts.
-✅ Consistent pacing, tone, and storytelling integrity.
-
-If any part reaches the maximum threshold, it must be split at a logical transition point, ensuring:
-
-✅ The passage continues seamlessly, without abrupt cuts.
-✅ Each break occurs at a natural story beat.
-✅ The immersion and dramatic weight of the scene remain intact.
-
-**This rule applies automatically to all story parts, reinforcing structured pacing and maintaining high-quality cinematic storytelling.**
-
-📌 **IMPORTANT**
-**Refer to the following files for additional information:**
-
-- `AI_Writing_Metadata_Schema.json`
-- `character_database.json`
-- `The Shadow Team Chronicles - MASTER - TIMELINE.csv`
 
 📌 **IMPORTANT**
 **Perform the following actions / instructions:**

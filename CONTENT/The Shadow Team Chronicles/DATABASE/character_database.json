@@ -3,152 +3,124 @@
     {
       "id": "char-yoshi-001",
       "name": "Yoshi",
-      "full_name": "Minamoto no Yoshitsune",
-      "aliases": ["The Shadow Hawk", "Storm Fang", "Phantom Blade"],
-      "birth_year": "1159",
-      "status": "alive",
-      "species": "human",
-      "gender": "male",
-      "affiliations": [
-        {
-          "organization": "org-minamoto-001",
-          "role": "Last heir",
-          "start_date": "1159",
-          "end_date": null
-        }
-      ],
-      "abilities": [
-        {
-          "name": "Master Swordsman",
-          "description": "Extraordinary speed and precision with a blade, able to defeat opponents through perfect technique rather than brute force"
-        },
-        {
-          "name": "Tactical Genius",
-          "description": "Able to analyze opponents and battlefield situations with remarkable clarity and insight"
-        },
-        {
-          "name": "Stealth",
-          "description": "Moves like a ghost, capable of approaching opponents undetected"
-        }
-      ],
-      "weapons": [
-        "weapon-higekiri-001"
-      ],
-      "biography": "Born during the turmoil of the Heiji Rebellion, Yoshi is the son of the slain Minamoto clan leader. Hidden at Kurama Temple as a child, he grew up training secretly in martial arts rather than following the monks' peaceful teachings. After leaving the temple in 1179, he wandered briefly before meeting Benkei at Gojo Bridge in early 1180, a pivotal moment that would change the course of his destiny. This meeting coincided with the beginning of the Genpei War, setting Yoshitsune on the path to becoming one of Japan's greatest military commanders.",
-      "appearance": "Lean and agile with sharp, observant eyes. Moves with fluid grace that belies his deadly skill.",
-      "personality": {
-        "traits": ["Disciplined", "Strategic", "Reserved", "Determined"],
-        "description": "A calm, focused warrior who speaks little but observes everything. Carries himself with the quiet confidence of one who has already calculated every outcome. His apparent nonchalance in battle masks a mind constantly analyzing and adapting."
+      "aliases": ["Master"],
+      "description": "A skilled samurai of slender build with precise, fluid movements. His calm demeanor masks tactical brilliance and extraordinary combat skills. He defeated Benkei at Gojo Bridge with three perfect cuts, demonstrating mastery over brute strength. He rarely explains his intentions fully but always has a clear purpose in mind.",
+      "physical_traits": {
+        "build": "slender but strong",
+        "notable_features": "moves with fluid economy",
+        "fighting_style": "precise, efficient, focused on speed and technique"
+      },
+      "psychological_traits": {
+        "temperament": "calm, measured, observant",
+        "motivations": "has a larger purpose that remains partially hidden",
+        "fears": "unknown",
+        "strengths": "tactical awareness, combat mastery, patience",
+        "weaknesses": "keeps his true intentions guarded"
+      },
+      "background": {
+        "origin": "Mentions having a half-brother who is a lord in the north",
+        "key_events": [
+          "Defeated Benkei at Gojo Bridge with three cuts",
+          "Took Benkei as a retainer",
+          "Journeyed to the mountain forge for Benkei's transformation"
+        ],
+        "affiliations": ["Unknown northern lord (half-brother)"]
       },
       "relationships": [
         {
-          "character": "char-benkei-001",
-          "relationship_type": "master-retainer",
-          "description": "After defeating Benkei at Gojo Bridge, gained his unwavering loyalty, forming one of history's most legendary partnerships."
-        }
-      ],
-      "character_arc": {
-        "starting_state": "Disciplined warrior bound by a strict code of honor",
-        "current_state": "Disciplined warrior bound by a strict code of honor",
-        "goal": "To restore honor and preserve tradition against the encroaching machines"
-      },
-      "attributes": {
-        "physical": {
-          "height": "5'11\"",
-          "build": "Athletic, lean",
-          "distinctive_features": "Hawk-like gaze, composed demeanor"
-        }
-      },
-      "equipment_reference": [
+          "relationship_id": "rel-yoshi-benkei-001",
+          "type": "master",
+          "description": "Master to Benkei, maintaining the traditional three paces distance"
+        },
         {
-          "name": "Higekiri",
-          "description": "Yoshitsune's historically significant sword, known as 'Beard-cutter'",
-          "confidence": "high"
+          "relationship_id": "rel-yoshi-blacksmith-001",
+          "type": "acquaintance",
+          "description": "Has prior knowledge of the blacksmith and his forge"
+        },
+        {
+          "relationship_id": "rel-yoshi-northern-lord-001",
+          "type": "half-brother",
+          "description": "Has a half-brother who is a lord in the north"
         }
       ],
-      "created_at": "2025-03-10T00:00:00Z",
-      "updated_at": "2025-03-16T00:00:00Z"
+      "story_role": "guide and master",
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-17T00:00:00Z"
     },
     {
       "id": "char-benkei-001",
       "name": "Benkei",
-      "full_name": "Saitō Musashibō Benkei",
-      "aliases": ["The Iron Bear", "The War Titan", "The Mountain That Walks", "The Bear", "The Giant of Gojo Bridge"],
-      "birth_year": "1155",
-      "status": "alive",
-      "species": "human",
-      "gender": "male",
-      "affiliations": [
-        {
-          "organization": "org-kurama-monks-001",
-          "role": "Former monk",
-          "start_date": "1155",
-          "end_date": "1170"
-        }
-      ],
-      "abilities": [
-        {
-          "name": "Superhuman Strength",
-          "description": "Possesses strength far beyond ordinary men, capable of wielding weapons others can barely lift"
-        },
-        {
-          "name": "Endurance",
-          "description": "Can withstand tremendous punishment in battle, continuing to fight when others would fall"
-        },
-        {
-          "name": "Naginata Mastery",
-          "description": "Particularly skilled with the naginata, using it to devastating effect in combat"
-        }
-      ],
-      "weapons": [
-        "weapon-naginata-001"
-      ],
-      "biography": "Abandoned as a child at a monastery, Benkei grew at an unnatural rate, becoming a giant among men. His immense strength made him an outcast even among the monks who raised him. Cast out as a young man, he wandered Japan becoming a feared warrior who challenged swordsmen and collected their weapons. By early 1180, he had claimed 999 swords and awaited his final duel at Gojo Bridge, where fate brought him face to face with Yoshi, just as the Genpei War was beginning. After being defeated through Yoshi's 'Three Cuts' technique, Benkei pledged his loyalty with the words 'Then my path is yours,' finding new purpose in service to a worthy master.",
-      "appearance": "Towering and imposing with a broad frame and immense physical presence. Typically dressed in black robes that emphasize his intimidating silhouette.",
-      "personality": {
-        "traits": ["Loyal", "Determined", "Stoic", "Unyielding", "Purpose-seeking"],
-        "description": "Once directionless but driven by strength, Benkei found purpose in defeat. His loyalty to Yoshi became absolute after their duel, transforming him from a lone warrior to a devoted protector. Speaks rarely but with conviction. Though he follows formal protocols of the master-retainer relationship, he will break these rules when Yoshi's safety is at risk, demonstrating that his loyalty transcends mere adherence to tradition."
+      "aliases": ["The Giant of Gojo Bridge", "Iron Bear"],
+      "description": "A massive warrior monk known for his tremendous strength. After being defeated by Yoshi at Gojo Bridge, he swore an oath of loyalty and began a journey of transformation. Through the forging of new weapons and armor at the mountain forge, he shed his old identity to become 'Iron Bear', a protector rather than a conqueror.",
+      "physical_traits": {
+        "build": "massive, mountain-like frame",
+        "notable_features": "extraordinary strength, imposing presence",
+        "fighting_style": "evolved from brute strength to precision and purpose"
+      },
+      "psychological_traits": {
+        "temperament": "once rage-driven, now disciplined and purposeful",
+        "motivations": "loyalty to his oath, finding meaning beyond combat",
+        "fears": "returning to purposeless violence",
+        "strengths": "adaptability, raw power, growing tactical awareness",
+        "weaknesses": "still learning to balance strength with precision"
+      },
+      "background": {
+        "origin": "Warrior monk",
+        "key_events": [
+          "Collected 999 swords at Gojo Bridge",
+          "Defeated by Yoshi in their duel",
+          "Swore oath of loyalty to Yoshi",
+          "Transformed at the mountain forge"
+        ],
+        "affiliations": ["Formerly none, now loyal to Yoshi"]
       },
       "relationships": [
         {
-          "character": "char-yoshi-001",
-          "relationship_type": "retainer-master",
-          "description": "After being defeated by Yoshi at Gojo Bridge, pledged absolute loyalty to him, becoming his most trusted companion."
+          "relationship_id": "rel-benkei-yoshi-001",
+          "type": "retainer",
+          "description": "Sworn retainer to Yoshi after being defeated at Gojo Bridge"
+        }
+      ],
+      "story_role": "transformed warrior, primary protagonist",
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-17T00:00:00Z"
+    },
+    {
+      "id": "char-blacksmith-001",
+      "name": "The Blacksmith",
+      "aliases": ["The Mountain Smith", "The Forge Master"],
+      "description": "An enigmatic blacksmith residing in a hidden forge deep in the mountains. Despite working with fire and metal, his hands bear no burns or scars, suggesting he is more than a mere craftsman. He creates weapons and armor that become extensions of their wielders' souls rather than simple tools.",
+      "physical_traits": {
+        "build": "powerful shoulders and arms",
+        "notable_features": "weathered face with deep lines, unmarked hands despite forge work",
+        "fighting_style": "unknown, but carries himself with warrior-like bearing"
+      },
+      "psychological_traits": {
+        "temperament": "measured, purposeful, knows more than he reveals",
+        "motivations": "crafting purpose rather than just weapons",
+        "fears": "unknown",
+        "strengths": "profound understanding of transformation beyond metal",
+        "weaknesses": "isolated from the world below"
+      },
+      "background": {
+        "origin": "unknown",
+        "key_events": ["Created Iron Bear, Crimson Dawn, and Gale Cutter for Benkei"],
+        "affiliations": ["Connected to Yoshi through unknown past dealings"]
+      },
+      "relationships": [
+        {
+          "relationship_id": "rel-blacksmith-yoshi-001",
+          "type": "acquaintance",
+          "description": "Known to Yoshi before their arrival at the forge"
         },
         {
-          "character": "char-monastery-abbot-001",
-          "relationship_type": "former_student-mentor",
-          "description": "The abbot attempted to help young Benkei control his strength, but ultimately could not reconcile his natural warrior spirit with monastic ideals."
+          "relationship_id": "rel-blacksmith-benkei-001",
+          "type": "creator",
+          "description": "Created Benkei's new weapons and armor, symbolizing his transformation"
         }
       ],
-      "character_arc": {
-        "starting_state": "Powerful warrior seeking a worthy cause and pursuing empty achievements",
-        "current_state": "Devoted retainer finding meaning through service to Yoshi",
-        "goal": "To find purpose through service to a worthy master and protect him in his journey"
-      },
-      "childhood": {
-        "description": "Raised in a mountain monastery where he was mocked as 'bear cub' by other novices due to his unusual size and strength. Despite the abbot's attempts to guide him toward controlling his power, Benkei's violent response to harassment and his natural warrior tendencies led to his departure from monastic life.",
-        "key_experiences": [
-          "Rejection by peers in the monastery",
-          "Struggling to contain his natural strength",
-          "Leaving monastic life to find his own path"
-        ]
-      },
-      "attributes": {
-        "physical": {
-          "height": "7'6\"",
-          "build": "Massive, muscular",
-          "distinctive_features": "Imposing stature, monk-like appearance"
-        }
-      },
-      "equipment_reference": [
-        {
-          "name": "Naginata",
-          "description": "The signature polearm wielded by Benkei",
-          "confidence": "high"
-        }
-      ],
-      "created_at": "2025-03-10T00:00:00Z",
+      "story_role": "catalyst for transformation",
+      "created_at": "2025-03-17T00:00:00Z",
       "updated_at": "2025-03-17T00:00:00Z"
     },
     {
@@ -243,6 +215,77 @@
         "canon_status": "official",
         "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md"
       }
+    },
+    {
+      "id": "char-yoritomo-001",
+      "name": "Minamoto no Yoritomo",
+      "aliases": ["Lord Yoritomo", "Yoshi's Half-Brother"],
+      "description": "Half-brother to Yoshi and a powerful military leader who seeks to establish control over Japan. While not physically present in the early Kyoto campaign, his strategic influence and eventual reinforcements prove decisive in the final battle.",
+      "physical_traits": {
+        "build": "strong, commanding presence",
+        "notable_features": "stern expression, carries himself with the bearing of one born to rule",
+        "fighting_style": "skilled strategist, commands from the rear rather than fighting directly"
+      },
+      "psychological_traits": {
+        "temperament": "calculating, ambitious, disciplined",
+        "motivations": "establish Minamoto control over Japan, remove rival clans from power",
+        "fears": "betrayal, loss of control, the rise of competing factions",
+        "strengths": "strategic thinking, long-term planning, ability to command loyalty",
+        "weaknesses": "suspicious nature, reluctance to trust others fully, even family"
+      },
+      "background": {
+        "origin": "Minamoto clan, one of Japan's most powerful families",
+        "key_events": ["Backing Yoshi's campaign to take Kyoto", "Sending reinforcements for the final battle"],
+        "affiliations": ["Minamoto clan (leader)", "Imperial supporters"]
+      },
+      "relationships": [
+        {
+          "relationship_id": "rel-yoshi-yoritomo-001",
+          "type": "half-brothers",
+          "description": "Complex relationship blending family ties with political alliance. Yoritomo supports Yoshi's campaigns while maintaining final authority."
+        }
+      ],
+      "story_role": "distant ally, strategic backer",
+      "created_at": "2025-03-18T00:00:00Z",
+      "updated_at": "2025-03-18T00:00:00Z"
+    },
+    {
+      "id": "char-norimasa-001",
+      "name": "Lord Norimasa",
+      "aliases": ["The Warlord of Kyoto", "Kyoto's Master"],
+      "description": "The cunning and ruthless warlord who controls Kyoto through a network of spies, blackmail, and military force. He represents the old power structure that must be overcome for the Minamoto clan to gain control of the city.",
+      "physical_traits": {
+        "build": "lean, deceptively strong",
+        "notable_features": "calculating eyes, always perfectly composed, elaborate court clothing",
+        "fighting_style": "prefers to use others as weapons, but skilled with blade when necessary"
+      },
+      "psychological_traits": {
+        "temperament": "patient, calculating, ruthless when threatened",
+        "motivations": "maintain control over Kyoto, increase personal power",
+        "fears": "losing influence, having his secrets revealed",
+        "strengths": "intelligence network, blackmail materials, political manipulation",
+        "weaknesses": "overreliance on secret knowledge, underestimation of direct confrontation"
+      },
+      "background": {
+        "origin": "Rose to power through political maneuvering in Kyoto",
+        "key_events": ["Taking control of Kyoto", "Confrontation with Yoshi", "Final battle for the city"],
+        "affiliations": ["Kyoto ruling class", "Anti-Minamoto factions"]
+      },
+      "relationships": [
+        {
+          "relationship_id": "rel-yoshi-norimasa-001",
+          "type": "enemies",
+          "description": "Direct antagonist to Yoshi's campaign to take Kyoto, their conflict escalates from political maneuvering to open warfare."
+        },
+        {
+          "relationship_id": "rel-benkei-norimasa-001",
+          "type": "enemies",
+          "description": "Norimasa sees Benkei as both a threat and a potential weakness in Yoshi's armor."
+        }
+      ],
+      "story_role": "primary antagonist in the Kyoto campaign",
+      "created_at": "2025-03-18T00:00:00Z",
+      "updated_at": "2025-03-18T00:00:00Z"
     }
   ]
 }

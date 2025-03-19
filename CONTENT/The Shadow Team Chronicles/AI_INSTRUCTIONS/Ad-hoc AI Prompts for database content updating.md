@@ -6,10 +6,13 @@ I need you to analyze provided content, extract all narrative elements (characte
 
 [OPTION 1: DIRECT CONTENT]
 
+
+
 [OPTION 2: FILE REFERENCE]
 
-File path: CONTENT\The Shadow Team Chronicles\STORYLINE\DRAFT\2. The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md
+File path: CONTENT\The Shadow Team Chronicles\STORYLINE\DRAFT\3 .The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Path Into the Mountains.md
 Section to process: 
+
 
 ## Update Requirements
 
@@ -272,9 +275,3 @@ Refer to the following schema documentation as needed:
 ---
 
 This structured approach ensures comprehensive database updates while maintaining the integrity of all cross-references and relationships within The Shadow Team Chronicles universe. By following these guidelines, we maintain narrative consistency while allowing for organic expansion of the story world across all connected systems.
-
-# AI Instruction Guide for Database Content Updating
-
-## Chapter Information Database Updates
-
-### Creating a New Chapter Information Entry

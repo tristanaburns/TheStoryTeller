@@ -144,6 +144,33 @@
         "canon_status": "official",
         "author": "Story Database System"
       }
+    },
+    {
+      "id": "chapter-path-into-mountains-001",
+      "title": "The Path Into the Mountains",
+      "sequence_number": 3,
+      "description": "Yoshi leads Benkei into the mountains to a hidden forge, where Benkei undergoes a transformation through the creation of new weapons and armor that symbolize his rebirth as a warrior with purpose.",
+      "key_events": [
+        "event-yoshi-benkei-mountain-journey-001",
+        "event-forging-weapons-armor-001",
+        "event-benkei-concealment-decision-001",
+        "event-bandit-ambush-001"
+      ],
+      "key_characters": [
+        "char-yoshi-001",
+        "char-benkei-001",
+        "char-blacksmith-001"
+      ],
+      "key_locations": [
+        "loc-mountain-path-001",
+        "loc-hidden-forge-001"
+      ],
+      "key_themes": [
+        "theme-transformation-001",
+        "theme-identity-001"
+      ],
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-17T00:00:00Z"
     }
   ]
 }

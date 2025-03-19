@@ -408,6 +408,87 @@
         "canon_status": "official",
         "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md"
       }
+    },
+    {
+      "id": "theme-transformation-001",
+      "name": "Transformation and Rebirth",
+      "description": "The process of shedding an old identity and being reborn as something new, often through trial, sacrifice, or symbolic death.",
+      "manifestations": [
+        {
+          "entity_id": "char-benkei-001",
+          "description": "Benkei's transformation from the warrior of Gojo Bridge to Iron Bear, a protector with purpose"
+        },
+        {
+          "entity_id": "event-forging-weapons-armor-001",
+          "description": "The forging process as a literal and metaphorical transformation of both metal and man"
+        },
+        {
+          "entity_id": "artifact-iron-bear-001",
+          "description": "The armor that physically manifests Benkei's new identity"
+        }
+      ],
+      "related_themes": [
+        {
+          "theme_id": "theme-identity-001",
+          "relationship": "complementary"
+        }
+      ],
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-17T00:00:00Z"
+    },
+    {
+      "id": "theme-identity-001",
+      "name": "Identity and Concealment",
+      "description": "The exploration of how identity is shaped, hidden, or revealed, and how concealment can be both protective and transformative.",
+      "manifestations": [
+        {
+          "entity_id": "char-benkei-001",
+          "description": "Benkei's decision to keep his helmet on, concealing his old identity to embrace his new purpose"
+        },
+        {
+          "entity_id": "artifact-iron-bear-001",
+          "description": "The full-face helmet that allows Benkei's past to fade away while his new self emerges"
+        },
+        {
+          "entity_id": "event-benkei-concealment-decision-001",
+          "description": "The deliberate choice to leave behind 'Benkei the warrior monk' and become simply Iron Bear"
+        }
+      ],
+      "related_themes": [
+        {
+          "theme_id": "theme-transformation-001",
+          "relationship": "complementary"
+        }
+      ],
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-17T00:00:00Z"
+    },
+    {
+      "id": "theme-extensions-of-self-001",
+      "name": "Weapons as Extensions of the Soul",
+      "description": "The concept that true weapons are not mere tools but manifestations of their wielder's nature and purpose, physically embodying their spiritual and philosophical essence.",
+      "manifestations": [
+        {
+          "entity_id": "weapon-crimson-dawn-001",
+          "description": "A sword that must be wielded 'like an extension of the soul rather than merely the body'"
+        },
+        {
+          "entity_id": "weapon-gale-cutter-001",
+          "description": "A naginata that responds to Benkei's intentions before they fully form"
+        },
+        {
+          "entity_id": "artifact-iron-bear-001",
+          "description": "Armor that moves with Benkei rather than against him, acting as a second skin"
+        }
+      ],
+      "related_themes": [
+        {
+          "theme_id": "theme-transformation-001",
+          "relationship": "complementary"
+        }
+      ],
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-17T00:00:00Z"
     }
   ]
 }

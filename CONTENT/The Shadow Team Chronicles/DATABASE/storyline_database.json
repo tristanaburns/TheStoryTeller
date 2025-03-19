@@ -62,6 +62,26 @@
       "main_locations": ["loc-gojo-bridge-001", "loc-kyoto-001"],
       "created_at": "2025-03-10T00:00:00Z",
       "updated_at": "2025-03-15T00:00:00Z"
+    },
+    {
+      "id": "storyline-benkei-transformation-001",
+      "title": "Benkei's Transformation",
+      "description": "The journey of Benkei from defeated warrior to purposeful protector, symbolized by his new weapons and armor that are forged in the mountain.",
+      "key_characters": [
+        "char-benkei-001",
+        "char-yoshi-001",
+        "char-blacksmith-001"
+      ],
+      "key_events": [
+        "event-yoshi-benkei-duel-001",
+        "event-yoshi-benkei-mountain-journey-001",
+        "event-forging-weapons-armor-001",
+        "event-benkei-concealment-decision-001",
+        "event-bandit-ambush-001"
+      ],
+      "status": "ongoing",
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-17T00:00:00Z"
     }
   ]
 }

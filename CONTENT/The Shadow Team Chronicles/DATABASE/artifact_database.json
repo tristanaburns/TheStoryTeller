@@ -47,6 +47,62 @@
         "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - INTRODUCTION - The Bridge of Fate.md",
         "confidence": "high"
       }
+    },
+    {
+      "id": "artifact-iron-bear-001",
+      "name": "Iron Bear",
+      "type": "armor",
+      "owner": "char-benkei-001",
+      "description": "A full suit of armor forged specifically for Benkei at the hidden mountain forge. Comprised of layered iron plates dark as midnight, reinforced at the shoulders and chest with steel that has been folded hundreds of times. The armor seems to drink in light rather than reflect it, moving with its wearer as if alive.",
+      "properties": [
+        "Perfectly balanced despite its weight",
+        "Moves with the wearer rather than against them",
+        "Plates shift in perfect harmony with muscles",
+        "Full helm that completely conceals the wearer's identity",
+        "Responds to intentions before they fully form"
+      ],
+      "history": "Crafted by the mysterious mountain blacksmith as part of Benkei's transformation after swearing loyalty to Yoshi. The armor was forged simultaneously with Crimson Dawn and Gale Cutter, representing Benkei's rebirth as a warrior with purpose.",
+      "significance": "Named by Benkei himself upon first wearing it. Iron Bear represents Benkei's new identity, allowing him to leave behind 'Benkei the warrior monk' and become something new - a protector whose past is unknown to those he encounters.",
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-17T00:00:00Z"
+    },
+    {
+      "id": "artifact-crimson-dawn-001",
+      "name": "Crimson Dawn",
+      "type": "sword",
+      "sub_type": "katana",
+      "owner": "char-benkei-001",
+      "description": "A unique sword forged from iron-rich ore found only in the heart of the mountain. Unlike ordinary blades that reflect light, Crimson Dawn absorbs it, with occasional glimpses of deep red that appear and vanish like dying embers. Its edge is described as not a line but an absence, a void where light simply ceases to exist.",
+      "properties": [
+        "Absorbs light rather than reflects it",
+        "Deep crimson hue that glints beneath the surface",
+        "Edge that parts lesser steel as if it were silk",
+        "Moves in perfect silence when cutting through the air",
+        "Feels as though it anticipates the wielder's intentions"
+      ],
+      "history": "Forged by the mountain blacksmith specifically for Benkei following his oath to Yoshi. The blade was tempered seven times and quenched in ice-fed water, producing an unusual purple-hued steam during the process.",
+      "significance": "Named by Benkei upon first touching it, representing his transformation and rebirth as a warrior with purpose. The sword is described as needing to be wielded 'like an extension of the soul' rather than merely the body.",
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-17T00:00:00Z"
+    },
+    {
+      "id": "artifact-gale-cutter-001",
+      "name": "Gale Cutter",
+      "type": "polearm",
+      "sub_type": "naginata",
+      "owner": "char-benkei-001",
+      "description": "A masterfully crafted naginata forged specifically for Benkei at the hidden mountain forge. The shaft is made from rare ironwood that grows only on mountain slopes frequently struck by lightning, making it both lightweight and incredibly strong. The blade is perfectly balanced and exceptionally sharp.",
+      "properties": [
+        "Ironwood shaft that absorbs the sky's fury",
+        "Perfect balance making it feel weightless despite its size",
+        "Reinforced with tempered steel plating at strategic points",
+        "Blade that hums when cutting through the air",
+        "Moves as an extension of Benkei's will rather than just his body"
+      ],
+      "history": "Crafted by the mysterious mountain blacksmith as part of Benkei's transformation after swearing loyalty to Yoshi. The naginata was forged simultaneously with Crimson Dawn and Iron Bear armor, representing Benkei's rebirth as a warrior with purpose.",
+      "significance": "Named by Benkei himself upon first wielding it, Gale Cutter represents Benkei's new path as protector rather than conqueror. It symbolizes his transformation from the warrior of Gojo Bridge to Yoshi's devoted retainer.",
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-17T00:00:00Z"
     }
   ]
 }

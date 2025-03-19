@@ -3,79 +3,20 @@
     {
       "id": "loc-gojo-bridge-001",
       "name": "Gojo Bridge",
-      "type": "structure",
-      "sub_type": "bridge",
-      "region": "Kyoto",
-      "country": "Japan",
-      "era": "Heian Period",
-      "coordinates": {
-        "latitude": 35.0030,
-        "longitude": 135.7686
-      },
-      "description": "A wooden bridge spanning the Kamo River, worn by centuries of travelers and marked by countless duels. Its planks show evidence of many battles - sword marks on railings, splintered sections where bodies have fallen, and a damaged support pillar. The bridge has become known as a place of challenge, where warriors test their mettle against worthy opponents.",
-      "sensory_details": {
-        "visual": "Weathered wooden planks, some polished smooth from years of foot traffic, others splintered from violent impacts. Sword marks visible on railings. Mist often curls around the structure, especially at night.",
-        "auditory": "Creaking wood, flowing water from the river below, distant temple bells marking time intervals.",
-        "tactile": "Worn wood smooth in places, rough in others. Occasionally damp from mist or rain.",
-        "olfactory": "River water, night air, occasionally the metallic scent of blood after duels."
-      },
-      "significance": {
-        "historical": "Southern gateway to Kyoto, an important crossing point over the Kamo River that has taken on greater significance as a dueling ground.",
-        "cultural": "Has evolved from a simple crossing to a symbolic proving ground where warriors seek to test their skills or build reputations.",
-        "narrative": "The site of the legendary first meeting between Yoshi and Benkei, a pivotal moment that changed both their destinies."
-      },
-      "features": [
-        {
-          "name": "Main Span",
-          "description": "Wide enough for two horses to pass, supported by pillars anchored in the riverbed."
-        },
-        {
-          "name": "Eastern Approach",
-          "description": "Path leading to the bridge from the eastern bank, lined with cherry trees and stone lanterns."
-        },
-        {
-          "name": "Western Approach",
-          "description": "Path leading from the bridge toward the city proper, wider than the eastern approach."
-        },
-        {
-          "name": "Battle Scars",
-          "description": "Deep gouges in railings, gashes in the planks, and a shattered support pillar - all evidence of past confrontations."
-        }
-      ],
-      "connections": [
-        {
-          "location_id": "loc-kamo-river-001",
-          "relationship": "spans_over"
-        },
-        {
-          "location_id": "loc-kyoto-001",
-          "relationship": "located_within"
-        }
-      ],
+      "type": "landmark",
+      "region": "Kyoto, Japan",
+      "description": "A significant bridge where Benkei collected 999 swords before being defeated by Yoshi. The site represents the beginning of Benkei's transformation journey.",
+      "significance": "The location of Benkei's defeat and subsequent oath to Yoshi, marking a pivotal moment in their shared journey.",
+      "connected_locations": [],
+      "inhabitants": [],
       "events": [
         {
-          "event_id": "event-yoshi-benkei-first-meeting-001",
-          "relationship": "setting_of"
+          "event_id": "event-yoshi-benkei-duel-001",
+          "description": "The duel between Yoshi and Benkei that ended with Benkei's defeat and oath of loyalty"
         }
       ],
-      "occupants": [
-        {
-          "character_id": "char-benkei-001",
-          "relationship": "guards",
-          "timeframe": "Prior to and during 1180-03-15"
-        }
-      ],
-      "ambient_conditions": {
-        "weather_patterns": "Prone to evening mist rising from the river. Cherry blossoms drift over it in spring.",
-        "lighting": "At night, limited visibility with occasional lanterns creating pools of warm light that barely penetrate the mist. Moonlight creates silver highlights on the river's surface."
-      },
-      "metadata": {
-        "creation_date": "2025-03-15T00:00:00Z",
-        "last_modified": "2025-03-15T00:00:00Z",
-        "version": 1,
-        "canon_status": "official",
-        "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - INTRODUCTION - The Bridge of Fate.md"
-      }
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-17T00:00:00Z"
     },
     {
       "id": "loc-kurama-temple-001",
@@ -112,8 +53,8 @@
       "region": "Central Japan",
       "country": "Japan",
       "era": "Late Heian Period",
-      "description": "The imperial capital of Japan during the Heian period, a center of power, culture, and political intrigue. The city where Gojo Bridge is located.",
-      "significance": "Center of political power in Japan and setting for key events in Yoshi and Benkei's story.",
+      "description": "The imperial capital of Japan and a center of political power, Kyoto represents both historical legitimacy and strategic importance. Its streets are a maze of noble houses, markets, temples, and hidden pathways known only to those who have lived there for generations.",
+      "significance": "Control of Kyoto symbolizes control of Japan itself. The city is the prize in the power struggle between the Minamoto clan and their enemies.",
       "features": [
         "Imperial Palace complex",
         "Numerous temples and shrines",
@@ -124,8 +65,50 @@
         "org-minamoto-001",
         "org-taira-001"
       ],
-      "created_at": "2025-03-10T00:00:00Z",
-      "updated_at": "2025-03-10T00:00:00Z"
+      "connected_locations": [
+        {
+          "location_id": "loc-norimasa-compound-001",
+          "relationship": "contains"
+        },
+        {
+          "location_id": "loc-kyoto-gates-001",
+          "relationship": "bordered by"
+        }
+      ],
+      "inhabitants": [
+        {
+          "character_id": "char-norimasa-001",
+          "relationship": "ruler"
+        },
+        {
+          "group_type": "civilians",
+          "description": "Merchants, craftsmen, and common people caught between power struggles"
+        },
+        {
+          "group_type": "nobility",
+          "description": "Aristocratic families with ancient lineages and complex political alliances"
+        }
+      ],
+      "events": [
+        {
+          "event_id": "event-first-kyoto-incursion-001",
+          "description": "Yoshi and Benkei's first entry into the city after the Gojo Bridge duel"
+        },
+        {
+          "event_id": "event-burning-records-001",
+          "description": "The destruction of Norimasa's secret records during Yoshi and Benkei's escape"
+        },
+        {
+          "event_id": "event-second-kyoto-incursion-001",
+          "description": "Return of Yoshi with mountain clan warriors"
+        },
+        {
+          "event_id": "event-final-kyoto-battle-001",
+          "description": "The decisive battle for control of the city"
+        }
+      ],
+      "created_at": "2025-03-18T00:00:00Z",
+      "updated_at": "2025-03-18T00:00:00Z"
     },
     {
       "id": "loc-kyoto-outskirts-001",
@@ -245,60 +228,30 @@
     },
     {
       "id": "loc-mountain-path-001",
-      "name": "Treacherous Mountain Path",
-      "type": "passage",
-      "sub_type": "mountain_trail",
-      "region": "Northern Mountains",
-      "country": "Japan",
-      "era": "Heian Period",
-      "description": "A narrow, winding trail that climbs through forested mountains north of Kyoto. The path is dangerous in good weather and treacherous during rain, with steep drops on one side and unstable terrain in several sections.",
-      "sensory_details": {
-        "visual": "Narrow dirt path clinging to mountainsides, with dense forest on one side and precipitous drops on the other. Occasional widening at switchbacks.",
-        "auditory": "Wind through trees, distant water sounds from mountain streams, occasional wildlife calls.",
-        "tactile": "Rocky, uneven ground that becomes slippery and unstable when wet.",
-        "olfactory": "Damp earth, pine resin, and the mineral scent of exposed rock."
-      },
-      "significance": {
-        "historical": "A lesser-used route through the mountains, primarily traveled by those avoiding the main roads for various reasons.",
-        "narrative": "Site of Yoshi's near fall and Benkei's first act of protection, marking a shift in their relationship's dynamic."
-      },
-      "features": [
+      "name": "Mountain Path",
+      "type": "route",
+      "region": "Northern Mountains, Japan",
+      "description": "A winding path through misty mountains, symbolizing Benkei's journey of transformation. The path connects the world below to the hidden forge high in the mountains.",
+      "significance": "Represents the physical and metaphorical journey of transformation for Benkei, moving from his old life to his new purpose.",
+      "connected_locations": [
         {
-          "name": "Landslide Section",
-          "description": "A particularly treacherous portion where the soil is unstable and gave way beneath Yoshi, requiring Benkei's intervention."
-        },
-        {
-          "name": "Deer Trail",
-          "description": "An alternative path discovered by Benkei that provided safer passage, demonstrating his wilderness knowledge."
+          "location_id": "loc-hidden-forge-001",
+          "relationship": "leads to"
         }
       ],
-      "connections": [
-        {
-          "location_id": "loc-mountain-forest-village-001",
-          "relationship": "leads_from"
-        },
-        {
-          "location_id": "loc-forest-ambush-point-001",
-          "relationship": "leads_to"
-        }
-      ],
+      "inhabitants": [],
       "events": [
         {
-          "event_id": "event-mountain-path-landslide-001",
-          "relationship": "setting_of"
+          "event_id": "event-yoshi-benkei-mountain-journey-001",
+          "description": "Yoshi and Benkei's journey up the mountain path to the forge"
+        },
+        {
+          "event_id": "event-bandit-ambush-001",
+          "description": "The ambush by bandits as Yoshi and Benkei descended from the forge"
         }
       ],
-      "ambient_conditions": {
-        "weather_patterns": "Frequent rain and mist, particularly dangerous during spring thaw when soil becomes unstable.",
-        "lighting": "Dappled sunlight through forest canopy, creating constantly shifting patterns of light and shadow."
-      },
-      "metadata": {
-        "creation_date": "2025-03-17T00:00:00Z",
-        "last_modified": "2025-03-17T00:00:00Z",
-        "version": 1,
-        "canon_status": "official",
-        "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md"
-      }
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-17T00:00:00Z"
     },
     {
       "id": "loc-forest-ambush-point-001",
@@ -348,6 +301,38 @@
         "canon_status": "official",
         "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md"
       }
+    },
+    {
+      "id": "loc-hidden-forge-001",
+      "name": "The Hidden Forge",
+      "type": "structure",
+      "region": "Northern Mountains, Japan",
+      "description": "A forge carved into the living rock of the mountain, with ancient wooden beams framing its entrance and a stone chimney belching smoke. Inside, tools hang from every surface, and the forge fire burns with unnatural vigor, casting dancing shadows against the walls.",
+      "significance": "A place of transformation where Benkei's new weapons and armor were crafted, symbolizing his rebirth as a warrior with purpose.",
+      "connected_locations": [
+        {
+          "location_id": "loc-mountain-path-001",
+          "relationship": "accessed by"
+        }
+      ],
+      "inhabitants": [
+        {
+          "character_id": "char-blacksmith-001",
+          "relationship": "resident"
+        }
+      ],
+      "events": [
+        {
+          "event_id": "event-forging-weapons-armor-001",
+          "description": "The forging of Crimson Dawn, Gale Cutter, and Iron Bear armor"
+        },
+        {
+          "event_id": "event-benkei-concealment-decision-001",
+          "description": "Benkei's decision to keep his helmet on at all times in public"
+        }
+      ],
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-17T00:00:00Z"
     },
     {
       "id": "loc-mountain-monastery-001",
@@ -409,6 +394,82 @@
         "canon_status": "official",
         "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md"
       }
+    },
+    {
+      "id": "loc-norimasa-compound-001",
+      "name": "Norimasa's Compound",
+      "type": "structure",
+      "region": "Kyoto, Japan",
+      "description": "A sprawling estate in the heart of Kyoto, surrounded by high walls and guarded by elite warriors. The compound contains Norimasa's private quarters, meeting halls, gardens, and most importantly, hidden chambers where his records and intelligence networks are maintained.",
+      "significance": "The center of Norimasa's power and the location of the vital records that give him control over Kyoto's political landscape.",
+      "connected_locations": [
+        {
+          "location_id": "loc-kyoto-001",
+          "relationship": "within"
+        }
+      ],
+      "inhabitants": [
+        {
+          "character_id": "char-norimasa-001",
+          "relationship": "owner"
+        },
+        {
+          "group_type": "guards",
+          "description": "Elite warriors loyal to Norimasa"
+        },
+        {
+          "group_type": "servants",
+          "description": "Staff who maintain the compound, many doubling as spies"
+        }
+      ],
+      "events": [
+        {
+          "event_id": "event-tea-meeting-001",
+          "description": "The tense tea ceremony where Norimasa attempts to trap Yoshi"
+        },
+        {
+          "event_id": "event-records-room-001",
+          "description": "The location where Norimasa's secret documents are stored and eventually burned"
+        }
+      ],
+      "created_at": "2025-03-18T00:00:00Z",
+      "updated_at": "2025-03-18T00:00:00Z"
+    },
+    {
+      "id": "loc-kyoto-gates-001",
+      "name": "Gates of Kyoto",
+      "type": "structure",
+      "region": "Kyoto, Japan",
+      "description": "The massive wooden and stone gates that control access to Kyoto, representing both the physical and symbolic boundary between the city and the outside world. Each gate is heavily guarded and serves as a checkpoint for all who wish to enter or leave.",
+      "significance": "Control of these gates means control of movement in and out of the city, making them strategically crucial during conflicts.",
+      "connected_locations": [
+        {
+          "location_id": "loc-kyoto-001",
+          "relationship": "entry to"
+        }
+      ],
+      "inhabitants": [
+        {
+          "group_type": "gate guards",
+          "description": "Warriors tasked with controlling access to the city"
+        }
+      ],
+      "events": [
+        {
+          "event_id": "event-first-kyoto-incursion-001",
+          "description": "Yoshi and Benkei pass through these gates when first entering Kyoto"
+        },
+        {
+          "event_id": "event-kyoto-lockdown-001",
+          "description": "The gates are sealed during Norimasa's attempt to trap Yoshi in the city"
+        },
+        {
+          "event_id": "event-final-kyoto-battle-001",
+          "description": "The final assault begins at these gates"
+        }
+      ],
+      "created_at": "2025-03-18T00:00:00Z",
+      "updated_at": "2025-03-18T00:00:00Z"
     }
   ]
 }

@@ -203,6 +203,42 @@
         }
       ],
       "confidence": "high"
+    },
+    {
+      "id": "timeline-yoshi-benkei-mountain-journey-001",
+      "date": "1180-03-17",
+      "event_id": "event-yoshi-benkei-mountain-journey-001",
+      "description": "Yoshi leads Benkei into the mountains to find the hidden forge",
+      "significance": "Begins Benkei's transformation from defeated warrior to purposeful protector",
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-17T00:00:00Z"
+    },
+    {
+      "id": "timeline-forging-weapons-armor-001",
+      "date": "1180-03-18",
+      "event_id": "event-forging-weapons-armor-001",
+      "description": "The mountain blacksmith forges Crimson Dawn, Gale Cutter, and Iron Bear for Benkei",
+      "significance": "Completes the physical manifestation of Benkei's transformation",
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-17T00:00:00Z"
+    },
+    {
+      "id": "timeline-benkei-concealment-decision-001",
+      "date": "1180-03-18",
+      "event_id": "event-benkei-concealment-decision-001",
+      "description": "Benkei decides to keep his helmet on at all times in public, concealing his identity",
+      "significance": "Symbolizes the shedding of his past identity and embrace of his new purpose",
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-17T00:00:00Z"
+    },
+    {
+      "id": "timeline-bandit-ambush-001",
+      "date": "1180-03-19",
+      "event_id": "event-bandit-ambush-001",
+      "description": "Bandits ambush Yoshi and Benkei as they descend from the forge",
+      "significance": "First test of Benkei's new equipment and transformed fighting style",
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-17T00:00:00Z"
     }
   ],
   "relationships": [

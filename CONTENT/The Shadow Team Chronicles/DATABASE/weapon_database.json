@@ -11,10 +11,10 @@
         "Perfect balance allowing for precise fighting style",
         "Historical significance as a weapon of Minamoto no Yoshitsune"
       ],
-      "history": "One of the historically significant swords associated with Minamoto no Yoshitsune. Its name 'Higekiri' ('Beard-cutter') reflects its legendary sharpness.",
-      "significance": "The sword that Benkei sought as his 1000th trophy, but failed to claim, changing both warriors' destinies. A symbol of Yoshitsune's martial prowess.",
+      "history": "One of the historically significant swords associated with Minamoto no Yoshitsune. Its name 'Higekiri' ('Beard-cutter') reflects its legendary sharpness. This is the blade that Yoshi used to defeat Benkei at Gojo Bridge with the legendary Three Cuts technique.",
+      "significance": "The sword that Benkei sought as his 1000th trophy, but failed to claim, changing both warriors' destinies. A symbol of Yoshitsune's martial prowess. The blade Yoshi used to deliver the Three Cuts that transformed Benkei's understanding of combat.",
       "created_at": "2025-03-15T00:00:00Z",
-      "updated_at": "2025-03-16T00:00:00Z"
+      "updated_at": "2025-03-17T00:00:00Z"
     },
     {
       "id": "weapon-naginata-001",
@@ -32,6 +32,42 @@
       "significance": "The weapon that defined Benkei as 'The Giant of Gojo Bridge' during his collection of 999 swords. Its intimidating size serves as a physical manifestation of Benkei's overwhelming presence.",
       "created_at": "2025-03-15T00:00:00Z",
       "updated_at": "2025-03-16T00:00:00Z"
+    },
+    {
+      "id": "weapon-gale-cutter-001",
+      "name": "Gale Cutter",
+      "type": "naginata",
+      "owner": "char-benkei-001",
+      "description": "A masterfully crafted naginata forged specifically for Benkei at the hidden mountain forge. The shaft is made from rare ironwood that grows only on mountain slopes frequently struck by lightning, making it both lightweight and incredibly strong. The blade is perfectly balanced and exceptionally sharp.",
+      "properties": [
+        "Ironwood shaft that absorbs the sky's fury",
+        "Perfect balance making it feel weightless despite its size",
+        "Reinforced with tempered steel plating at strategic points",
+        "Blade that hums when cutting through the air",
+        "Moves as an extension of Benkei's will rather than just his body"
+      ],
+      "history": "Crafted by the mysterious mountain blacksmith as part of Benkei's transformation after swearing loyalty to Yoshi. The naginata was forged simultaneously with Crimson Dawn and Iron Bear armor, representing Benkei's rebirth as a warrior with purpose.",
+      "significance": "Named by Benkei himself upon first wielding it, Gale Cutter represents Benkei's new path as protector rather than conqueror. It symbolizes his transformation from the warrior of Gojo Bridge to Yoshi's devoted retainer.",
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-17T00:00:00Z"
+    },
+    {
+      "id": "weapon-crimson-dawn-001",
+      "name": "Crimson Dawn",
+      "type": "katana",
+      "owner": "char-benkei-001",
+      "description": "A unique sword forged from iron-rich ore found only in the heart of the mountain. Unlike ordinary blades that reflect light, Crimson Dawn absorbs it, with occasional glimpses of deep red that appear and vanish like dying embers. Its edge is described as not a line but an absence, a void where light simply ceases to exist.",
+      "properties": [
+        "Absorbs light rather than reflects it",
+        "Deep crimson hue that glints beneath the surface",
+        "Edge that parts lesser steel as if it were silk",
+        "Moves in perfect silence when cutting through the air",
+        "Feels as though it anticipates the wielder's intentions"
+      ],
+      "history": "Forged by the mountain blacksmith specifically for Benkei following his oath to Yoshi. The blade was tempered seven times and quenched in ice-fed water, producing an unusual purple-hued steam during the process.",
+      "significance": "Named by Benkei upon first touching it, representing his transformation and rebirth as a warrior with purpose. The sword is described as needing to be wielded 'like an extension of the soul' rather than merely the body.",
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-17T00:00:00Z"
     }
   ]
 }
