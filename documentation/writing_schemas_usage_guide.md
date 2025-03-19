@@ -404,7 +404,7 @@ For detailed guidance on each schema type, refer to these resources:
 - [Character Creation Guide](character_creation_guide.md)
 - [Location Documentation Guide](location_documentation_guide.md)
 - [Event Documentation Guide](event_documentation_guide.md)
-- [Chapter Information Implementation Guide](chapter_information_implementation_guide.md)
+- [Chapter Information Comprehensive Guide](chapter_information_comprehensive_guide.md)
 - [Schema Implementation Practical Guide](schema_implementation_practical_guide.md)
 
 ## Best Practices
@@ -432,5 +432,5 @@ For detailed guidance on each schema type, refer to these resources:
 
 Effective use of TheStoryTeller schemas, particularly the Chapter Information Schema, creates a robust foundation for complex narratives. By documenting characters, locations, events, and chapters in a structured way, you build a resource that supports both creative development and analytical understanding of your story world.
 
-For detailed implementation examples, refer to the [Chapter Information Implementation Guide](chapter_information_implementation_guide.md).
+For detailed implementation examples, refer to the [Chapter Information Comprehensive Guide](chapter_information_comprehensive_guide.md).
 

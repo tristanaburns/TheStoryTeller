@@ -272,3 +272,9 @@ Refer to the following schema documentation as needed:
 ---
 
 This structured approach ensures comprehensive database updates while maintaining the integrity of all cross-references and relationships within The Shadow Team Chronicles universe. By following these guidelines, we maintain narrative consistency while allowing for organic expansion of the story world across all connected systems.
+
+# AI Instruction Guide for Database Content Updating
+
+## Chapter Information Database Updates
+
+### Creating a New Chapter Information Entry

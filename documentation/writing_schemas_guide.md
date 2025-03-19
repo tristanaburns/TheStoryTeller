@@ -115,7 +115,7 @@ The Chapter Information Schema serves multiple purposes:
 3. **Continuity** - Ensures consistency across chapters
 4. **Planning** - Aids in developing future chapters
 
-For detailed guidance on implementing the Chapter Information Schema, see [Chapter Information Schema Usage](chapter_information_schema_usage.md).
+For detailed guidance on implementing the Chapter Information Schema, see [Chapter Information Comprehensive Guide](chapter_information_comprehensive_guide.md).
 
 ## Schema Validation
 

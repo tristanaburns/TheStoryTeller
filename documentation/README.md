@@ -64,11 +64,8 @@ This documentation suite is organized to guide you from basic concepts to advanc
     - [Timeline Schemas Guide](timeline_schemas_guide.md) - Implementing timeline schemas
 
 12. **Chapter Information Implementation**
-    - [Chapter Information Schema Usage](chapter_information_schema_usage.md) - Core usage guide
-    - [Chapter Information Implementation Guide](chapter_information_implementation_guide.md) - Practical implementation
-    - [Chapter Information Schema Visual Guide](chapter_information_schema_visual_guide.md) - Visual representation of schema relationships
-    - [Chapter Information Schema Quick Reference](chapter_information_schema_quick_reference.md) - At-a-glance reference
-    - [Chapter Information Schema Troubleshooting](chapter_information_schema_troubleshooting.md) - Solutions to common issues
+    - [Chapter Information Comprehensive Guide](chapter_information_comprehensive_guide.md) - Complete all-in-one resource
+    - [Chapter Information Visual Reference](chapter_information_visual_reference.md) - Visual representations and troubleshooting
 
 13. **Historical Events Implementation**
     - [Historical Events Guide](historical_events_guide.md) - Implementing historical event schemas
@@ -167,10 +164,8 @@ When looking for guidance on specific topics:
   - See [Schema Organization Guidelines](schema_organization_guidelines.md)
 
 - **Chapter Information Implementation**
-  - Start with [Chapter Information Schema Usage](chapter_information_schema_usage.md)
-  - For practical steps, see [Chapter Information Implementation Guide](chapter_information_implementation_guide.md)
-  - For visual understanding, see [Chapter Information Schema Visual Guide](chapter_information_schema_visual_guide.md)
-  - For common issues, see [Chapter Information Schema Troubleshooting](chapter_information_schema_troubleshooting.md)
+  - See [Chapter Information Comprehensive Guide](chapter_information_comprehensive_guide.md)
+  - For visual guidance, see [Chapter Information Visual Reference](chapter_information_visual_reference.md)
 
 ## 🔄 Updating This Documentation
 

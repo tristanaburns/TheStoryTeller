@@ -303,3 +303,12 @@ Complete the entry with proper metadata:
 **Solution:** Use an automated validation tool to check all cross-references before finalizing chapter information entries. Maintain a checklist of new elements that need database entries created.
 
 **Example:**
+
+# DEPRECATED: This file has been replaced by the Chapter Information Comprehensive Guide
+
+This file is now deprecated and has been replaced by two more comprehensive resources:
+
+1. [Chapter Information Comprehensive Guide](chapter_information_comprehensive_guide.md) - Complete all-in-one resource
+2. [Chapter Information Visual Reference](chapter_information_visual_reference.md) - Visual representations and troubleshooting
+
+Please update any links or references to point to these new resources.

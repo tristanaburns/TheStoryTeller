@@ -142,10 +142,7 @@ For guidance on implementing these schemas, refer to our documentation suite:
 * **[Location Schemas Guide](location_schemas_guide.md)** - Location schema implementation
 * **[Organization Schemas Guide](organization_schemas_guide.md)** - Organization schema implementation
 * **[Timeline Schemas Guide](timeline_schemas_guide.md)** - Timeline schema implementation
-* **[Chapter Information Schema Usage](chapter_information_schema_usage.md)** - Chapter information schema implementation
-* **[Chapter Information Implementation Guide](chapter_information_implementation_guide.md)** - Step-by-step chapter documentation
-* **[Chapter Information Schema Visual Guide](chapter_information_schema_visual_guide.md)** - Visual chapter schema representation
-* **[Chapter Information Schema Quick Reference](chapter_information_schema_quick_reference.md)** - At-a-glance reference
-* **[Chapter Information Schema Troubleshooting](chapter_information_schema_troubleshooting.md)** - Common issues and solutions
+* **[Chapter Information Comprehensive Guide](chapter_information_comprehensive_guide.md)** - Complete guide to chapter documentation
+* **[Chapter Information Visual Reference](chapter_information_visual_reference.md)** - Visual guide to chapter documentation
 * **[Historical Events Guide](historical_events_guide.md)** - Historical event schema implementation
 * **[Implementing Metadata System](implementing_metadata_system.md)** - Metadata schema implementation

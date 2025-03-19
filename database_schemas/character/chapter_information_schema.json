@@ -1,42 +1,48 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Chapter Information Schema",
-  "description": "Schema for documenting and analyzing narrative chapters",
+  "description": "Schema for documenting and analyzing narrative chapters within The Shadow Team Chronicles. Use this schema to maintain continuity, track character development, and support editorial analysis.",
   "type": "object",
   "required": ["id", "title", "chapter_number", "file_path", "status", "characters", "narrative_time", "key_events"],
   "properties": {
     "id": {
       "type": "string",
-      "description": "Unique identifier for the chapter",
+      "description": "Unique identifier for the chapter following the pattern chapter-[name]-[number]",
       "pattern": "^chapter-[a-z0-9-]+-[0-9]{3}$",
-      "examples": ["chapter-warriors-oath-001"]
+      "examples": ["chapter-warriors-oath-001", "chapter-digital-shadows-003"]
     },
     "title": {
       "type": "string",
-      "description": "The title of the chapter"
+      "description": "The title of the chapter as it appears in the narrative",
+      "examples": ["The Warriors Oath", "Digital Shadows"]
     },
     "chapter_number": {
       "type": "number",
-      "description": "The sequential number of the chapter in the overall narrative"
+      "description": "The sequential number of the chapter in the overall narrative, used for ordering and reference",
+      "examples": [2, 7]
     },
     "file_path": {
       "type": "string",
-      "description": "Path to the file containing the chapter content"
+      "description": "Path to the file containing the chapter content, relative to project root",
+      "examples": ["CONTENT\\The Shadow Team Chronicles\\STORYLINE\\DRAFT\\2. The Warriors Oath.md"]
     },
     "created_date": {
       "type": "string",
       "format": "date-time",
-      "description": "ISO 8601 date when the chapter was first created"
+      "description": "ISO 8601 date when the chapter was first created",
+      "examples": ["2025-03-15T00:00:00Z"]
     },
     "last_modified": {
       "type": "string",
       "format": "date-time",
-      "description": "ISO 8601 date when the chapter was last modified"
+      "description": "ISO 8601 date when the chapter was last modified",
+      "examples": ["2025-03-17T00:00:00Z"]
     },
     "status": {
       "type": "string",
       "enum": ["draft", "review", "final", "published"],
-      "description": "Current status of the chapter"
+      "description": "Current development status of the chapter",
+      "examples": ["draft"]
     },
     "version": {
       "type": "number",
@@ -230,33 +236,49 @@
     },
     "character_arcs": {
       "type": "object",
-      "description": "How characters develop within the chapter",
+      "description": "Documents how characters develop within the chapter, tracking their transformation and key moments",
       "additionalProperties": {
         "type": "object",
         "required": ["arc_type", "starting_state", "ending_state", "development_summary"],
         "properties": {
           "arc_type": {
             "type": "string",
-            "description": "Type of character development (e.g., transformation, revelation)"
+            "description": "Type of character development (e.g., transformation, revelation, testing)",
+            "examples": ["transformation", "revelation", "testing", "growth"]
           },
           "starting_state": {
             "type": "string",
-            "description": "Character's mindset/situation at chapter beginning"
+            "description": "Character's mindset/situation at chapter beginning - should match previous chapter's ending state if applicable",
+            "examples": ["Directionless warrior seeking purpose through empty victories"]
           },
           "ending_state": {
             "type": "string",
-            "description": "Character's mindset/situation at chapter end"
+            "description": "Character's mindset/situation at chapter end - will become the starting state for their next appearance",
+            "examples": ["Devoted retainer finding meaning in service to a worthy master"]
           },
           "pivot_moment": {
             "type": "string",
-            "description": "Event ID of the turning point in character development"
+            "description": "Event ID of the turning point in character development - must exist in the event database",
+            "examples": ["event-benkei-oath-001"]
           },
           "development_summary": {
             "type": "string",
-            "description": "Summary of the character's growth or change"
+            "description": "Concise summary of the character's growth or change during this chapter",
+            "examples": ["Benkei transforms from a collector of meaningless trophies to a purposeful protector."]
           }
         }
-      }
+      },
+      "examples": [
+        {
+          "char-benkei-001": {
+            "arc_type": "transformation",
+            "starting_state": "Directionless warrior seeking purpose",
+            "ending_state": "Devoted retainer finding meaning in service",
+            "pivot_moment": "event-benkei-oath-001",
+            "development_summary": "Benkei transforms from collecting trophies to finding purpose through service."
+          }
+        }
+      ]
     },
     "editorial_notes": {
       "type": "object",

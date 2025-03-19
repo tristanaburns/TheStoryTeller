@@ -86,6 +86,21 @@ For a comprehensive understanding of the StoryTeller system, please read these k
 4. [Schema Implementation Practical Guide](documentation/schema_implementation_practical_guide.md) - Concrete examples
 5. [Integrated Schema Workflow](documentation/integrated_schema_workflow.md) - End-to-end content creation process
 
+## Documentation Structure
+
+TheStoryTeller system includes comprehensive documentation:
+
+- **Schema Definitions**: Technical JSON schema files in `/database_schemas/`
+- **Implementation Guides**: Practical guides in `/documentation/`
+- **Templates**: Ready-to-use templates in `/templates/`
+- **Examples**: Sample implementations in `/examples/`
+
+For chapter information documentation specifically, see:
+
+1. [Chapter Information Comprehensive Guide](/documentation/chapter_information_comprehensive_guide.md) - Complete all-in-one resource
+2. [Chapter Information Visual Reference](/documentation/chapter_information_visual_reference.md) - Visual representations and troubleshooting
+3. [Chapter Information Schema](/database_schemas/character/chapter_information_schema.json) - Technical schema definition
+
 ## 🧠 AI Integration
 
 StoryTeller is designed to work seamlessly with AI assistants. The system includes:
