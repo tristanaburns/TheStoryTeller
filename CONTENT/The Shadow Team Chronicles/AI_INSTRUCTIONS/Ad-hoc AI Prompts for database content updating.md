@@ -7,10 +7,9 @@ I need you to analyze provided content, extract all narrative elements (characte
 [OPTION 1: DIRECT CONTENT]
 
 
-
 [OPTION 2: FILE REFERENCE]
 
-File path: CONTENT\The Shadow Team Chronicles\STORYLINE\DRAFT\3 .The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Path Into the Mountains.md
+File path: /content/the shadow team chronicles/timeline/draft/The Shadow Team Chronicles - DRAFT - TIMELINE - Yoshi and Benkei's Road From the Mountains.md
 Section to process: 
 
 
@@ -31,7 +30,7 @@ Section to process:
 2. **Update Primary Databases**
    - **CRITICAL: Always read the existing database contents first before making any updates**
    - **Ensure there is only ONE JSON object created per entity (character, location, etc.)**
-   - **If an entity already exists, update it rather than creating a duplicate**
+   - **If an entity already exists, or if an entity closely matches the new information, update it rather than creating a duplicate**
    - **Update each database file one at a time to manage token limits in responses**
    - **All JSON objects MUST strictly follow the schemas defined in the database_schemas directory**
    - **character_database.json**: Add/update character entries with all new information

@@ -8,7 +8,7 @@
 FileName: 2. The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md
 ChapterName:
 PassageName:
-PartName: ### **The Warrior’s Oath – The Man Who Knew Too Much**
+PartName: ### **The Warrior’s Oath – The Warlord’s Endgame**
 ```
 
 **NOTE:** These are the code markers used in the target fileName. Do Not action anything here.

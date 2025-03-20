@@ -358,6 +358,147 @@
       ],
       "created_at": "2025-03-17T00:00:00Z",
       "updated_at": "2025-03-17T00:00:00Z"
+    },
+    {
+      "id": "worldbuilding-machine-era-001",
+      "name": "The Machine Era",
+      "type": "historical_period",
+      "era": "Post-Classical Japan to Future",
+      "region": "Global, originating in Japan",
+      "description": "The extended historical period beginning with Yoshi's discovery of the Wayfinder in 1189 and continuing through centuries of human-machine conflict. This era represents a hidden technological history running parallel to conventional historical accounts, where advanced technology exists far earlier than recorded in mainstream history.",
+      "aspects": [
+        {
+          "aspect_name": "Historical Divergence Point",
+          "description": "The siege of Koromogawa in 1189 marks the critical point where history as recorded differs from the Shadow Team Chronicles timeline. While historical accounts record Yoshi's death, he actually escaped into the mountains where he discovered the first Wayfinder, beginning the Machine Era.",
+          "related_events": ["event-koromogawa-siege-001", "event-wayfinder-discovery-001"]
+        },
+        {
+          "aspect_name": "Hidden Technological Development",
+          "description": "Throughout the Machine Era, technological advancement occurs in secrecy, explaining why conventional history does not record the existence of advanced machines until much later periods.",
+          "related_cultural_entries": []
+        },
+        {
+          "aspect_name": "Extended Human Lifespans",
+          "description": "The Machine Era introduces technology that allows certain individuals, most notably Yoshi, to extend their lifespans far beyond normal human limitations, enabling them to witness and influence events across centuries.",
+          "related_technologies": ["tech-bio-grid-001", "tech-organic-intelligence-001"]
+        },
+        {
+          "aspect_name": "Machine Wars Cycles",
+          "description": "Recurring periods of conflict between humans and machines characterize the Machine Era, with periods of machine invasion followed by withdrawal and relative peace.",
+          "related_events": ["event-first-machine-invasion-001", "event-machine-withdrawal-001"]
+        }
+      ],
+      "narrative_manifestations": [
+        {
+          "manifestation": "Yoshi's Extended Journey",
+          "description": "Yoshi's continuous presence throughout centuries of history, evolving from feudal samurai to technological leader.",
+          "character_id": "char-yoshi-001"
+        },
+        {
+          "manifestation": "Technological Anachronism",
+          "description": "Advanced technology existing in historical periods where it shouldn't be possible according to conventional history.",
+          "technology_id": "tech-wayfinder-001"
+        }
+      ],
+      "implications": [
+        {
+          "aspect": "Historical Revisionism",
+          "description": "Suggests that conventional historical accounts are incomplete or deliberately falsified to hide the existence of advanced technology and Machine conflicts."
+        },
+        {
+          "aspect": "Technological Evolution",
+          "description": "The development of technology follows a different path than in real-world history, with organic computing and bio-technology emerging centuries earlier."
+        },
+        {
+          "aspect": "Human-Machine Symbiosis",
+          "description": "Despite conflict, the relationship between humans and machines evolves toward integration and symbiosis through developments like the Bio-GRID."
+        }
+      ],
+      "related_themes": [
+        {
+          "theme_id": "theme-fate-001",
+          "relationship": "subverts"
+        },
+        {
+          "theme_id": "theme-transformation-001",
+          "relationship": "extends"
+        }
+      ],
+      "metadata": {
+        "creation_date": "2025-03-21T00:00:00Z",
+        "last_modified": "2025-03-21T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - SANDBOX - TIMELINE - Extract from Storyline and content from CHAT GPT and mastertime csv 20250320.md"
+      }
+    },
+    {
+      "id": "worldbuilding-koromogawa-divergence-001",
+      "name": "The Koromogawa Divergence",
+      "type": "narrative_turning_point",
+      "era": "Late Heian Period",
+      "region": "Japan",
+      "description": "The critical moment in the narrative where the Shadow Team Chronicles timeline diverges from recorded history. While historical accounts record the death of Minamoto no Yoshitsune (Yoshi) at Koromogawa in 1189, in the Shadow Team Chronicles universe he escapes death through Benkei's sacrifice and discovers the Wayfinder, beginning an entirely new narrative trajectory.",
+      "aspects": [
+        {
+          "aspect_name": "Benkei's Sacrifice",
+          "description": "Benkei's legendary last stand at Koromogawa Bridge, where he reportedly died standing after being struck by countless arrows, serves in this narrative as a deliberate diversion that allows Yoshi to escape rather than perish.",
+          "related_events": ["event-koromogawa-siege-001"]
+        },
+        {
+          "aspect_name": "Historical Deception",
+          "description": "The recorded death of Yoshi is revealed to be a strategic deception that allows him to escape the pursuit of his half-brother and enemies, effectively erasing him from subsequent historical records.",
+          "related_characters": ["char-yoshi-001", "char-yoritomo-001"]
+        },
+        {
+          "aspect_name": "Path to Discovery",
+          "description": "Yoshi's escape into the mountains leads directly to his discovery of the Wayfinder in a collapsed cave, creating a causal link between his near-death experience and the beginning of the Machine Era.",
+          "related_events": ["event-wayfinder-discovery-001"]
+        }
+      ],
+      "narrative_manifestations": [
+        {
+          "manifestation": "The Undying Hero",
+          "description": "Yoshi transitions from a finite historical figure to an immortal or long-lived character who continues to influence events across centuries.",
+          "character_id": "char-yoshi-001"
+        },
+        {
+          "manifestation": "Hidden History",
+          "description": "The narrative framework establishes that conventional history records only a partial or deliberately falsified version of events.",
+          "theme_id": "theme-hidden-truth-001"
+        }
+      ],
+      "implications": [
+        {
+          "aspect": "Narrative Flexibility",
+          "description": "By creating this divergence point, the narrative can incorporate both historical accuracy (up to 1189) and complete speculative fiction (post-1189)."
+        },
+        {
+          "aspect": "Character Continuity",
+          "description": "Allows Yoshi to serve as a consistent character linking the feudal era narrative with the futuristic Machine conflicts."
+        },
+        {
+          "aspect": "Mythological Resonance",
+          "description": "Echoes mythological tales of heroes who don't truly die but instead enter a different phase of existence."
+        }
+      ],
+      "related_themes": [
+        {
+          "theme_id": "theme-fate-subversion-001",
+          "relationship": "directly_expresses"
+        },
+        {
+          "theme_id": "theme-hidden-history-001",
+          "relationship": "establishes"
+        }
+      ],
+      "metadata": {
+        "creation_date": "2025-03-21T00:00:00Z",
+        "last_modified": "2025-03-21T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - SANDBOX - TIMELINE - Extract from Storyline and content from CHAT GPT and mastertime csv 20250320.md"
+      }
     }
   ]
 }

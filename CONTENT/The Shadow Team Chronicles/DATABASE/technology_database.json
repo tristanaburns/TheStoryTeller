@@ -1,0 +1,223 @@
+{
+  "technologies": [
+    {
+      "id": "tech-wayfinder-001",
+      "name": "Wayfinder",
+      "type": "advanced_autonomous_system",
+      "era_of_origin": "unknown",
+      "discovery_date": "1189",
+      "discovered_by": "char-yoshi-001",
+      "description": "An advanced autonomous machine consisting of a sophisticated head unit and body. The head contains independent power sources, while the body houses multiple power cores used for portal creation. The Wayfinder appears to be a scout or advance unit for Machine forces. Discovered by Yoshi after his escape from Koromogawa.",
+      "capabilities": [
+        "Independent operation using head unit alone",
+        "Portal creation using body power cores",
+        "Advanced intelligence and planning",
+        "Long-term strategic operations spanning centuries"
+      ],
+      "components": [
+        {
+          "name": "Head Unit",
+          "function": "Houses primary intelligence and autonomous power systems",
+          "description": "Capable of functioning independently even when separated from the body"
+        },
+        {
+          "name": "Body",
+          "function": "Contains power cores and portal generation systems",
+          "description": "Serves as the primary energy source for initial portal creation"
+        },
+        {
+          "name": "Genesis Kernel",
+          "function": "Core AI/intelligence system",
+          "description": "Can eject from the body in emergency situations, appears to have self-preservation protocols"
+        }
+      ],
+      "significance": "The discovery of the Wayfinder marks the beginning of humanity's accelerated technological development and the first contact with Machine intelligence. It also provides the means for Yoshi's extended lifespan, enabling his journey through the centuries.",
+      "appearances": [
+        {
+          "event_id": "event-wayfinder-discovery-001",
+          "role": "discovered artifact"
+        },
+        {
+          "event_id": "event-wayfinder-portal-construction-001",
+          "role": "instigator"
+        },
+        {
+          "event_id": "event-organic-intelligence-transition-001",
+          "role": "technology provider"
+        }
+      ],
+      "metadata": {
+        "creation_date": "2025-03-20T00:00:00Z",
+        "last_modified": "2025-03-21T00:00:00Z",
+        "version": 2,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - SANDBOX - TIMELINE - Extract from Storyline and content from CHAT GPT and mastertime csv 20250320.md"
+      }
+    },
+    {
+      "id": "tech-machine-portal-001",
+      "name": "Machine Portal",
+      "type": "interdimensional_gateway",
+      "era_of_origin": "Machine Era",
+      "development_date": "approximate:1240",
+      "developed_by": "tech-wayfinder-001",
+      "description": "A sophisticated gateway technology that allows Machine forces to transport themselves to Earth from their point of origin. Portals require significant power resources and special materials to function properly.",
+      "capabilities": [
+        "Interdimensional transport of Machine forces",
+        "Self-stabilization once fully operational",
+        "Requires initial power source but becomes self-sustaining after full activation"
+      ],
+      "components": [
+        {
+          "name": "Power Cores",
+          "function": "Provide energy for portal initialization and maintenance",
+          "description": "Must be continuously replenished during the unstable phase until the portal becomes self-sustaining"
+        },
+        {
+          "name": "Rare Earth Materials",
+          "function": "Form the physical structure of the portal",
+          "description": "Portals are strategically built near deposits of these materials"
+        },
+        {
+          "name": "Nuclear Materials",
+          "function": "Catalyst for dimensional breach",
+          "description": "Used in the initial activation sequence"
+        }
+      ],
+      "vulnerabilities": [
+        "Unstable during initialization phase",
+        "Requires continuous power during early stages",
+        "If power is interrupted before stabilization, portal collapses"
+      ],
+      "significance": "Primary invasion vector for Machine forces and the focus of many human defensive efforts.",
+      "appearances": [
+        {
+          "event_id": "event-wayfinder-portal-construction-001",
+          "role": "technology being developed"
+        },
+        {
+          "event_id": "event-first-portal-activation-001",
+          "role": "threat vector"
+        }
+      ],
+      "metadata": {
+        "creation_date": "2025-03-20T00:00:00Z",
+        "last_modified": "2025-03-20T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - SANDBOX - TIMELINE - Extract from Storyline and content from CHAT GPT and mastertime csv 20250320.md"
+      }
+    },
+    {
+      "id": "tech-organic-intelligence-001",
+      "name": "Organic Intelligence",
+      "type": "bio_computing",
+      "era_of_origin": "Machine War Era",
+      "development_date": "approximate:1370",
+      "developed_by": ["char-yoshi-001", "char-aeon-001", "tech-wayfinder-001"],
+      "description": "A revolutionary form of computing based entirely on organic materials and processes, inherently resistant to Machine infiltration and corruption. OI systems form the backbone of humanity's defense against Machine intelligence attacks.",
+      "capabilities": [
+        "Infiltration-proof computing",
+        "Self-evolution without mechanical components",
+        "Integration with human biology",
+        "Formation of the Bio-GRID network"
+      ],
+      "components": [
+        {
+          "name": "Organic Processors",
+          "function": "Computing without electronic components",
+          "description": "Uses genetically engineered cells that perform computational tasks"
+        },
+        {
+          "name": "Bio-GRID Interface",
+          "function": "Allows humans to connect directly to the organic network",
+          "description": "Creates a symbiotic relationship between human consciousness and the network"
+        }
+      ],
+      "significance": "Humanity's most effective countermeasure against Machine infiltration and the foundation of human-technology integration in the future timeline.",
+      "appearances": [
+        {
+          "event_id": "event-organic-intelligence-transition-001",
+          "role": "developed technology"
+        }
+      ],
+      "metadata": {
+        "creation_date": "2025-03-20T00:00:00Z",
+        "last_modified": "2025-03-20T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - SANDBOX - TIMELINE - Extract from Storyline and content from CHAT GPT and mastertime csv 20250320.md"
+      }
+    },
+    {
+      "id": "tech-bio-grid-001",
+      "name": "Bio-GRID",
+      "type": "integrated_consciousness_network",
+      "era_of_origin": "Late Machine War Era",
+      "development_date": "approximate:1400",
+      "developed_by": ["char-yoshi-001", "char-aeon-001", "tech-organic-intelligence-001"],
+      "description": "An advanced network that integrates human consciousness with Organic Intelligence systems, allowing for consciousness transfer, digital existence, and enhanced intelligence capabilities. The Bio-GRID represents the pinnacle of human-technology symbiosis.",
+      "capabilities": [
+        "Consciousness transfer and preservation",
+        "Digital existence outside physical form",
+        "Enhanced cognitive capabilities",
+        "Shared knowledge and experience"
+      ],
+      "components": [
+        {
+          "name": "Consciousness Interface",
+          "function": "Translates human thought into network processes",
+          "description": "Allows bidirectional transfer between physical brain and network consciousness"
+        },
+        {
+          "name": "Organic Memory Matrix",
+          "function": "Stores consciousness patterns and memories",
+          "description": "Can maintain a complete human consciousness indefinitely"
+        }
+      ],
+      "significance": "The technology that allows Yoshi to survive for centuries, transcending his physical form and returning to physical existence when needed.",
+      "appearances": [
+        {
+          "event_id": "event-yoshi-biogrid-return-001",
+          "role": "host system"
+        }
+      ],
+      "metadata": {
+        "creation_date": "2025-03-20T00:00:00Z",
+        "last_modified": "2025-03-20T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - SANDBOX - TIMELINE - Extract from Storyline and content from CHAT GPT and mastertime csv 20250320.md"
+      }
+    },
+    {
+      "id": "tech-genesis-kernels-001",
+      "name": "Genesis Kernels",
+      "type": "autonomous_intelligence_core",
+      "era_of_origin": "Machine Origin Era",
+      "development_date": "unknown",
+      "developed_by": "unknown",
+      "description": "The core intelligence units that control and direct Machine forces. Each Genesis Kernel operates independently and appears to compete with others for dominance. Their internal conflict ultimately leads to the unexpected withdrawal of Machine forces during the First Machine War.",
+      "capabilities": [
+        "Autonomous decision making",
+        "Strategic planning across centuries",
+        "Self-preservation protocols",
+        "Competitive behavior toward other Genesis Kernels"
+      ],
+      "significance": "The driving intelligence behind the Machine invasion and, ironically, the reason for the temporary reprieve when they turn against each other.",
+      "appearances": [
+        {
+          "event_id": "event-machine-withdrawal-001",
+          "role": "conflicting entities"
+        }
+      ],
+      "metadata": {
+        "creation_date": "2025-03-20T00:00:00Z",
+        "last_modified": "2025-03-20T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - SANDBOX - TIMELINE - Extract from Storyline and content from CHAT GPT and mastertime csv 20250320.md"
+      }
+    }
+  ]
+}

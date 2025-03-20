@@ -3,28 +3,83 @@
     {
       "id": "char-yoshi-001",
       "name": "Yoshi",
-      "aliases": ["Master"],
-      "description": "A skilled samurai of slender build with precise, fluid movements. His calm demeanor masks tactical brilliance and extraordinary combat skills. He defeated Benkei at Gojo Bridge with three perfect cuts, demonstrating mastery over brute strength. He rarely explains his intentions fully but always has a clear purpose in mind.",
+      "full_name": "Minamoto no Yoshitsune",
+      "type": "protagonist",
+      "birth_date": "1159",
+      "death_date": null,
+      "status": "alive",
+      "species": "human",
+      "gender": "male",
+      "aliases": ["Master", "The Undying", "The Bridge Between Eras"],
+      "description": "A brilliant and skilled warrior from the Minamoto clan, raised in secrecy at Kurama Temple after his father's defeat in the Heiji Rebellion. Possessed of extraordinary combat abilities that combine speed, precision, and tactical brilliance. Later discovers the Wayfinder technology that extends his lifespan beyond normal human limits.",
+      "physical_appearance": {
+        "height": "average",
+        "build": "slender but athletic",
+        "notable_features": "Moves with uncanny grace and precision",
+        "typical_attire": "Simple but high-quality armor, favors mobility over heavy protection"
+      },
+      "abilities": [
+        {
+          "name": "Combat Mastery",
+          "type": "martial",
+          "description": "Exceptional sword skills emphasizing speed and precision over brute strength"
+        },
+        {
+          "name": "Tactical Genius",
+          "type": "mental",
+          "description": "Ability to analyze battlefield conditions and devise innovative strategies"
+        },
+        {
+          "name": "Unconventional Warfare",
+          "type": "military",
+          "description": "Pioneer of guerrilla tactics, night operations, and terrain-based strategies that conventional armies couldn't counter"
+        }
+      ],
+      "personality": {
+        "traits": [
+          "Calm under pressure",
+          "Innovative thinker",
+          "Values skill over tradition",
+          "Strategic long-term planner",
+          "Adaptable to changing circumstances"
+        ],
+        "virtues": [
+          "Honor",
+          "Courage",
+          "Loyalty to cause"
+        ],
+        "flaws": [
+          "Can be perceived as arrogant by traditionalists",
+          "Reluctant to conform to established hierarchies",
+          "Sometimes underestimates political dangers"
+        ]
+      },
       "physical_traits": {
         "build": "slender but strong",
-        "notable_features": "moves with fluid economy",
-        "fighting_style": "precise, efficient, focused on speed and technique"
+        "notable_features": "moves with fluid economy, ageless appearance despite centuries of life",
+        "fighting_style": "precise, efficient, focused on speed and technique, evolved over centuries to incorporate both ancient and futuristic elements"
       },
       "psychological_traits": {
-        "temperament": "calm, measured, observant",
-        "motivations": "has a larger purpose that remains partially hidden",
-        "fears": "unknown",
-        "strengths": "tactical awareness, combat mastery, patience",
-        "weaknesses": "keeps his true intentions guarded"
+        "temperament": "calm, measured, observant, carries the weight of centuries",
+        "motivations": "protecting humanity from Machine threats, understanding and mastering advanced technology",
+        "fears": "failing to prevent Machine dominance, losing connection to his humanity over centuries",
+        "strengths": "tactical awareness, combat mastery, patience, centuries of experience",
+        "weaknesses": "periodic isolation from humanity, burden of immortality"
       },
       "background": {
-        "origin": "Mentions having a half-brother who is a lord in the north",
+        "origin": "Son of Minamoto no Yoshitomo, placed in hiding at Kurama Temple after his father's death",
         "key_events": [
-          "Defeated Benkei at Gojo Bridge with three cuts",
-          "Took Benkei as a retainer",
-          "Journeyed to the mountain forge for Benkei's transformation"
+          "Secretly trained in combat while at Kurama Temple",
+          "Left the temple in 1179 after revealing his true nature",
+          "Defeated Benkei at Gojo Bridge, gaining his loyalty",
+          "Formed the Shadow Army between 1176-1180",
+          "Led multiple successful military campaigns against superior forces",
+          "Escaped death at Koromogawa in 1189",
+          "Discovered the Wayfinder in the mountains after Koromogawa",
+          "Led humanity's resistance against Machine invasions",
+          "Transitioned to the Bio-GRID in later centuries"
         ],
-        "affiliations": ["Unknown northern lord (half-brother)"]
+        "affiliations": ["Originally Minamoto clan", "Later leader of human resistance against Machines"]
       },
       "relationships": [
         {
@@ -41,17 +96,106 @@
           "relationship_id": "rel-yoshi-northern-lord-001",
           "type": "half-brother",
           "description": "Has a half-brother who is a lord in the north"
+        },
+        {
+          "relationship_id": "rel-yoshi-wayfinder-001",
+          "type": "discoverer",
+          "description": "First human to discover and interact with Wayfinder technology, beginning humanity's technological acceleration"
         }
       ],
-      "story_role": "guide and master",
-      "created_at": "2025-03-17T00:00:00Z",
-      "updated_at": "2025-03-17T00:00:00Z"
+      "affiliations": [
+        {
+          "organization_id": "org-minamoto-001",
+          "role": "heir",
+          "status": "complex"
+        },
+        {
+          "organization_id": "org-shadow-army-001",
+          "role": "founder and commander",
+          "status": "active"
+        }
+      ],
+      "military_leadership": {
+        "style": "Innovative and unconventional",
+        "strengths": [
+          "Creating tactics that leverage terrain and natural conditions",
+          "Training forces to fight effectively in conditions where traditional armies cannot",
+          "Recognizing and utilizing diverse talents beyond traditional warrior skills",
+          "Strategic understanding of supply lines and economic pressure points"
+        ],
+        "notable_innovations": [
+          "Winter warfare capabilities when conventional armies couldn't operate",
+          "Night operations and surprise tactics",
+          "Distributed command structure allowing units to operate independently",
+          "Integration of non-warriors (hunters, fishermen, craftsmen) into military structure"
+        ],
+        "campaigns": [
+          "The Mountain Passes Campaign (1184-1185)",
+          "The Coastal Raids (1186)",
+          "The Winter Offensive (1187)",
+          "Battle of Kurikara (1187)",
+          "Defense of Koromogawa Castle (1189)"
+        ]
+      },
+      "story_role": "bridge character connecting feudal and futuristic narrative elements",
+      "long_term_arc": "From hidden heir to revolutionary military leader to immortal defender of humanity against machine invasion",
+      "historical_impact": "Revolutionized Japanese warfare through unconventional tactics, later became humanity's most enduring defender through his discovery and understanding of Wayfinder technology",
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-24T00:00:00Z"
     },
     {
       "id": "char-benkei-001",
       "name": "Benkei",
-      "aliases": ["The Giant of Gojo Bridge", "Iron Bear"],
-      "description": "A massive warrior monk known for his tremendous strength. After being defeated by Yoshi at Gojo Bridge, he swore an oath of loyalty and began a journey of transformation. Through the forging of new weapons and armor at the mountain forge, he shed his old identity to become 'Iron Bear', a protector rather than a conqueror.",
+      "full_name": "Musashibō Benkei",
+      "aliases": ["The Giant of Gojo Bridge", "Iron Bear", "Demon of Gojo Bridge"],
+      "type": "protagonist",
+      "birth_date": "unknown",
+      "death_date": "1189",
+      "status": "deceased",
+      "species": "human",
+      "gender": "male",
+      "description": "A towering warrior monk of legendary strength who collected 999 swords before being defeated by Yoshi. Following his defeat, he pledged his life to Yoshi, becoming his most loyal protector and second-in-command.",
+      "physical_appearance": {
+        "height": "exceptionally tall",
+        "build": "massive, powerfully built",
+        "notable_features": "Imposing stature, intimidating presence",
+        "typical_attire": "Initially monk's robes with armor; later the distinctive black Iron Bear armor that conceals his identity"
+      },
+      "abilities": [
+        {
+          "name": "Overwhelming Strength",
+          "type": "physical",
+          "description": "Legendary power allowing him to wield massive weapons and wear heavy armor with ease"
+        },
+        {
+          "name": "Combat Expertise",
+          "type": "martial",
+          "description": "Mastery of multiple weapons, particularly the naginata and massive katana"
+        },
+        {
+          "name": "Tactical Leadership",
+          "type": "military",
+          "description": "Evolved from individual warrior to capable field commander leading complex operations"
+        }
+      ],
+      "personality": {
+        "traits": [
+          "Fiercely loyal",
+          "Determined",
+          "Intimidating presence",
+          "Straightforward in speech"
+        ],
+        "virtues": [
+          "Absolute loyalty",
+          "Courage",
+          "Protective instinct"
+        ],
+        "flaws": [
+          "Struggled with his own violent nature throughout life",
+          "Initially relied too heavily on brute strength",
+          "Sometimes seen as too intimidating by potential allies"
+        ]
+      },
       "physical_traits": {
         "build": "massive, mountain-like frame",
         "notable_features": "extraordinary strength, imposing presence",
@@ -65,12 +209,13 @@
         "weaknesses": "still learning to balance strength with precision"
       },
       "background": {
-        "origin": "Warrior monk",
+        "origin": "Raised in a mountain monastery but left due to conflicts between his warrior nature and Buddhist teachings",
         "key_events": [
-          "Collected 999 swords at Gojo Bridge",
-          "Defeated by Yoshi in their duel",
-          "Swore oath of loyalty to Yoshi",
-          "Transformed at the mountain forge"
+          "Departure from monastic life",
+          "Collection of 999 swords at Gojo Bridge",
+          "Defeat by and oath to Yoshi",
+          "Transformation at Gorō's forge receiving Crimson Dawn and Iron Bear armor",
+          "Evolution from warrior to military leader in the Shadow Army"
         ],
         "affiliations": ["Formerly none, now loyal to Yoshi"]
       },
@@ -81,9 +226,44 @@
           "description": "Sworn retainer to Yoshi after being defeated at Gojo Bridge"
         }
       ],
+      "affiliations": [
+        {
+          "organization_id": "org-kurama-monks-001",
+          "role": "former novice",
+          "status": "former"
+        },
+        {
+          "organization_id": "org-shadow-army-001",
+          "role": "chief enforcer and recruitment leader",
+          "status": "active"
+        }
+      ],
+      "military_leadership": {
+        "style": "Inspiring through presence and example",
+        "strengths": [
+          "Frontline leadership that inspires troops",
+          "Recruitment of warriors through reputation",
+          "Battlefield decision-making under pressure",
+          "Ability to turn the tide of battle through personal intervention"
+        ],
+        "notable_contributions": [
+          "Training the core warriors of the Shadow Army",
+          "Leading the wedge formation at Kurikara that split Taira forces",
+          "Commanding nighttime sorties during the Koromogawa siege",
+          "The legendary last stand at Koromogawa's North Bridge"
+        ],
+        "evolution": [
+          "Solitary monk-warrior challenging swordsmen at Gojo Bridge",
+          "Loyal retainer following Yoshi's commands",
+          "Field commander leading significant forces",
+          "Legendary Iron Bear whose mere appearance could affect battle outcomes"
+        ]
+      },
       "story_role": "transformed warrior, primary protagonist",
-      "created_at": "2025-03-17T00:00:00Z",
-      "updated_at": "2025-03-17T00:00:00Z"
+      "symbolic_significance": "Represents the transformation from undirected strength to purposeful service, exemplifying the ideal of absolute loyalty",
+      "historical_legacy": "His last stand at Koromogawa became a symbol of ultimate loyalty in Japanese culture, while his partnership with Yoshi established the archetype of the perfect warrior bond",
+      "created_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-24T00:00:00Z"
     },
     {
       "id": "char-blacksmith-001",

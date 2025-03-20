@@ -470,6 +470,150 @@
       ],
       "created_at": "2025-03-18T00:00:00Z",
       "updated_at": "2025-03-18T00:00:00Z"
+    },
+    {
+      "id": "loc-mountain-sanctuary-001",
+      "name": "Mountain Sanctuary",
+      "type": "military_stronghold",
+      "sub_type": "headquarters",
+      "region": "Ōshū, Northern Japan",
+      "era": "Heian Period",
+      "description": "The primary headquarters and training grounds of Yoshi and Benkei's Shadow Army, hidden deep in the mountains of Ōshū. Selected for its natural defenses and inaccessibility to conventional forces, the sanctuary consists of a network of caves, wooden structures, and training grounds nestled in a secluded mountain valley.",
+      "significance": {
+        "military": "Primary base of operations and training facility for the Shadow Army",
+        "strategic": "Provided a secure headquarters beyond the reach of Taira intelligence networks",
+        "narrative": "Represents the heart of Yoshi's unconventional approach to warfare"
+      },
+      "features": [
+        "Natural defensive positions in the surrounding mountains",
+        "Hidden entry points known only to shadow army members",
+        "Training grounds adapted for all weather conditions",
+        "Underground storage for supplies and weapons",
+        "Watchtowers concealed within the natural landscape"
+      ],
+      "controlled_by": {
+        "organization_id": "org-shadow-army-001",
+        "years": "1176-1189"
+      },
+      "notable_events": [
+        {
+          "event_id": "event-shadow-army-formation-001",
+          "relationship": "primary_location"
+        }
+      ],
+      "connected_locations": [
+        {
+          "location_id": "loc-river-valley-outpost-001",
+          "connection_type": "hidden_path",
+          "distance": "two days' journey"
+        }
+      ],
+      "metadata": {
+        "creation_date": "2025-03-24T00:00:00Z",
+        "last_modified": "2025-03-24T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - DRAFT - TIMELINE - Yoshi and Benkei's Road From the Mountains.md"
+      }
+    },
+    {
+      "id": "loc-river-valley-outpost-001",
+      "name": "River Valley Outpost",
+      "type": "military_stronghold",
+      "sub_type": "strategic_outpost",
+      "region": "Northern Japan",
+      "era": "Heian Period",
+      "description": "A concealed outpost positioned along a vital river valley that served as a major supply route. The facility was designed to blend into the surrounding landscape, with structures built directly into hillsides and camouflaged with local vegetation. It allowed the Shadow Army to monitor and control movement of goods and people through the region.",
+      "significance": {
+        "military": "Control point for intercepting enemy supplies and gathering intelligence",
+        "strategic": "Provided economic leverage by influencing regional trade",
+        "narrative": "Demonstrated Yoshi's understanding of supply lines as critical to warfare"
+      },
+      "features": [
+        "Observation posts overlooking the river valley",
+        "Signal system using mirrors and smoke signals to communicate quickly with other outposts",
+        "Hidden docks for river transport",
+        "Camouflaged structures integrated into natural terrain",
+        "Multiple escape routes through the hills"
+      ],
+      "controlled_by": {
+        "organization_id": "org-shadow-army-001",
+        "years": "1177-1189"
+      },
+      "notable_events": [
+        {
+          "event_id": "event-shadow-army-formation-001",
+          "relationship": "secondary_location"
+        }
+      ],
+      "connected_locations": [
+        {
+          "location_id": "loc-mountain-sanctuary-001",
+          "connection_type": "hidden_path",
+          "distance": "two days' journey"
+        },
+        {
+          "location_id": "loc-coastal-haven-001",
+          "connection_type": "river_route",
+          "distance": "three days' journey"
+        }
+      ],
+      "metadata": {
+        "creation_date": "2025-03-24T00:00:00Z",
+        "last_modified": "2025-03-24T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - DRAFT - TIMELINE - Yoshi and Benkei's Road From the Mountains.md"
+      }
+    },
+    {
+      "id": "loc-coastal-haven-001",
+      "name": "Coastal Haven",
+      "type": "military_stronghold",
+      "sub_type": "naval_outpost",
+      "region": "Japanese Coast, Northern Japan",
+      "era": "Heian Period",
+      "description": "A secretive coastal facility built into seaside cliffs and caves, providing the Shadow Army with maritime intelligence and naval capabilities. The haven included hidden docks, observation points with views of shipping lanes, and facilities for small boats used in coastal raids. It served as both an intelligence gathering post and a launching point for maritime operations.",
+      "significance": {
+        "military": "Base for naval intelligence gathering and coastal raids",
+        "strategic": "Provided escape routes by sea if needed",
+        "narrative": "Expanded the Shadow Army's sphere of influence beyond land warfare"
+      },
+      "features": [
+        "Cave docks hidden from sea view",
+        "Seaside observation points concealed in natural rock formations",
+        "Specialized quarters for fishermen and sailors allied with the Shadow Army",
+        "Signal fires positioned to communicate with fishing vessels",
+        "Storage for boats and maritime supplies"
+      ],
+      "controlled_by": {
+        "organization_id": "org-shadow-army-001",
+        "years": "1178-1189"
+      },
+      "notable_events": [
+        {
+          "event_id": "event-shadow-army-formation-001",
+          "relationship": "tertiary_location"
+        },
+        {
+          "event_id": "event-coastal-raids-campaign-001",
+          "relationship": "primary_location"
+        }
+      ],
+      "connected_locations": [
+        {
+          "location_id": "loc-river-valley-outpost-001",
+          "connection_type": "river_route",
+          "distance": "three days' journey"
+        }
+      ],
+      "metadata": {
+        "creation_date": "2025-03-24T00:00:00Z",
+        "last_modified": "2025-03-24T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - DRAFT - TIMELINE - Yoshi and Benkei's Road From the Mountains.md"
+      }
     }
   ]
 }

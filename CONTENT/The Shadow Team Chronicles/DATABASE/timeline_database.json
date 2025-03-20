@@ -317,5 +317,428 @@
         "version": 1
       }
     }
-  ]
+  ],
+  "id": "timeline-yoshi-long-arc",
+  "name": "Yoshi's Extended Timeline",
+  "description": "The comprehensive chronology of Yoshi's journey from feudal warrior to legendary figure spanning over a millennium of history",
+  "era": "Extended Historical to Future",
+  "scope": "comprehensive",
+  "entries": [
+    {
+      "id": "timeline-koromogawa-siege",
+      "date": "1189",
+      "precise_date": null,
+      "name": "Final Stand at Koromogawa",
+      "description": "Yoshi, betrayed and pursued, makes his final stand at Koromogawa. Benkei holds the bridge alone in a legendary last stand while Yoshi's fate is altered from historical accounts. Instead of dying, Yoshi manages to escape into the mountains.",
+      "related_events": [
+        {
+          "event_id": "event-koromogawa-siege-001",
+          "relationship": "describes"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "timeline-wayfinder-discovery",
+      "date": "1189",
+      "precise_date": null,
+      "name": "Discovery of the First Wayfinder",
+      "description": "After escaping from Koromogawa, Yoshi discovers a damaged Wayfinder in a collapsed cave in the mountains of Japan, a pivotal event that changes the course of human technological development.",
+      "related_events": [
+        {
+          "event_id": "event-wayfinder-discovery-001",
+          "relationship": "describes"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "timeline-wayfinder-portal-project",
+      "date": "1240",
+      "precise_date": null,
+      "name": "Wayfinder Portal Construction",
+      "description": "The Wayfinder initiates a hidden project to construct portals, laying the groundwork for future invasions.",
+      "related_events": [
+        {
+          "event_id": "event-wayfinder-portal-construction-001",
+          "relationship": "describes"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "timeline-first-portal-activation",
+      "date": "1290",
+      "precise_date": null,
+      "name": "First Portal Activation",
+      "description": "The first Machine portal is activated, but the initial incursion is successfully repelled by human forces.",
+      "related_events": [
+        {
+          "event_id": "event-first-portal-activation-001",
+          "relationship": "describes"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "timeline-human-war-machine-development",
+      "date": "1300",
+      "precise_date": null,
+      "name": "Development of Human War Technology",
+      "description": "Humanity develops advanced military capabilities and organic computing systems to counter Machine infiltration.",
+      "related_events": [
+        {
+          "event_id": "event-human-war-technology-001",
+          "relationship": "describes"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "timeline-first-machine-invasion",
+      "date": "1350",
+      "precise_date": null,
+      "name": "First Major Machine Invasion",
+      "description": "Machine forces breach human defenses, forcing humanity into a defensive war as the conflict escalates to a full-scale invasion.",
+      "related_events": [
+        {
+          "event_id": "event-machine-invasion-001",
+          "relationship": "describes"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "timeline-organic-intelligence-transition",
+      "date": "1370",
+      "precise_date": null,
+      "name": "Transition to Organic Intelligence",
+      "description": "Yoshi, Aeon, and the Wayfinder begin transitioning Japan's systems to Organic Intelligence (OI) and humans begin integrating with the Bio-GRID.",
+      "related_events": [
+        {
+          "event_id": "event-organic-intelligence-transition-001",
+          "relationship": "describes"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "timeline-machines-withdraw",
+      "date": "1370",
+      "precise_date": null,
+      "name": "Machine Forces Withdraw",
+      "description": "The Machine forces unexpectedly withdraw as the Genesis Kernels turn on each other, ending the First Machine War.",
+      "related_events": [
+        {
+          "event_id": "event-machine-withdrawal-001",
+          "relationship": "describes"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "timeline-yoshi-return-from-exile",
+      "date": "1480",
+      "precise_date": null,
+      "name": "Yoshi Returns From Exile",
+      "description": "Yoshi, now a legendary figure, returns from exile as a new war with the Machines reignites.",
+      "related_events": [
+        {
+          "event_id": "event-yoshi-return-exile-001",
+          "relationship": "describes"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "timeline-yoshi-biogrid-return",
+      "date": "1600",
+      "precise_date": null,
+      "name": "Yoshi Returns From Bio-GRID",
+      "description": "Yoshi returns from the Bio-GRID as humanity faces new wars and conflicts.",
+      "related_events": [
+        {
+          "event_id": "event-yoshi-biogrid-return-001",
+          "relationship": "describes"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "timeline-benkei-transformation-goro-forge-001",
+      "date": "1180",
+      "precise_date": null,
+      "name": "Benkei's Transformation at the Mountain Forge",
+      "description": "Following his oath to Yoshi, Benkei undergoes physical and symbolic transformation at Master Gorō's forge, receiving his signature weapons and Iron Bear armor."
+    },
+    {
+      "id": "timeline-shadow-army-formation-001",
+      "date": "1176-1180",
+      "precise_date": null,
+      "name": "Formation of Yoshi's Shadow Army",
+      "description": "Over several years, Yoshi and Benkei systematically recruited and trained an unconventional fighting force across northern Japan. They established three strongholds: the Mountain Sanctuary in Ōshū, the River Valley Outpost, and the Coastal Haven for maritime intelligence. Their force incorporated not just warriors, but hunters, fishermen, craftsmen and others with specialized knowledge to create a highly adaptive military organization capable of guerrilla warfare and innovative tactics.",
+      "related_events": [
+        {
+          "event_id": "event-shadow-army-formation-001",
+          "relationship": "describes"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "timeline-mountain-passes-campaign-001",
+      "date": "1184-1185",
+      "precise_date": null,
+      "name": "The Mountain Passes Campaign",
+      "description": "Yoshi's Shadow Army secured critical supply routes through guerrilla tactics in mountain regions that conventional armies found challenging. By controlling high-altitude passes that connected key provinces, they effectively isolated Taira territories and demonstrated the Shadow Army's ability to operate effectively in terrain that traditional forces avoided.",
+      "related_events": [
+        {
+          "event_id": "event-mountain-passes-campaign-001",
+          "relationship": "describes"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "timeline-coastal-raids-campaign-001",
+      "date": "1186",
+      "precise_date": null,
+      "name": "The Coastal Raids Campaign",
+      "description": "Coordinated attacks on Taira-controlled ports and shipyards, operating from the Coastal Haven stronghold. These precision raids targeted shipbuilding facilities, supply depots, and communication networks, demonstrating Yoshi's understanding that naval power was crucial to Taira dominance and his willingness to extend warfare beyond traditional land battles.",
+      "related_events": [
+        {
+          "event_id": "event-coastal-raids-campaign-001",
+          "relationship": "describes"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "timeline-winter-offensive-campaign-001",
+      "date": "1187",
+      "precise_date": "winter",
+      "name": "The Winter Offensive",
+      "description": "A daring campaign conducted during severe winter conditions when traditional armies remained inactive. The Shadow Army, specifically trained for winter operations, paralyzed Taira supply lines and isolated their garrisons. This revolutionary approach to seasonal warfare demonstrated Yoshi's tactical innovation and his forces' superior adaptability.",
+      "related_events": [
+        {
+          "event_id": "event-winter-offensive-campaign-001",
+          "relationship": "describes"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "timeline-battle-of-kurikara-001",
+      "date": "1187",
+      "precise_date": null,
+      "name": "The Battle of Kurikara",
+      "description": "A pivotal battle where the Shadow Army's tactics proved decisive. While officially part of the broader Minamoto coalition, eyewitnesses reported that Benkei's wedge formation split Taira forces at a critical moment. The battle cemented the Shadow Army's legendary status and demonstrated the effectiveness of their unconventional approach against traditional armies in direct confrontation.",
+      "related_events": [
+        {
+          "event_id": "event-battle-of-kurikara-001",
+          "relationship": "describes"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "timeline-yoritomo-jealousy-rise-001",
+      "date": "1186-1187",
+      "precise_date": null,
+      "name": "Rise of Yoritomo's Jealousy",
+      "description": "As Yoshi's military success and popularity grew through these innovative campaigns, his half-brother Yoritomo became increasingly concerned about Yoshi's independent power base and unconventional methods. Military victories that should have brought the brothers closer instead drove them apart as Yoritomo viewed Yoshi as a potential rival rather than an ally.",
+      "confidence": "high"
+    },
+    {
+      "id": "timeline-yoritomo-betrayal-001",
+      "date": "1188",
+      "precise_date": "after Dan-no-ura",
+      "name": "Yoritomo's Betrayal",
+      "description": "Following the naval Battle of Dan-no-ura that marked the final defeat of the Taira, Yoritomo systematically undermined Yoshi's position. He reassigned loyal troops, withheld supplies, and eventually ceased all communication. By autumn, Yoshi had learned that his half-brother had secretly declared him an enemy of the new Minamoto order.",
+      "related_events": [
+        {
+          "event_id": "event-yoritomo-betrayal-001",
+          "relationship": "describes"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "timeline-koromogawa-castle-siege-001",
+      "date": "1189",
+      "precise_date": "spring",
+      "name": "The Siege of Koromogawa Castle",
+      "description": "Yoritomo's forces surrounded Yoshi's headquarters at Koromogawa Castle. Though outnumbered nearly ten to one, the Shadow Army demonstrated their legendary skills through ambushes, nighttime sorties, and innovative defense tactics. The siege culminated in Benkei's famous last stand at the North Bridge, where he held off overwhelming forces alone to allow Yoshi to escape into the mountains.",
+      "related_events": [
+        {
+          "event_id": "event-koromogawa-castle-siege-001",
+          "relationship": "describes"
+        }
+      ],
+      "confidence": "high"
+    }
+  ],
+  "relationships": [
+    {
+      "source_entry_id": "timeline-koromogawa-siege",
+      "target_entry_id": "timeline-wayfinder-discovery",
+      "relationship_type": "directly_leads_to"
+    },
+    {
+      "source_entry_id": "timeline-wayfinder-discovery",
+      "target_entry_id": "timeline-wayfinder-portal-project",
+      "relationship_type": "leads_to"
+    },
+    {
+      "source_entry_id": "timeline-wayfinder-portal-project",
+      "target_entry_id": "timeline-first-portal-activation",
+      "relationship_type": "directly_leads_to"
+    },
+    {
+      "source_entry_id": "timeline-first-portal-activation",
+      "target_entry_id": "timeline-human-war-machine-development",
+      "relationship_type": "causes"
+    },
+    {
+      "source_entry_id": "timeline-human-war-machine-development",
+      "target_entry_id": "timeline-first-machine-invasion",
+      "relationship_type": "precedes"
+    },
+    {
+      "source_entry_id": "timeline-first-machine-invasion",
+      "target_entry_id": "timeline-organic-intelligence-transition",
+      "relationship_type": "leads_to"
+    },
+    {
+      "source_entry_id": "timeline-organic-intelligence-transition",
+      "target_entry_id": "timeline-machines-withdraw",
+      "relationship_type": "contributes_to"
+    },
+    {
+      "source_entry_id": "timeline-machines-withdraw",
+      "target_entry_id": "timeline-yoshi-return-from-exile",
+      "relationship_type": "followed_by"
+    },
+    {
+      "source_entry_id": "timeline-yoshi-return-from-exile",
+      "target_entry_id": "timeline-yoshi-biogrid-return",
+      "relationship_type": "leads_to"
+    },
+    {
+      "source_entry_id": "timeline-shadow-army-formation-001",
+      "target_entry_id": "timeline-mountain-passes-campaign-001",
+      "relationship_type": "enables"
+    },
+    {
+      "source_entry_id": "timeline-mountain-passes-campaign-001",
+      "target_entry_id": "timeline-coastal-raids-campaign-001",
+      "relationship_type": "precedes"
+    },
+    {
+      "source_entry_id": "timeline-coastal-raids-campaign-001",
+      "target_entry_id": "timeline-winter-offensive-campaign-001",
+      "relationship_type": "precedes"
+    },
+    {
+      "source_entry_id": "timeline-winter-offensive-campaign-001",
+      "target_entry_id": "timeline-battle-of-kurikara-001",
+      "relationship_type": "leads_to"
+    },
+    {
+      "source_entry_id": "timeline-battle-of-kurikara-001",
+      "target_entry_id": "timeline-yoritomo-jealousy-rise-001",
+      "relationship_type": "intensifies"
+    },
+    {
+      "source_entry_id": "timeline-yoritomo-jealousy-rise-001",
+      "target_entry_id": "timeline-yoritomo-betrayal-001",
+      "relationship_type": "culminates_in"
+    },
+    {
+      "source_entry_id": "timeline-yoritomo-betrayal-001",
+      "target_entry_id": "timeline-koromogawa-castle-siege-001",
+      "relationship_type": "directly_causes"
+    },
+    {
+      "source_entry_id": "timeline-koromogawa-castle-siege-001",
+      "target_entry_id": "timeline-koromogawa-siege",
+      "relationship_type": "is_detailed_by"
+    }
+  ],
+  "timeline_notes": [
+    {
+      "id": "timeline-note-extended-yoshi-life",
+      "title": "Chronology Note: Yoshi's Extended Lifespan",
+      "description": "This timeline indicates Yoshi somehow survives or is preserved from the feudal era (1180s) through the far future (1600s), suggesting technological intervention, preservation, or rebirth that allows him to transcend normal human lifespan limitations.",
+      "affected_events": [
+        "event-wayfinder-discovery-001",
+        "event-organic-intelligence-transition-001",
+        "event-yoshi-return-exile-001",
+        "event-yoshi-biogrid-return-001"
+      ],
+      "resolution_status": "unresolved",
+      "canonical_status": "under investigation",
+      "metadata": {
+        "creation_date": "2025-03-20T00:00:00Z",
+        "last_modified": "2025-03-20T00:00:00Z",
+        "version": 1
+      }
+    },
+    {
+      "id": "timeline-note-koromogawa-alternate",
+      "title": "Chronology Note: Alternate Ending at Koromogawa",
+      "description": "Historical accounts record Yoshi's death at Koromogawa in 1189, but in the Shadow Team Chronicles timeline, he escapes and discovers the Wayfinder, creating a divergent timeline where he survives into future centuries.",
+      "affected_events": [
+        "event-koromogawa-siege-001",
+        "event-wayfinder-discovery-001"
+      ],
+      "resolution_status": "canonical",
+      "metadata": {
+        "creation_date": "2025-03-21T00:00:00Z",
+        "last_modified": "2025-03-21T00:00:00Z",
+        "version": 1
+      }
+    },
+    {
+      "id": "timeline-note-shadow-army-innovation",
+      "title": "Chronology Note: Shadow Army's Military Innovations",
+      "description": "The Shadow Army campaigns between 1184 and 1187 represent a significant deviation from traditional Japanese warfare of the period. Their ability to operate in winter, use of guerrilla tactics, and integration of non-traditional warriors into military operations was revolutionary. These innovations contributed to their tactical success but ultimately threatened the conventional power structure that Yoritomo was establishing.",
+      "affected_events": [
+        "event-shadow-army-formation-001",
+        "event-mountain-passes-campaign-001",
+        "event-coastal-raids-campaign-001", 
+        "event-winter-offensive-campaign-001",
+        "event-battle-of-kurikara-001"
+      ],
+      "resolution_status": "canonical",
+      "metadata": {
+        "creation_date": "2025-03-24T00:00:00Z",
+        "last_modified": "2025-03-24T00:00:00Z",
+        "version": 1
+      }
+    },
+    {
+      "id": "timeline-note-brother-conflict",
+      "title": "Chronology Note: The Brothers' Conflict Arc",
+      "description": "The deterioration of the relationship between Yoshi and Yoritomo follows a clear progression from military cooperation to jealousy to betrayal. This arc is essential to understanding why Yoshi, after helping secure Minamoto victory over the Taira, was ultimately pursued and besieged by his own family forces. It represents the tragic element of the narrative where victory contains the seeds of destruction.",
+      "affected_events": [
+        "event-yoritomo-jealousy-rise-001",
+        "event-yoritomo-betrayal-001",
+        "event-koromogawa-castle-siege-001"
+      ],
+      "resolution_status": "canonical",
+      "metadata": {
+        "creation_date": "2025-03-24T00:00:00Z",
+        "last_modified": "2025-03-24T00:00:00Z",
+        "version": 1
+      }
+    }
+  ],
+  "metadata": {
+    "creation_date": "2025-03-20T00:00:00Z",
+    "last_modified": "2025-03-20T00:00:00Z",
+    "version": 1,
+    "canon_status": "official",
+    "source_document": "The Shadow Team Chronicles - SANDBOX - TIMELINE - Extract from Storyline and content from CHAT GPT and mastertime csv 20250320.md"
+  }
 }

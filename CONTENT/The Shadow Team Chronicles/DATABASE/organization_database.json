@@ -153,7 +153,7 @@
       "symbolism": {
         "representation": "The reach of Taira political power beyond the capital",
         "narrative_role": "Early antagonists representing the broader political conflict"
-      },
+      ],
       "appears_in": [
         {
           "event_id": "event-taira-mercenary-ambush-001",
@@ -167,6 +167,133 @@
         "canon_status": "official",
         "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md"
       }
+    },
+    {
+      "id": "org-machines-001",
+      "name": "Machine Forces",
+      "type": "military",
+      "sub_type": "non_human_collective",
+      "era": "Future",
+      "description": "A powerful collective of advanced machines that invade Earth through constructed portals. Organized under competing Genesis Kernels, these forces represent the primary existential threat to humanity in the post-feudal timeline.",
+      "leadership": [
+        {
+          "name": "Genesis Kernels",
+          "role": "Command Units",
+          "start_date": "unknown",
+          "end_date": null,
+          "status": "active but competing"
+        }
+      ],
+      "historical_significance": "The Machine Forces drive humanity's technological evolution and eventually force the development of Organic Intelligence as a countermeasure against machine infiltration.",
+      "activities": [
+        "Portal construction",
+        "Earth invasion",
+        "Technological warfare",
+        "Competition between Genesis Kernels"
+      ],
+      "symbolism": {
+        "representation": "The threat of technology without humanity",
+        "narrative_role": "Primary antagonist force in the future timeline"
+      ],
+      "rivals": [
+        {
+          "entity_type": "humans",
+          "relationship": "existential conflict"
+        }
+      ],
+      "timeline_appearances": [
+        {
+          "timeline_id": "timeline-yoshi-long-arc",
+          "first_appearance": "1700",
+          "description": "Initial incursion through the first activated portal"
+        }
+      ],
+      "metadata": {
+        "creation_date": "2025-03-20T00:00:00Z",
+        "last_modified": "2025-03-20T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - SANDBOX - TIMELINE - Extract from Storyline and content from CHAT GPT and mastertime csv 20250320.md"
+      }
+    },
+    {
+      "id": "org-shadow-army-001",
+      "name": "Shadow Army",
+      "type": "military",
+      "sub_type": "unconventional_force",
+      "era": "Heian Period",
+      "founded": "1176-1180",
+      "status": "active",
+      "description": "An unconventional military force created by Yoshi and Benkei that operated beyond traditional samurai structures. Comprised of not just warriors but hunters, fishermen, craftsmen, and others with specialized knowledge, creating a highly adaptive force capable of guerrilla warfare and innovative tactics. Based out of three key strongholds: the Mountain Sanctuary in Ōshū, the River Valley Outpost controlling supply routes, and the Coastal Haven for maritime intelligence.",
+      "headquarters": "Multiple hidden strongholds across northern Japan",
+      "leadership": [
+        {
+          "character_id": "char-yoshi-001",
+          "role": "founder and strategic commander"
+        },
+        {
+          "character_id": "char-benkei-001",
+          "role": "chief enforcer and recruitment leader"
+        }
+      ],
+      "composition": [
+        "Core warriors trained in unconventional tactics",
+        "Hunters who knew mountain passes serving as scouts and guides",
+        "Fishermen providing maritime intelligence and coastal navigation",
+        "Craftsmen creating weapons and supplies in secret"
+      ],
+      "tactics": [
+        "Night operations when conventional forces were inactive",
+        "Guerrilla warfare targeting supply lines rather than direct confrontation",
+        "Distributed command structure allowing operations without central coordination",
+        "Use of terrain features for ambush and escape that traditional forces would avoid",
+        "Winter warfare capabilities when traditional armies couldn't operate"
+      ],
+      "notable_campaigns": [
+        "The Mountain Passes Campaign (1184-1185)",
+        "The Coastal Raids (1186)",
+        "The Winter Offensive (1187)",
+        "Battle of Kurikara (1187)",
+        "Defense of Koromogawa Castle (1189)"
+      ],
+      "rivals": [
+        "org-taira-001",
+        "org-minamoto-001"
+      ],
+      "parent_organization": {
+        "id": "org-minamoto-001",
+        "relationship": "initially allied, later opposed"
+      },
+      "strategic_assets": [
+        {
+          "name": "Mountain Sanctuary",
+          "location": "Ōshū",
+          "purpose": "Primary training grounds and headquarters",
+          "significance": "Secure base hidden from conventional forces"
+        },
+        {
+          "name": "River Valley Outpost",
+          "location": "Northern Japan",
+          "purpose": "Control of critical supply routes",
+          "significance": "Strategic positioning to influence regional resources"
+        },
+        {
+          "name": "Coastal Haven",
+          "location": "Japanese coast",
+          "purpose": "Maritime intelligence and escape routes",
+          "significance": "Information gathering and naval operations base"
+        }
+      ],
+      "training_methods": [
+        "Cross-training in multiple weapons and environments",
+        "Emphasis on mobility and endurance over formation fighting",
+        "Signal systems for coordination across distributed forces",
+        "Survival training in harsh conditions to enable winter campaigns",
+        "Integration of non-military skills into combat situations"
+      ],
+      "historical_impact": "Revolutionized Japanese warfare with unconventional tactics and innovative army composition, proving effective against numerically superior forces. The Shadow Army's innovations would influence military thinking long after its eventual dissolution.",
+      "created_at": "2025-03-23T00:00:00Z",
+      "updated_at": "2025-03-24T00:00:00Z"
     }
   ]
 }

@@ -303,6 +303,85 @@
       },
       "created_at": "2025-03-18T00:00:00Z",
       "updated_at": "2025-03-18T00:00:00Z"
+    },
+    {
+      "id": "rel-yoshi-yoritomo-001",
+      "type": "family",
+      "sub_type": "half_brothers",
+      "parties": [
+        {
+          "character_id": "char-yoshi-001",
+          "role": "younger half-brother",
+          "feelings": {
+            "initial": "respectful but independent",
+            "evolution": "wary",
+            "final": "betrayed"
+          }
+        },
+        {
+          "character_id": "char-yoritomo-001",
+          "role": "elder half-brother",
+          "feelings": {
+            "initial": "distantly supportive",
+            "evolution": "jealous",
+            "final": "hostile"
+          }
+        }
+      ],
+      "timeline": [
+        {
+          "phase": "distant allies",
+          "period": "1180-1183",
+          "description": "Initial cooperation against the Taira clan while maintaining separate forces and strategies. Yoritomo relied on Yoshi's military prowess while maintaining political distance."
+        },
+        {
+          "phase": "growing tension",
+          "period": "1184-1187",
+          "description": "As Yoshi's military fame grew through innovative tactics and battlefield successes like Kurikara, Yoritomo became increasingly jealous and concerned about his brother's independent power base."
+        },
+        {
+          "phase": "open betrayal",
+          "period": "1188",
+          "description": "Following the naval Battle of Dan-no-ura that marked the final defeat of the Taira, Yoritomo systematically undermined Yoshi's position by reassigning loyal troops and withholding supplies."
+        },
+        {
+          "phase": "declared enemies",
+          "period": "1188-1189",
+          "description": "Yoritomo secretly declared Yoshi an enemy of the new order, culminating in the siege of Koromogawa Castle and Yoshi's apparent defeat."
+        }
+      ],
+      "key_events": [
+        {
+          "event_id": "event-yoritomo-message-001",
+          "significance": "Formal alliance established through message of support"
+        },
+        {
+          "event_id": "event-battle-of-kurikara-001",
+          "significance": "Pivotal battle where Yoshi and Benkei's contribution increased Yoritomo's jealousy"
+        },
+        {
+          "event_id": "event-yoritomo-betrayal-001",
+          "significance": "The breaking point when Yoritomo officially turned against Yoshi"
+        },
+        {
+          "event_id": "event-koromogawa-castle-siege-001",
+          "significance": "Culmination of the conflict with Yoritomo's forces besieging Yoshi's headquarters"
+        }
+      ],
+      "dynamics": {
+        "power_balance": "Initially favored Yoritomo politically but Yoshi militarily; gradually shifted as Yoritomo consolidated power after Taira defeat",
+        "communication": "Began with formal messages and emissaries; deteriorated to silence and then hostile actions",
+        "public_perception": "Widely seen as a tragic conflict between brothers that marred the Minamoto victory"
+      },
+      "cultural_significance": "The conflict between the brothers became a staple of Japanese literature and drama, symbolizing how victory can be marred by internal division",
+      "historical_impact": "Established Yoritomo's Kamakura shogunate while creating the legendary status of Yoshi as the tragic hero who was betrayed after his military success",
+      "metadata": {
+        "creation_date": "2025-03-24T00:00:00Z",
+        "last_modified": "2025-03-24T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - DRAFT - TIMELINE - Yoshi and Benkei's Road From the Mountains.md"
+      }
     }
   ]
 }

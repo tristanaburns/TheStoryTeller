@@ -69,6 +69,56 @@
     {
       "id": "artifact-crimson-dawn-001",
       "name": "Crimson Dawn",
+      "type": "weapon",
+      "sub_type": "katana",
+      "era": "Heian Period",
+      "description": "A massive katana forged for Benkei at Master Gorō's mountain forge. Unlike typical katanas, Crimson Dawn is larger and heavier to match Benkei's extraordinary strength. The blade has a distinctive crimson sheen and appears to absorb light rather than reflect it. Forged from nine metal fragments taken from Benkei's collection of defeated warriors' weapons and tempered with both his blood and Yoshi's.",
+      "creator": "char-goro-001",
+      "owner": "char-benkei-001",
+      "creation_date": "1180",
+      "physical_properties": {
+        "size": "Oversized for a katana, suitable for Benkei's massive frame",
+        "materials": "Special steel alloy with nine fragments from defeated warriors' weapons",
+        "distinctive_features": "Crimson sheen, light-absorbing quality, unusually heavy",
+        "condition": "Perfect"
+      },
+      "mystical_properties": {
+        "reputed_abilities": "Blade seems to draw in light rather than reflect it, giving it a distinctive crimson aura in battle",
+        "origin_of_powers": "Unique forging methods of Master Gorō, combined with the blood ritual during tempering"
+      },
+      "historical_significance": "Created as part of Benkei's transformation from solitary warrior to devoted protector, symbolizing his new purpose and identity",
+      "appearances": [
+        {
+          "event_id": "event-benkei-transformation-goro-forge-001",
+          "role": "created artifact"
+        },
+        {
+          "event_id": "event-path-into-mountains-001",
+          "role": "carried weapon"
+        },
+        {
+          "event_id": "event-battle-of-kurikara-001",
+          "role": "battle weapon"
+        }
+      ],
+      "related_artifacts": [
+        {
+          "artifact_id": "artifact-iron-bear-armor-001",
+          "relationship": "companion piece",
+          "description": "Created alongside the Iron Bear armor as a matched set for Benkei"
+        }
+      ],
+      "metadata": {
+        "creation_date": "2025-03-22T00:00:00Z",
+        "last_modified": "2025-03-22T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Path Into the Mountains.md"
+      }
+    },
+    {
+      "id": "artifact-crimson-dawn-001",
+      "name": "Crimson Dawn",
       "type": "sword",
       "sub_type": "katana",
       "owner": "char-benkei-001",
