@@ -4,8 +4,50 @@
       "id": "weapon-higekiri-001",
       "name": "Higekiri",
       "type": "katana",
-      "owner": "char-yoshi-001",
+      "sub_type": "legendary_blade",
+      "owner_id": "char-yoshi-001",
+      "creator_id": "unknown",
+      "era": "Heian Period",
       "description": "Yoshitsune's famous sword, known as 'Beard-cutter' in historical accounts. A well-crafted blade of exceptional quality that became legendary through its association with Yoshitsune's exploits.",
+      "physical_properties": {
+        "size": "Standard katana length with distinctive elegant curve",
+        "weight": "Remarkably light for its size",
+        "materials": "Unknown special steel with distinctive blue-white sheen",
+        "distinctive_features": "Subtle blue glow visible in moonlight, blade appears to have flowing water patterns within the steel"
+      },
+      "symbolic_significance": {
+        "personal": "Yoshi's primary weapon and symbol of his legendary status",
+        "narrative": "The coveted 1000th sword that Benkei never claimed, representing the turning point in his life",
+        "meta": "Represents precision and perfection in combat, contrasting with brute strength"
+      },
+      "combat_characteristics": {
+        "style_required": "Relies on precision, speed, and perfect timing rather than strength",
+        "special_properties": "Cuts without resistance, leaving clean wounds that bleed little",
+        "effectiveness": "In Yoshi's hands, capable of the three legendary cuts that defeated Benkei"
+      },
+      "creation_context": {
+        "event_id": "unknown",
+        "location_id": "unknown",
+        "purpose": "Origin story uncertain, rumored to be an imperial gift or ancient treasure"
+      },
+      "notable_uses": [
+        {
+          "event_id": "event-yoshi-benkei-three-cuts-001",
+          "description": "Used to deliver the three cuts that defeated Benkei and imparted the philosophical lessons of combat mastery"
+        },
+        {
+          "event_id": "event-taira-mercenary-ambush-001",
+          "description": "Used to defeat five Taira mercenaries without killing any of them, demonstrating perfect control"
+        }
+      ],
+      "cultural_impact": "Featured prominently in tales of Yoshi, particularly the famous duel at Gojo Bridge",
+      "metadata": {
+        "creation_date": "2025-03-24T00:00:00Z",
+        "last_modified": "2025-03-24T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md"
+      },
       "properties": [
         "Exceptional cutting edge",
         "Perfect balance allowing for precise fighting style",
@@ -37,8 +79,46 @@
       "id": "weapon-gale-cutter-001",
       "name": "Gale Cutter",
       "type": "naginata",
-      "owner": "char-benkei-001",
+      "sub_type": "polearm",
+      "owner_id": "char-benkei-001",
+      "creator_id": "char-blacksmith-001",
+      "era": "Heian Period",
       "description": "A masterfully crafted naginata forged specifically for Benkei at the hidden mountain forge. The shaft is made from rare ironwood that grows only on mountain slopes frequently struck by lightning, making it both lightweight and incredibly strong. The blade is perfectly balanced and exceptionally sharp.",
+      "physical_properties": {
+        "size": "Longer than standard naginata to accommodate Benkei's reach",
+        "weight": "Perfectly balanced despite its size",
+        "materials": "Mountain bamboo reinforced with steel, special alloy blade",
+        "distinctive_features": "Whispers through the air during combat, creating a distinctive sound that earned its name"
+      },
+      "symbolic_significance": {
+        "personal": "Represents Benkei's adaptability and capacity for precise combat beyond brute strength",
+        "narrative": "Complements Crimson Dawn as part of Benkei's transformed arsenal",
+        "meta": "Symbolizes the balance between overwhelming force and tactical precision"
+      },
+      "combat_characteristics": {
+        "style_required": "Flowing, circular movements that maximize the weapon's momentum",
+        "special_properties": "Creates a whistling sound in combat that disorients opponents",
+        "effectiveness": "Exceptional for crowd control and maintaining distance in combat"
+      },
+      "creation_context": {
+        "event_id": "event-forging-weapons-armor-001",
+        "location_id": "loc-hidden-forge-001",
+        "purpose": "To provide Benkei with a versatile weapon for situations requiring reach and crowd control"
+      },
+      "notable_uses": [
+        {
+          "event_id": "event-coastal-raids-campaign-001",
+          "description": "Used to great effect in clearing narrow ship decks during the coastal raids"
+        }
+      ],
+      "cultural_impact": "Less famous than Crimson Dawn but equally feared by those who witnessed Benkei wielding both weapons in sequence during battle",
+      "metadata": {
+        "creation_date": "2025-03-24T00:00:00Z",
+        "last_modified": "2025-03-24T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - DRAFT - TIMELINE - Yoshi and Benkei's Road From the Mountains.md"
+      },
       "properties": [
         "Ironwood shaft that absorbs the sky's fury",
         "Perfect balance making it feel weightless despite its size",
@@ -55,8 +135,51 @@
       "id": "weapon-crimson-dawn-001",
       "name": "Crimson Dawn",
       "type": "katana",
-      "owner": "char-benkei-001",
+      "sub_type": "two-handed_great_sword",
+      "owner_id": "char-benkei-001",
+      "creator_id": "char-blacksmith-001",
+      "era": "Heian Period",
       "description": "A unique sword forged from iron-rich ore found only in the heart of the mountain. Unlike ordinary blades that reflect light, Crimson Dawn absorbs it, with occasional glimpses of deep red that appear and vanish like dying embers. Its edge is described as not a line but an absence, a void where light simply ceases to exist.",
+      "physical_properties": {
+        "size": "Oversized, approximately 50% larger than a standard katana",
+        "weight": "Extremely heavy, requires exceptional strength to wield",
+        "materials": "Nine sword fragments from Benkei's collection, special ore, tempered with blood",
+        "distinctive_features": "Crimson hue that intensifies in combat, seeming to absorb light rather than reflect it"
+      },
+      "symbolic_significance": {
+        "personal": "Represents Benkei's transformation from trophy collector to purposeful warrior",
+        "narrative": "Physical manifestation of Benkei's new path and identity",
+        "meta": "The reforging of fragments from his past into a unified purpose"
+      },
+      "combat_characteristics": {
+        "style_required": "Requires both immense strength and precise control",
+        "special_properties": "Strikes leave trails of crimson light in darkness",
+        "effectiveness": "Capable of cleaving through armor and multiple opponents in a single stroke"
+      },
+      "creation_context": {
+        "event_id": "event-forging-weapons-armor-001",
+        "location_id": "loc-hidden-forge-001",
+        "purpose": "To transform Benkei's identity and provide him with a weapon worthy of his new path"
+      },
+      "notable_uses": [
+        {
+          "event_id": "event-battle-of-kurikara-001",
+          "description": "The crimson glow of the blade slicing through battlefield mist became legendary as Benkei led the wedge formation that split the Taira forces"
+        },
+        {
+          "event_id": "event-koromogawa-castle-siege-001",
+          "description": "The final weapon Benkei wielded during his legendary last stand at the North Bridge"
+        }
+      ],
+      "cultural_impact": "Became part of the Iron Bear legend, with tales of a massive blade glowing red with the blood of enemies, striking fear into Taira forces",
+      "metadata": {
+        "creation_date": "2025-03-24T00:00:00Z",
+        "last_modified": "2025-03-24T00:00:00Z",
+        "version": 1,
+        "canon_status": "official",
+        "source_document": "The Shadow Team Chronicles - DRAFT - TIMELINE - Yoshi and Benkei's Road From the Mountains.md"
+      },
+      "description": "A massive katana forged from nine fragments of Benkei's first victories, tempered with both his blood and Yoshi's. The blade has an unusual crimson hue that deepens when drawn in combat, appearing to absorb rather than reflect light. Despite its enormous size, requiring incredible strength to wield effectively, the sword moves with an unnatural fluidity in Benkei's hands.",
       "properties": [
         "Absorbs light rather than reflects it",
         "Deep crimson hue that glints beneath the surface",
