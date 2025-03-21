@@ -24,9 +24,9 @@ As an AI assistant working with The Shadow Team Chronicles universe, you are tas
 ## 📂 Content Analysis & Database Preparation
 
 3. **Read and analyze the target content file:**
-   - Locate and read the specified timeline content file:
+   - Locate and read the specified content file:
      ```
-     /content/the shadow team chronicles/timeline/draft/The Shadow Team Chronicles - DRAFT - TIMELINE - Yoshi and Benkei's Road From the Mountains.md
+     /content/the shadow team chronicles/storyline/draft/2. The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md
      ```
    - Perform a comprehensive narrative analysis, identifying:
      - All characters with descriptions, traits, and development

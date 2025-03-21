@@ -1,6 +1,6 @@
 # AI Writing Metadata Schema
 
-This document defines the complete metadata schema structure for The Shadow Team Chronicles universe. All narrative content generated through the StoryTeller system must comply with these schemas.
+This document defines the complete metadata schema structure for The Story Teller AI Writing Assistant. All narrative content generated through the StoryTeller system must comply with these schemas.
 
 ## Table of Contents
 

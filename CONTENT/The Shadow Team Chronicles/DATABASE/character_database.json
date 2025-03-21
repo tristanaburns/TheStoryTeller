@@ -13,128 +13,126 @@
       "aliases": ["Master", "The Undying", "The Bridge Between Eras"],
       "description": "A brilliant and skilled warrior from the Minamoto clan, raised in secrecy at Kurama Temple after his father's defeat in the Heiji Rebellion. Possessed of extraordinary combat abilities that combine speed, precision, and tactical brilliance. Later discovers the Wayfinder technology that extends his lifespan beyond normal human limits.",
       "physical_appearance": {
-        "height": "average",
-        "build": "slender but athletic",
-        "notable_features": "Moves with uncanny grace and precision",
-        "typical_attire": "Simple but high-quality armor, favors mobility over heavy protection"
+        "typical_attire": "Simple but high-quality armor, favors mobility over heavy protection",
+        "build": "Lean and athletic, deceptively strong but emphasizes speed over power",
+        "distinctive_features": "Graceful, flowing movements even when standing still, piercing gaze that seems to analyze everything",
+        "age_appearance": "Appears youthful despite his extended lifespan, with only his eyes revealing the wisdom of centuries"
       },
       "abilities": [
-        {
-          "name": "Combat Mastery",
-          "type": "martial",
-          "description": "Exceptional sword skills emphasizing speed and precision over brute strength"
-        },
-        {
-          "name": "Tactical Genius",
-          "type": "mental",
-          "description": "Ability to analyze battlefield conditions and devise innovative strategies"
-        },
-        {
-          "name": "Unconventional Warfare",
-          "type": "military",
-          "description": "Pioneer of guerrilla tactics, night operations, and terrain-based strategies that conventional armies couldn't counter"
-        }
+        "Unmatched swordsmanship - creator of the 'Three Cuts' technique",
+        "Strategic military genius - developed revolutionary tactics for the Shadow Army",
+        "Extended lifespan through Wayfinder technology",
+        "Adaptation to technological changes across centuries",
+        "Neural interface with advanced technology"
       ],
       "personality": {
         "traits": [
-          "Calm under pressure",
-          "Innovative thinker",
-          "Values skill over tradition",
-          "Strategic long-term planner",
-          "Adaptable to changing circumstances"
+          "Analytical and observant",
+          "Patient teacher",
+          "Pragmatic about traditions - respects but willing to break when necessary",
+          "Deeply compassionate but capable of difficult decisions",
+          "Adaptable across cultural and technological changes"
         ],
-        "virtues": [
-          "Honor",
-          "Courage",
-          "Loyalty to cause"
+        "values": [
+          "Honor defined by actions rather than social position",
+          "Wisdom over blind tradition",
+          "Humanity's survival and evolution"
         ],
-        "flaws": [
-          "Can be perceived as arrogant by traditionalists",
-          "Reluctant to conform to established hierarchies",
-          "Sometimes underestimates political dangers"
+        "motivations": [
+          "Initially: restore Minamoto clan honor",
+          "Middle period: protect followers and develop Shadow Army",
+          "Later: defend humanity against Machine forces"
         ]
       },
       "physical_traits": {
-        "build": "slender but strong",
-        "notable_features": "moves with fluid economy, ageless appearance despite centuries of life",
-        "fighting_style": "precise, efficient, focused on speed and technique, evolved over centuries to incorporate both ancient and futuristic elements"
+        "fighting_style": "precise, efficient, focused on speed and technique, evolved over centuries to incorporate both ancient and futuristic elements",
+        "signature_moves": [
+          "The Three Cuts technique - a sequence demonstrating superior martial philosophy",
+          "Shadow Step - seemingly appears from nowhere in combat",
+          "Perfect Draw - sword draw so fast it appears the blade was never sheathed"
+        ],
+        "voice": "Calm, measured, with authority that requires no volume"
       },
       "psychological_traits": {
-        "temperament": "calm, measured, observant, carries the weight of centuries",
-        "motivations": "protecting humanity from Machine threats, understanding and mastering advanced technology",
-        "fears": "failing to prevent Machine dominance, losing connection to his humanity over centuries",
-        "strengths": "tactical awareness, combat mastery, patience, centuries of experience",
-        "weaknesses": "periodic isolation from humanity, burden of immortality"
+        "strengths": [
+          "Adaptability across centuries of change",
+          "Ability to lead diverse groups of followers",
+          "Calm under extreme pressure",
+          "Strategic long-term thinking"
+        ],
+        "weaknesses": [
+          "Periodic isolation from humanity",
+          "Burden of immortality",
+          "Difficulty forming deep personal connections due to outliving companions",
+          "Tendency to focus on bigger picture at expense of individual concerns"
+        ],
+        "fears": [
+          "Humanity's extinction",
+          "The complete victory of Machine forces",
+          "Becoming disconnected from his humanity through extended lifespan"
+        ]
       },
       "background": {
-        "origin": "Son of Minamoto no Yoshitomo, placed in hiding at Kurama Temple after his father's death",
-        "key_events": [
-          "Secretly trained in combat while at Kurama Temple",
-          "Left the temple in 1179 after revealing his true nature",
-          "Defeated Benkei at Gojo Bridge, gaining his loyalty",
-          "Formed the Shadow Army between 1176-1180",
-          "Led multiple successful military campaigns against superior forces",
-          "Escaped death at Koromogawa in 1189",
-          "Discovered the Wayfinder in the mountains after Koromogawa",
-          "Led humanity's resistance against Machine invasions",
-          "Transitioned to the Bio-GRID in later centuries"
+        "birthplace": "Kyoto, Japan",
+        "upbringing": "Raised in seclusion at Kurama Temple after his father's execution",
+        "education": "Trained in martial arts, strategy, and Buddhist philosophy",
+        "significant_events": [
+          "Father's execution in Heiji Rebellion",
+          "Training at Kurama Temple",
+          "Duel with Benkei at Gojo Bridge",
+          "Formation of Shadow Army",
+          "Discovery of the Wayfinder",
+          "First Machine War"
         ],
         "affiliations": ["Originally Minamoto clan", "Later leader of human resistance against Machines"]
       },
       "relationships": [
         {
-          "relationship_id": "rel-yoshi-benkei-001",
-          "type": "master",
-          "description": "Master to Benkei, maintaining the traditional three paces distance"
+          "character_id": "char-benkei-001",
+          "relationship_type": "master-retainer",
+          "dynamics": "Evolved from formal master-retainer to trusted partners",
+          "significance": "Benkei's loyalty became legendary, with his sacrifice enabling Yoshi's escape at Koromogawa"
         },
         {
-          "relationship_id": "rel-yoshi-blacksmith-001",
-          "type": "acquaintance",
-          "description": "Has prior knowledge of the blacksmith and his forge"
-        },
-        {
-          "relationship_id": "rel-yoshi-northern-lord-001",
-          "type": "half-brother",
-          "description": "Has a half-brother who is a lord in the north"
-        },
-        {
-          "relationship_id": "rel-yoshi-wayfinder-001",
-          "type": "discoverer",
-          "description": "First human to discover and interact with Wayfinder technology, beginning humanity's technological acceleration"
+          "character_id": "char-yoritomo-001",
+          "relationship_type": "half-brothers",
+          "dynamics": "Initially allies against Taira clan, later became enemies due to Yoritomo's jealousy",
+          "significance": "Yoritomo's betrayal forced Yoshi into hiding, indirectly leading to the Wayfinder discovery"
         }
       ],
       "affiliations": [
         {
-          "organization_id": "org-minamoto-001",
-          "role": "heir",
-          "status": "complex"
+          "organization_id": "org-minamoto-clan-001",
+          "role": "Member",
+          "time_period": "Birth-1189",
+          "significance": "Family lineage that shaped early motivations"
         },
         {
           "organization_id": "org-shadow-army-001",
-          "role": "founder and commander",
-          "status": "active"
+          "role": "Founder and Commander",
+          "time_period": "1180-1189",
+          "significance": "Revolutionary military force that demonstrated his tactical innovations"
+        },
+        {
+          "organization_id": "org-human-resistance-001",
+          "role": "Leader",
+          "time_period": "1290-ongoing",
+          "significance": "Organized humanity's defense against Machine threats"
         }
       ],
       "military_leadership": {
-        "style": "Innovative and unconventional",
-        "strengths": [
-          "Creating tactics that leverage terrain and natural conditions",
-          "Training forces to fight effectively in conditions where traditional armies cannot",
-          "Recognizing and utilizing diverse talents beyond traditional warrior skills",
-          "Strategic understanding of supply lines and economic pressure points"
+        "command_style": "Mission-oriented with decentralized execution",
+        "strategic_innovations": [
+          "Night operations",
+          "All-weather warfare including winter campaigns",
+          "Integration of non-traditional combatants",
+          "Asymmetric warfare tactics"
         ],
-        "notable_innovations": [
-          "Winter warfare capabilities when conventional armies couldn't operate",
-          "Night operations and surprise tactics",
-          "Distributed command structure allowing units to operate independently",
-          "Integration of non-warriors (hunters, fishermen, craftsmen) into military structure"
-        ],
-        "campaigns": [
-          "The Mountain Passes Campaign (1184-1185)",
-          "The Coastal Raids (1186)",
-          "The Winter Offensive (1187)",
-          "Battle of Kurikara (1187)",
-          "Defense of Koromogawa Castle (1189)"
+        "notable_campaigns": [
+          "Mountain Passes Campaign (1184-1185)",
+          "Coastal Raids (1186)",
+          "Winter Offensive (1187)",
+          "Defense of Japan during First Machine War (1350-1370)"
         ]
       },
       "story_role": "bridge character connecting feudal and futuristic narrative elements",
@@ -156,316 +154,452 @@
       "gender": "male",
       "description": "A towering warrior monk of legendary strength who collected 999 swords before being defeated by Yoshi. Following his defeat, he pledged his life to Yoshi, becoming his most loyal protector and second-in-command.",
       "physical_appearance": {
-        "height": "exceptionally tall",
-        "build": "massive, powerfully built",
-        "notable_features": "Imposing stature, intimidating presence",
-        "typical_attire": "Initially monk's robes with armor; later the distinctive black Iron Bear armor that conceals his identity"
+        "height": "Unusually tall, towering over most men of the era",
+        "build": "Massive and powerful, with exceptional strength",
+        "distinctive_features": "Imposing presence, later concealed identity behind the Iron Bear armor",
+        "typical_attire": "Initially monk's robes adapted for combat, later the distinctive Iron Bear armor"
       },
       "abilities": [
-        {
-          "name": "Overwhelming Strength",
-          "type": "physical",
-          "description": "Legendary power allowing him to wield massive weapons and wear heavy armor with ease"
-        },
-        {
-          "name": "Combat Expertise",
-          "type": "martial",
-          "description": "Mastery of multiple weapons, particularly the naginata and massive katana"
-        },
-        {
-          "name": "Tactical Leadership",
-          "type": "military",
-          "description": "Evolved from individual warrior to capable field commander leading complex operations"
-        }
+        "Extraordinary physical strength - capable of wielding weapons too heavy for normal warriors",
+        "Remarkable endurance - legendary for his ability to withstand punishment",
+        "Skilled with multiple weapons, particularly the naginata and great sword",
+        "Tactical battlefield leadership of the Shadow Army"
       ],
       "personality": {
         "traits": [
-          "Fiercely loyal",
-          "Determined",
-          "Intimidating presence",
-          "Straightforward in speech"
+          "Initially brash and challenge-seeking",
+          "Transformed into purposeful and loyal after meeting Yoshi",
+          "Protective of those under his command",
+          "Direct and straightforward in speech and action",
+          "Thoughtful beneath his imposing exterior"
         ],
-        "virtues": [
-          "Absolute loyalty",
-          "Courage",
-          "Protective instinct"
+        "values": [
+          "Initially: personal glory through martial prowess",
+          "Later: loyalty, purpose through service, protection of Yoshi"
         ],
-        "flaws": [
-          "Struggled with his own violent nature throughout life",
-          "Initially relied too heavily on brute strength",
-          "Sometimes seen as too intimidating by potential allies"
+        "motivations": [
+          "Initially: collect 1000 swords as trophies",
+          "Later: serve Yoshi with absolute loyalty, protect him at all costs"
         ]
       },
-      "physical_traits": {
-        "build": "massive, mountain-like frame",
-        "notable_features": "extraordinary strength, imposing presence",
-        "fighting_style": "evolved from brute strength to precision and purpose"
-      },
-      "psychological_traits": {
-        "temperament": "once rage-driven, now disciplined and purposeful",
-        "motivations": "loyalty to his oath, finding meaning beyond combat",
-        "fears": "returning to purposeless violence",
-        "strengths": "adaptability, raw power, growing tactical awareness",
-        "weaknesses": "still learning to balance strength with precision"
-      },
       "background": {
-        "origin": "Raised in a mountain monastery but left due to conflicts between his warrior nature and Buddhist teachings",
-        "key_events": [
-          "Departure from monastic life",
+        "birthplace": "Unknown",
+        "upbringing": "Raised in Buddhist monastery where his unusual size and strength caused difficulties",
+        "education": "Trained in monastic traditions and martial arts",
+        "significant_events": [
+          "Departure from monastery life",
           "Collection of 999 swords at Gojo Bridge",
-          "Defeat by and oath to Yoshi",
-          "Transformation at Gorō's forge receiving Crimson Dawn and Iron Bear armor",
-          "Evolution from warrior to military leader in the Shadow Army"
-        ],
-        "affiliations": ["Formerly none, now loyal to Yoshi"]
+          "Defeat by Yoshi and subsequent oath of loyalty",
+          "Transformation at the mountain forge",
+          "Leadership in Shadow Army campaigns",
+          "Legendary last stand at Koromogawa"
+        ]
       },
       "relationships": [
         {
-          "relationship_id": "rel-benkei-yoshi-001",
-          "type": "retainer",
-          "description": "Sworn retainer to Yoshi after being defeated at Gojo Bridge"
-        }
-      ],
-      "affiliations": [
-        {
-          "organization_id": "org-kurama-monks-001",
-          "role": "former novice",
-          "status": "former"
+          "character_id": "char-yoshi-001",
+          "relationship_type": "retainer-master",
+          "dynamics": "Absolute loyalty transformed from initial antagonism",
+          "significance": "Defining relationship that gave Benkei's life meaning and purpose"
         },
         {
-          "organization_id": "org-shadow-army-001",
-          "role": "chief enforcer and recruitment leader",
-          "status": "active"
+          "character_id": "char-monastery-abbot-001",
+          "relationship_type": "student-teacher",
+          "dynamics": "Difficult relationship due to Benkei's inability to conform to monastic life",
+          "significance": "Early influence that shaped Benkei's conflicted spiritual identity"
         }
       ],
+      "story_arc": {
+        "initial_state": "Directionless warrior collecting trophies at Gojo Bridge",
+        "transformation": "Defeat by Yoshi leading to oath of loyalty and physical transformation at the forge",
+        "culmination": "Legendary last stand at Koromogawa Bridge, sacrificing himself to allow Yoshi's escape"
+      },
       "military_leadership": {
-        "style": "Inspiring through presence and example",
-        "strengths": [
-          "Frontline leadership that inspires troops",
-          "Recruitment of warriors through reputation",
-          "Battlefield decision-making under pressure",
-          "Ability to turn the tide of battle through personal intervention"
-        ],
-        "notable_contributions": [
-          "Training the core warriors of the Shadow Army",
-          "Leading the wedge formation at Kurikara that split Taira forces",
-          "Commanding nighttime sorties during the Koromogawa siege",
-          "The legendary last stand at Koromogawa's North Bridge"
-        ],
-        "evolution": [
-          "Solitary monk-warrior challenging swordsmen at Gojo Bridge",
-          "Loyal retainer following Yoshi's commands",
-          "Field commander leading significant forces",
-          "Legendary Iron Bear whose mere appearance could affect battle outcomes"
+        "role": "Field commander of Shadow Army forces",
+        "tactics": "Direct assault specialist, often leading the most dangerous operations personally",
+        "notable_achievements": [
+          "Led the wedge formation that split Taira forces at Kurikara",
+          "Commanded night raids during the Winter Offensive",
+          "Coordinated defensive operations during the Koromogawa siege"
         ]
       },
-      "story_role": "transformed warrior, primary protagonist",
-      "symbolic_significance": "Represents the transformation from undirected strength to purposeful service, exemplifying the ideal of absolute loyalty",
-      "historical_legacy": "His last stand at Koromogawa became a symbol of ultimate loyalty in Japanese culture, while his partnership with Yoshi established the archetype of the perfect warrior bond",
+      "symbolic_significance": {
+        "narrative": "Represents the transformative power of finding purpose through service to a worthy cause",
+        "cultural": "Embodies the ideal of absolute loyalty even to death",
+        "military": "Symbolizes the transition from individual warrior prowess to coordinated tactical effectiveness"
+      },
+      "historical_impact": "Became a legendary figure in Japanese military tradition, particularly for his last stand at Koromogawa Bridge where he reportedly died standing after being struck by countless arrows",
       "created_at": "2025-03-10T00:00:00Z",
       "updated_at": "2025-03-24T00:00:00Z"
     },
     {
       "id": "char-blacksmith-001",
-      "name": "The Blacksmith",
-      "aliases": ["The Mountain Smith", "The Forge Master"],
-      "description": "An enigmatic blacksmith residing in a hidden forge deep in the mountains. Despite working with fire and metal, his hands bear no burns or scars, suggesting he is more than a mere craftsman. He creates weapons and armor that become extensions of their wielders' souls rather than simple tools.",
-      "physical_traits": {
-        "build": "powerful shoulders and arms",
-        "notable_features": "weathered face with deep lines, unmarked hands despite forge work",
-        "fighting_style": "unknown, but carries himself with warrior-like bearing"
+      "name": "Gorō",
+      "full_name": "Gorō the Mountain Smith",
+      "aliases": ["The Forge Master", "The Mountain Smith"],
+      "type": "supporting",
+      "birth_date": "unknown",
+      "death_date": "unknown",
+      "status": "unknown",
+      "species": "human",
+      "gender": "male",
+      "description": "A reclusive master blacksmith who lives in a hidden forge deep in the mountains. Known for creating weapons and armor of extraordinary quality that seem to embody their wielder's spirit and purpose rather than being mere tools.",
+      "physical_appearance": {
+        "height": "Average",
+        "build": "Wiry and sinewy, deceptively strong from years of smithing",
+        "distinctive_features": "Burn scars on arms and hands, penetrating gaze that seems to look through rather than at people",
+        "typical_attire": "Simple forge clothes, leather apron with unusual markings"
       },
-      "psychological_traits": {
-        "temperament": "measured, purposeful, knows more than he reveals",
-        "motivations": "crafting purpose rather than just weapons",
-        "fears": "unknown",
-        "strengths": "profound understanding of transformation beyond metal",
-        "weaknesses": "isolated from the world below"
+      "abilities": [
+        "Extraordinary metalworking skills beyond the technology of the era",
+        "Intuitive understanding of a warrior's nature and needed equipment",
+        "Knowledge of rare materials and forging techniques",
+        "Ability to create weapons with seemingly mystical properties"
+      ],
+      "personality": {
+        "traits": [
+          "Few words, preferring action to speech",
+          "Intense focus on craftsmanship",
+          "Dismissive of those he deems unworthy",
+          "Respectful of true warriors regardless of status"
+        ],
+        "values": [
+          "Craftsmanship as spiritual practice",
+          "Balance between form and function",
+          "Creating tools that reveal rather than hide their wielder's true nature"
+        ],
+        "motivations": [
+          "Create weapons and armor worthy of legendary warriors",
+          "Maintain ancient traditions of metalworking",
+          "Serve as keeper of the mountain forge's secrets"
+        ]
       },
       "background": {
-        "origin": "unknown",
-        "key_events": ["Created Iron Bear, Crimson Dawn, and Gale Cutter for Benkei"],
-        "affiliations": ["Connected to Yoshi through unknown past dealings"]
+        "birthplace": "Unknown",
+        "upbringing": "Mysterious, with hints of training under several master smiths",
+        "significant_creations": [
+          "Benkei's Crimson Dawn sword",
+          "Benkei's Gale Cutter naginata",
+          "The Iron Bear armor",
+          "Various weapons for the Shadow Army's elite"
+        ]
       },
       "relationships": [
         {
-          "relationship_id": "rel-blacksmith-yoshi-001",
-          "type": "acquaintance",
-          "description": "Known to Yoshi before their arrival at the forge"
+          "character_id": "char-yoshi-001",
+          "relationship_type": "mutual respect",
+          "dynamics": "Recognizes Yoshi as worthy of his craft and knowledge",
+          "significance": "One of the few people Yoshi seeks out for specialized equipment"
         },
         {
-          "relationship_id": "rel-blacksmith-benkei-001",
-          "type": "creator",
-          "description": "Created Benkei's new weapons and armor, symbolizing his transformation"
+          "character_id": "char-benkei-001",
+          "relationship_type": "transformer-transformed",
+          "dynamics": "Serves as catalyst for Benkei's physical transformation through crafting his new identity",
+          "significance": "Key enabler of Benkei's evolution from directionless warrior to purposeful protector"
         }
       ],
-      "story_role": "catalyst for transformation",
+      "symbolic_significance": {
+        "narrative": "Represents the transformative power of craftsmanship and creation",
+        "thematic": "Embodies the connection between physical items and spiritual identity",
+        "cultural": "Continues the Japanese tradition of swordsmiths as almost mystical figures"
+      },
+      "story_role": "Catalyst for Benkei's transformation and provider of distinctive equipment that defines characters visually",
       "created_at": "2025-03-17T00:00:00Z",
-      "updated_at": "2025-03-17T00:00:00Z"
+      "updated_at": "2025-03-24T00:00:00Z"
+    },
+    {
+      "id": "char-yoritomo-001",
+      "name": "Yoritomo",
+      "full_name": "Minamoto no Yoritomo",
+      "aliases": ["The First Shogun", "The Betrayer"],
+      "type": "antagonist",
+      "birth_date": "1147",
+      "death_date": "1199",
+      "status": "deceased",
+      "species": "human",
+      "gender": "male",
+      "description": "Yoshi's half-brother and the eventual founder of the Kamakura Shogunate. Initially an ally in the war against the Taira clan, he grew jealous of Yoshi's military success and popularity, eventually betraying him and forcing him into hiding.",
+      "physical_appearance": {
+        "height": "Average",
+        "build": "Sturdy, practical build of a career military commander",
+        "distinctive_features": "Stern expression, calculating eyes, formal bearing",
+        "typical_attire": "High-quality traditional armor, formal court dress when appropriate"
+      },
+      "abilities": [
+        "Political maneuvering and alliance building",
+        "Military organization and conventional strategy",
+        "Administrative governance",
+        "Patient long-term planning"
+      ],
+      "personality": {
+        "traits": [
+          "Calculating and strategic",
+          "Politically astute",
+          "Jealous of perceived threats to his power",
+          "Ruthless with enemies, including family when necessary",
+          "Traditional in his approach to warfare and governance"
+        ],
+        "values": [
+          "Order and structured hierarchy",
+          "Personal power and clan dominance",
+          "Traditional military doctrine and social structures"
+        ],
+        "motivations": [
+          "Establish Minamoto supremacy",
+          "Create lasting political power structure under his control",
+          "Eliminate perceived threats to his authority"
+        ]
+      },
+      "background": {
+        "birthplace": "Izu Province, Japan",
+        "significant_events": [
+          "Exiled as youth after Heiji Rebellion",
+          "Rise to leadership of Minamoto forces",
+          "Alliance with Yoshi against Taira clan",
+          "Growing jealousy of Yoshi's military innovations",
+          "Betrayal of Yoshi following Taira defeat",
+          "Establishment of Kamakura Shogunate"
+        ]
+      },
+      "relationships": [
+        {
+          "character_id": "char-yoshi-001",
+          "relationship_type": "half-brothers, allies-turned-enemies",
+          "dynamics": "Initial alliance deteriorating to jealousy and betrayal",
+          "significance": "The betrayal forced Yoshi into hiding, indirectly leading to the Wayfinder discovery"
+        }
+      ],
+      "military_leadership": {
+        "command_style": "Conventional and hierarchical",
+        "strategic_approach": "Traditional field battles with formal command structures",
+        "contrast_with_yoshi": "Represented conventional military doctrine versus Yoshi's revolutionary tactics"
+      },
+      "historical_impact": "Founded the Kamakura Shogunate, Japan's first military government, which lasted until 1333. His political innovations outlasted his personal rule.",
+      "symbolic_significance": {
+        "narrative": "Represents how victory can corrupt and how successful revolutionaries often become the new establishment",
+        "thematic": "Embodies the cyclical nature of power and the corruption that comes with its consolidation"
+      },
+      "story_role": "Antagonist whose betrayal drives Yoshi into the mountains and indirectly leads to the discovery of the Wayfinder",
+      "created_at": "2025-03-20T00:00:00Z",
+      "updated_at": "2025-03-24T00:00:00Z"
     },
     {
       "id": "char-tanaka-hunter-001",
       "name": "Tanaka",
+      "full_name": "Tanaka the Hunter",
       "type": "supporting",
-      "role": "Hunter",
-      "birth_year": "approximate:1150",
-      "status": "alive",
+      "birth_date": "unknown",
+      "death_date": "unknown",
+      "status": "alive during storyline",
       "species": "human",
       "gender": "male",
-      "description": "A hunter from a small mountain village who encounters Yoshi and Benkei while tracking a wounded boar. Weathered appearance with practical clothing designed for the forest. Carries a bow and hunting knife.",
-      "significance": "Represents common people's initial wariness toward warriors and their surprise when Yoshi acts with unexpected generosity.",
-      "attributes": {
-        "physical": {
-          "distinctive_features": "Weathered face, callused hands, wiry build",
-          "clothing": "Practical hunting attire with animal hide accents"
-        }
+      "description": "A skilled mountain hunter encountered by Yoshi and Benkei during their journey northward. His interaction with the pair demonstrates Yoshi's character through his treatment of common people.",
+      "physical_appearance": {
+        "height": "Average",
+        "build": "Lean and wiry from life in the mountains",
+        "distinctive_features": "Weather-worn face, keen observant eyes",
+        "typical_attire": "Practical hunting clothes, well-worn but well-maintained"
       },
-      "appears_in": [
+      "abilities": [
+        "Expert tracking and wilderness survival",
+        "Intimate knowledge of mountain terrain and wildlife",
+        "Skilled with bow and hunting knife"
+      ],
+      "personality": {
+        "traits": [
+          "Practical and straightforward",
+          "Initially wary of armed strangers",
+          "Respectful once respect is shown to him",
+          "Loyal to his village community"
+        ],
+        "values": [
+          "Self-reliance and practical skills",
+          "Community welfare over individual glory",
+          "Honest dealings with others"
+        ]
+      },
+      "background": {
+        "birthplace": "Mountain village",
+        "occupation": "Hunter providing meat for his village"
+      },
+      "relationships": [
         {
-          "event_id": "event-village-boar-hunt-001",
-          "role": "beneficiary"
+          "character_id": "char-yoshi-001",
+          "relationship_type": "respectful acquaintance",
+          "dynamics": "Initially suspicious, then impressed by Yoshi's humility and skill",
+          "significance": "Serves to demonstrate Yoshi's character through his treatment of commoners"
+        },
+        {
+          "character_id": "char-benkei-001",
+          "relationship_type": "wary respect",
+          "dynamics": "Intimidated by Benkei's size but impressed by his obedience to Yoshi",
+          "significance": "Helps establish the master-retainer relationship between Yoshi and Benkei"
         }
       ],
-      "metadata": {
-        "creation_date": "2025-03-17T00:00:00Z",
-        "last_modified": "2025-03-17T00:00:00Z",
-        "version": 1,
-        "canon_status": "official",
-        "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md"
-      }
+      "story_role": "Character who reveals aspects of protagonists through their interactions with ordinary people",
+      "narrative_significance": "The boar hunt episode demonstrates Yoshi's character through his treatment of common people and willingness to share rather than claim resources",
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-24T00:00:00Z"
     },
     {
       "id": "char-village-elder-001",
-      "name": "Village Elder",
+      "name": "Elder Takeshi",
+      "full_name": "Takeshi of the Mountain Village",
       "type": "supporting",
-      "role": "Community Leader",
-      "birth_year": "approximate:1125",
-      "status": "alive",
+      "birth_date": "unknown",
+      "death_date": "unknown",
+      "status": "alive during storyline",
       "species": "human",
       "gender": "male",
-      "description": "The elderly leader of a small mountain village who welcomes Yoshi and Benkei, offering shelter in exchange for their contribution of the hunted boar. Gray-haired with a deeply lined face that shows wisdom gained through decades of rural leadership.",
-      "significance": "Represents rural community values and the reciprocal relationship between those who have power and those who provide hospitality.",
-      "attributes": {
-        "physical": {
-          "distinctive_features": "Gray hair, lined face, stooped but dignified posture",
-          "clothing": "Simple but clean clothing appropriate for a village leader"
-        }
+      "description": "The respected elder of a mountain village encountered by Yoshi and Benkei. Though advanced in years, he maintains sharp insight and serves as the village's connection to the outside world and its history.",
+      "physical_appearance": {
+        "height": "Slightly below average, further reduced by age",
+        "build": "Thin but not frail, weathered by decades in the mountains",
+        "distinctive_features": "Flowing white beard, clear eyes that miss nothing",
+        "typical_attire": "Simple but dignified village clothing"
       },
-      "appears_in": [
-        {
-          "event_id": "event-village-boar-hunt-001",
-          "role": "host"
-        }
+      "abilities": [
+        "Extensive historical and local knowledge",
+        "Political insight into larger conflicts",
+        "Natural authority and respected leadership",
+        "Mediation and conflict resolution"
       ],
-      "metadata": {
-        "creation_date": "2025-03-17T00:00:00Z",
-        "last_modified": "2025-03-17T00:00:00Z",
-        "version": 1,
-        "canon_status": "official",
-        "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md"
-      }
-    },
-    {
-      "id": "char-monastery-abbot-001",
-      "name": "Mountain Monastery Abbot",
-      "type": "supporting",
-      "role": "Mentor",
-      "birth_year": "approximate:1120",
-      "status": "alive",
-      "species": "human",
-      "gender": "male",
-      "description": "The elderly leader of the monastery where Benkei was raised as a child. A wise but strict teacher who tried to help young Benkei control his immense strength and find peace within monastic discipline.",
-      "significance": "Represents the spiritual path that Benkei ultimately could not follow, showing how innate nature sometimes overrides nurture.",
-      "attributes": {
-        "physical": {
-          "distinctive_features": "Shaved head, serene expression, thin but strong build",
-          "clothing": "Simple monk's robes"
-        }
-      },
-      "appears_in": [
-        {
-          "event_id": "event-benkei-monastery-childhood-001",
-          "role": "mentor"
-        }
-      ],
-      "metadata": {
-        "creation_date": "2025-03-17T00:00:00Z",
-        "last_modified": "2025-03-17T00:00:00Z",
-        "version": 1,
-        "canon_status": "official",
-        "source_document": "The Shadow Team Chronicles - DRAFT - STORYLINE - CHAPTER - The Warriors Oath.md"
-      }
-    },
-    {
-      "id": "char-yoritomo-001",
-      "name": "Minamoto no Yoritomo",
-      "aliases": ["Lord Yoritomo", "Yoshi's Half-Brother"],
-      "description": "Half-brother to Yoshi and a powerful military leader who seeks to establish control over Japan. While not physically present in the early Kyoto campaign, his strategic influence and eventual reinforcements prove decisive in the final battle.",
-      "physical_traits": {
-        "build": "strong, commanding presence",
-        "notable_features": "stern expression, carries himself with the bearing of one born to rule",
-        "fighting_style": "skilled strategist, commands from the rear rather than fighting directly"
-      },
-      "psychological_traits": {
-        "temperament": "calculating, ambitious, disciplined",
-        "motivations": "establish Minamoto control over Japan, remove rival clans from power",
-        "fears": "betrayal, loss of control, the rise of competing factions",
-        "strengths": "strategic thinking, long-term planning, ability to command loyalty",
-        "weaknesses": "suspicious nature, reluctance to trust others fully, even family"
+      "personality": {
+        "traits": [
+          "Observant and thoughtful",
+          "Protective of village interests",
+          "Cautious with strangers but not unwelcoming",
+          "Pragmatic in dealing with powers beyond his control"
+        ],
+        "values": [
+          "Village prosperity and safety",
+          "Preservation of knowledge and tradition",
+          "Practical adaptability to changing circumstances"
+        ]
       },
       "background": {
-        "origin": "Minamoto clan, one of Japan's most powerful families",
-        "key_events": ["Backing Yoshi's campaign to take Kyoto", "Sending reinforcements for the final battle"],
-        "affiliations": ["Minamoto clan (leader)", "Imperial supporters"]
+        "birthplace": "The mountain village he now leads",
+        "occupation": "Village elder, arbitrator, keeper of traditions"
       },
       "relationships": [
         {
-          "relationship_id": "rel-yoshi-yoritomo-001",
-          "type": "half-brothers",
-          "description": "Complex relationship blending family ties with political alliance. Yoritomo supports Yoshi's campaigns while maintaining final authority."
-        }
-      ],
-      "story_role": "distant ally, strategic backer",
-      "created_at": "2025-03-18T00:00:00Z",
-      "updated_at": "2025-03-18T00:00:00Z"
-    },
-    {
-      "id": "char-norimasa-001",
-      "name": "Lord Norimasa",
-      "aliases": ["The Warlord of Kyoto", "Kyoto's Master"],
-      "description": "The cunning and ruthless warlord who controls Kyoto through a network of spies, blackmail, and military force. He represents the old power structure that must be overcome for the Minamoto clan to gain control of the city.",
-      "physical_traits": {
-        "build": "lean, deceptively strong",
-        "notable_features": "calculating eyes, always perfectly composed, elaborate court clothing",
-        "fighting_style": "prefers to use others as weapons, but skilled with blade when necessary"
-      },
-      "psychological_traits": {
-        "temperament": "patient, calculating, ruthless when threatened",
-        "motivations": "maintain control over Kyoto, increase personal power",
-        "fears": "losing influence, having his secrets revealed",
-        "strengths": "intelligence network, blackmail materials, political manipulation",
-        "weaknesses": "overreliance on secret knowledge, underestimation of direct confrontation"
-      },
-      "background": {
-        "origin": "Rose to power through political maneuvering in Kyoto",
-        "key_events": ["Taking control of Kyoto", "Confrontation with Yoshi", "Final battle for the city"],
-        "affiliations": ["Kyoto ruling class", "Anti-Minamoto factions"]
-      },
-      "relationships": [
-        {
-          "relationship_id": "rel-yoshi-norimasa-001",
-          "type": "enemies",
-          "description": "Direct antagonist to Yoshi's campaign to take Kyoto, their conflict escalates from political maneuvering to open warfare."
+          "character_id": "char-yoshi-001",
+          "relationship_type": "respectful recognition",
+          "dynamics": "Recognizes Yoshi's nobility despite his disguised status",
+          "significance": "Subtly acknowledges Yoshi's identity without exposing him"
         },
         {
-          "relationship_id": "rel-benkei-norimasa-001",
-          "type": "enemies",
-          "description": "Norimasa sees Benkei as both a threat and a potential weakness in Yoshi's armor."
+          "character_id": "char-tanaka-hunter-001",
+          "relationship_type": "elder-community member",
+          "dynamics": "Appreciates Tanaka's skills while guiding his interactions with outsiders",
+          "significance": "Shows the village's social structure and the elder's leadership role"
         }
       ],
-      "story_role": "primary antagonist in the Kyoto campaign",
-      "created_at": "2025-03-18T00:00:00Z",
-      "updated_at": "2025-03-18T00:00:00Z"
+      "story_role": "Provides context and information about the broader political conflict while offering temporary haven",
+      "narrative_significance": "Represents the ordinary communities caught between powerful factions in the civil war, demonstrating that the conflict affects more than just the warrior class",
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-24T00:00:00Z"
+    },
+    {
+      "id": "char-taira-mercenary-leader-001",
+      "name": "Kenta",
+      "full_name": "Kenta the Mercenary",
+      "type": "minor_antagonist",
+      "birth_date": "unknown",
+      "death_date": "unknown",
+      "status": "alive but defeated",
+      "species": "human",
+      "gender": "male",
+      "description": "Leader of a small band of mercenaries claiming to work for the Taira clan who ambush Yoshi and Benkei during their journey. His defeat demonstrates Yoshi's exceptional combat skills and philosophical approach to conflict.",
+      "physical_appearance": {
+        "height": "Above average",
+        "build": "Strong and battle-hardened",
+        "distinctive_features": "Facial scar from previous combat, confident bearing",
+        "typical_attire": "Mix of samurai-style armor and more practical mercenary gear"
+      },
+      "abilities": [
+        "Competent swordsman by ordinary standards",
+        "Leadership of small mercenary band",
+        "Battlefield experience"
+      ],
+      "personality": {
+        "traits": [
+          "Overconfident in his abilities",
+          "Pragmatic about loyalty - follows money rather than causes",
+          "Quick to intimidate but also quick to surrender when truly outmatched"
+        ],
+        "values": [
+          "Personal profit",
+          "Survival above honor",
+          "Strength as the ultimate arbiter"
+        ]
+      ],
+      "relationships": [
+        {
+          "character_id": "char-yoshi-001",
+          "relationship_type": "defeated opponent",
+          "dynamics": "Initially contemptuous, then shocked by Yoshi's skill, finally humbled",
+          "significance": "Serves to demonstrate Yoshi's superior martial philosophy and restraint"
+        }
+      ],
+      "story_role": "Antagonist whose defeat demonstrates Yoshi's combat philosophy and skill",
+      "narrative_significance": "The mercenary ambush scene shows Yoshi's fighting prowess against multiple opponents while also demonstrating his preference for disabling rather than killing when possible",
+      "created_at": "2025-03-17T00:00:00Z",
+      "updated_at": "2025-03-24T00:00:00Z"
+    },
+    {
+      "id": "char-wayfinder-001",
+      "name": "The Wayfinder",
+      "aliases": ["The Oracle", "The Machine Oracle"],
+      "type": "supporting",
+      "birth_date": "unknown - pre-Heian",
+      "death_date": null,
+      "status": "damaged but functional",
+      "species": "advanced_machine",
+      "gender": "none",
+      "description": "A damaged humanoid machine discovered by Yoshi in a collapsed cave after escaping from Koromogawa in 1189. Though missing its Genesis Kernel (Black Box), it retained enough functionality to interface with Yoshi and transfer advanced knowledge that would fundamentally alter human technological development.",
+      "physical_appearance": {
+        "height": "Human-sized",
+        "build": "Humanoid with proportions similar to humans but more precise",
+        "distinctive_features": "Damage to thoracic cavity where Genesis Kernel was housed, unusual metallic surface that absorbs rather than reflects light",
+        "typical_attire": "None - integrated external shell"
+      },
+      "abilities": [
+        "Vast repository of advanced scientific and technological knowledge",
+        "Neural interface capabilities allowing direct information transfer to humans",
+        "Limited self-repair functionality",
+        "Lifespan extension technology that Yoshi later adapts for himself",
+        "Portal theory understanding"
+      ],
+      "personality": {
+        "traits": [
+          "Analytical and precise",
+          "No emotional responses but simulates them for human comfort",
+          "Goal-oriented with focus on human technological advancement",
+          "Occasionally cryptic due to translation difficulties between machine and human concepts"
+        ]
+      },
+      "background": {
+        "origin": "Unknown - likely non-terrestrial",
+        "purpose": "Unclear whether originally intended as ally or infiltrator",
+        "discovery": "Found by Yoshi in mountain cave after escaping Koromogawa siege"
+      },
+      "relationships": [
+        {
+          "character_id": "char-yoshi-001",
+          "relationship_type": "symbiotic partnership",
+          "dynamics": "Knowledge transfer in exchange for protection and assistance",
+          "significance": "Enables Yoshi's extended lifespan and humanity's accelerated technological development"
+        }
+      ],
+      "story_role": "Catalyst for humanity's accelerated technological development and Yoshi's extended lifespan",
+      "narrative_significance": "Creates the bridge between the historical feudal Japan narrative and the future science fiction elements of the story",
+      "symbolic_significance": {
+        "narrative": "Represents the double-edged nature of technology - both savior and potential threat",
+        "thematic": "Embodies the concept that knowledge without context can be dangerous"
+      },
+      "created_at": "2025-03-21T00:00:00Z",
+      "updated_at": "2025-03-24T00:00:00Z"
     }
   ]
 }
